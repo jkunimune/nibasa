@@ -16,9 +16,9 @@ ni			this
 go			that
 ga			(subject postposition)
 ro			(object postposition)
-do			to; -ly
-ze			from; than
-na			at; in; on
+do			to; for; -ly
+ze			from; since; than
+na			at; in; on; for
 e			with; and
 o			or
 siro		none; zero
@@ -124,14 +124,14 @@ kaucuk		rubber
 amoniak		ammonia
 termo		temperature
 metre		v. measure; n. measurement
-masin		machine
+macin		machine
 fei			v. fly
-fei-masin	airplane
+fei-macin	airplane
 gu (ki?)	tool; instrument; implement
 muzika		music
 metre-ki	measuring instrument
 muzika-ki	musical instrument
-termo-metre	thermometer; temperature measurement
+termo-metre	thermometer (see termo-metre-ki)
 bon			good
 dus			bad; evil
 vide		v. see; n. vision
@@ -139,14 +139,68 @@ rupa		v. appear; seem; n. appearance
 rupa-bon	pretty; good-looking
 rupa-dus	ugly
 sut			skill; art
-able		va. can; n. ability; power; a. possible; able; av. possibly
-able-do		av. maybe; possibly
-able-bon	good; skillful; competent
-able-dus	bad; poor; incompetent
+abil		va. can; n. ability; power; a. possible; able; av. possibly
+abil do		av. maybe; possibly
+abil-bon	good; skillful; competent
+abil-dus	bad; poor; incompetent
 fat			v. punish; penalize; n. punishment; penalty
 misal		n. example
 te-na		as; like
 misal-do	for example
 sum			v. sum; add together; n. sum; summation; summary
-sum-do		in summary
+sum do		in summary
 reste		vi. stay; remain; vt. leave; n. rest; remainder
+pandu-dai	steep
+pandu-peti	gentle (of a slope)
+soni-dai	loud
+soni-peti	soft; quiet
+dai-voze va	shouting
+peti-voze va	whispering
+nau			brain
+sofi		a. wise; intelligent; smart; n. (see *sofi-te*) wisdom; intellect; intelligence; (see *sofi-gu*) mind
+sabe-poli	knowledgeable; intelligent
+sabe-sau	unintelligent; ignorant
+fikir		v. think; n. thought
+razon		n. reason; reasoning; a. rational; reasonable
+memo		v. remember; n. memory
+memo-fa		memorize
+ruh			soul; spirit; psyche; essence
+idiot		a. stupid; idiotic; n. (see *idiot-jen*) idiot
+fas-karibu	shallow; superficial
+fas-tele	deep; profound
+teze		statement; thesis
+cool
+uncool; lame
+pre			before; previous
+pos			after; next; subsequent
+fren		front; fore; forward; anterior
+retro		back; rear; backward; posterior
+jin			enter; advance
+cut			exit; retreat
+kaos		chaos
+ratibu		order
+deu-sin-jen	theist
+no-deu-sin-jen	atheist
+tele-fon	telephone (see *tele-fon-macin*)
+tele-fon-macin	telephone
+tele-vide	TV; television (see *tele-vide-macin*)
+kinema		motion; movement; activity
+kinema energi	kinetic energy
+kinema-graf	movie; moving picture
+kinema-kan	movie theater (see *kinema-graf-kan*)
+Naijeria	Nigeria
+Nijer desa	Niger
+Somal desa	Somalia
+Somaliland desa	Somaliland
+Katar desa	Qatar
+Kazak desa	Kazakhstan
+Irak desa	Iraq
+Havai'i desa	Hawaii
+Kxosa basa	Xhosa language
+Igbo basa	Igbo language
+Afghan desa	Afghanistan
+Panamá desa	Panama
+Hercegovina desa	Herzegovina
+Artsah desa	Artsakh
+Tsuana desa	Botswana
+Herz		Hertz
