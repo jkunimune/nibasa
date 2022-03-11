@@ -179,16 +179,27 @@ jin			enter; advance
 cut			exit; retreat
 kaos		chaos
 ratibu		order
-deu-sin-jen	theist
-no-deu-sin-jen	atheist
+blu			blue
+nil			indigo
+deo-sin?-jen	theist
+no-deo-sin?-jen	atheist
+mas-bon		better; best; optimal
+mas-dus		worse; worst; dismal
+pul-bon		perfect
+no-pul-bon	imperfect
 tele-fon	telephone (see *tele-fon-macin*)
 tele-fon-macin	telephone
 tele-vide	TV; television (see *tele-vide-macin*)
 kinema		motion; movement; activity
 kinema energi	kinetic energy
 kinema-graf	movie; moving picture
-kinema-kan	movie theater (see *kinema-graf-kan*)
-Naijeria	Nigeria
+kinema kan	movie theater (see *kinema-graf-kan*)
+gen basa	native language; first language
+darsa basa	acquired language; second language
+mei-sut		fine arts; art
+mei-sut-jen	artist
+mei-sut-kan	art museum
+Naijeria desa	Nigeria
 Nijer desa	Niger
 Somal desa	Somalia
 Somaliland desa	Somaliland
@@ -203,4 +214,4 @@ Panamá desa	Panama
 Hercegovina desa	Herzegovina
 Artsah desa	Artsakh
 Tsuana desa	Botswana
-Herz		Hertz
+herz		Hertz
