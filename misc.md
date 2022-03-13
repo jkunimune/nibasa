@@ -60,6 +60,7 @@ lin -> liny to make room for lin=neighbor
 lanca -> jeta to make room for lance
 pulse could actually be better than darbe?
 
+one simple root dictionary, organized by lexical category
 one printed dictionary
 one printed textbook
 one printed light learning book (with basic words, examples, useful phrases, and a small glossary)
@@ -108,3 +109,14 @@ ro and di most commonly.
 ga usually does change how the sentence is parsd.
 
 the truncated morphemes are a sine that you are trying to pack too much information into each word for a language that is ostensibly isolating.
+
+Nibasa reimagines the auxlang as an international lexicon plus a barebones set of postpositions to organize basic sentences.
+
+name should be something like
+International Common Lexicon
+Dunia Putong Loga
+Dupulo?
+
+it's like scientific names for everything
+but not just based on Latin
+and much much easier to remember and to pronounce

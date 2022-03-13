@@ -21,19 +21,37 @@ the phonology will be largely the same as in Pandunia 2.0 but for some modificat
 | mid   | e     | o    |
 | open  | a     |      |
 
-phonotactics:
+## phonotactics
+
 a syllable is CVC or PLVC.  restrictions apply to medial CC clusters:
 - they must differ in manner of articulation (no fricative+fricative, stop+stop, nasal+nasal, or liquid+liquid).
 <!-- - if the first is a stop, they must differ in place of articulation (or maybe not, I haven't decided) -->
 - if both are obstruents, they must agree in voicing.
 
+restrictions also apply to the coda consonant.
+- it must not be a voiced obstruent
+- it must not be a semivowel
+
 also, "y" may not be adjacent to "i", nor "v" adjacent to "u".
 all vowel sequences are allowd, but "ei" and "ou" may only be at the end of a word, and "eu" is actually forbidden.
+an open or mid vowel followd by a close vowel should ideally be pronounced as a diphthong.
+since they will naturally
 a syllable can't start with "tl" or "dl".
 
 obviously, any proper name has laxer rules.  it has no phonotactic constraints, including bonus characters.
+but semivowels should still be spelld via normal conventions if the source language doesn't use the latin alphabet
 
 Bonus characters: ts (t͡s), tl (t͡ɬ), dl (d͡ɮ), gh (ɣ), th (θ), dh (ð), ' (ʔ), kc (k͡ǀ), gc (ɡ͡ǀ), kx (k͡ǁ), gx (ɡ͡ǁ), kq (k͡ǃ), gq (ɡ͡ǃ), á, é, í, ó, ú (stress)
+
+## stress
+
+Stress falls on the last heavy syllable if such a syllable exists.
+Otherwise, it falls on the penultimate syllable?
+
+/dú.ní.a/
+/ka.rí.bu/
+/ba.dán/
+/pu.táu̯/
 
 ## spelling conventions
 
@@ -62,6 +80,8 @@ or from a combination of several.
 | y (y)   | i    | |
 | -ition  | -i   | |
 | -ation  | -a   | |
+| -um     | -u   | |
+| -us     | -u   | |
 
 ### English
 
@@ -213,7 +233,7 @@ the vocabulary will be very similar to that of Pandunia 2.0, but I want to simpl
 - merge **mas** with **masim** and **min** with **minim** (the number of points of comparison is apparent without the lexical distinction)
 - merge **bio** with **ziva**
 - merge **ganja** with **hashish**
-- merge **keku** and **klien**
+- merge **kek** and **klien**
 - use **kastre** instead of **burge**?
 - use **tai** and **bas no** for "too much; over" and "too little; under" (use **drama meza** to mean "stage")
 - use **di bi ze** and **di yang na** for "than" and "as" (**bi** is a new content word meaning "comparison")
@@ -222,29 +242,22 @@ the vocabulary will be very similar to that of Pandunia 2.0, but I want to simpl
 - use **luku** instead of **verde**
 - use **ba** instead of **pa**
 - use **nesia** instead of **nesi** (and thus **Indonesia** and **Mikronesia**)
-- use **topia** instead of **topo** (and thus **arenatopia** instead of **arenatopo**)
-- use **Franse** instead of **France**
 - use **Zong Desha** instead of **Zongoku**
-- use **Jaza'ir** instead of **Jayeria**
-- use **kauchu** instead of **gomu**
+- use **kauchuk** instead of **gomu**
 - use **junbei** instead of **redi**
 - use **tuka** instead of **insulte** (swa:tukano, lin:kotuka, sho:tuka, zul:-thuka, kin:gutuka, nya:-tukwana)
 - use **jete** instead of **lanse**, and use **lansa** for "spear"
 - use **kon mal** instead of **komun**
-- use **e lakin** instead of **a**
-- use **ai** instead of **ama**
 - use **avaria** instead of **avar**
 - use **krede** instead of **sina**
 - use **debe** instead of **deve**
-- use **vakati** instead of **zaman** or **sata**
-- use **sa** instead of **hor**
+- use **vakat** instead of **zaman** or **sata**
 - use **line** instead of **lin** (use **lin** to mean "neighbor")
 - use **tabi** as a suffix
 - use **pul** and **sam** as a suffix instead of **di**
 - use **suki** instead of **suka**
 - use **nan** instead of **man**
 - fix **sau**, **sanghai**, **sifu**, (**sindau**), (**sim**), **sipi**, (**sin**), **suli**, **lensi**, **si**, **siti**, and **jensem**
-- use **otopus** instead of **ohtopus**
 
 ideas from Pandunia 3:
 - almas -> adamas
@@ -262,6 +275,70 @@ in addition, the following spelling conventions will be changed.
 - no more tone-marking vowels.  checkd chinese syllables will end in no vowel.
 - all proper names of inanimate things will be followed by a mandatory suffix.  so "France" will always be **franse desa**.
 
+## Basic word lists
+
+### Core vocabulary
+
+hello
+goodbye
+attention
+danger
+yes
+no
+please
+thank you
+
+### Communication
+
+language
+understand
+
+### Dates and measures
+
+hour – sat
+
+### Buildings
+
+### Transportation
+
+### Activity
+
+### Occupation
+
+### Clothing
+
+### Health
+
+### Weather
+
+### Numbers
+
+### Colors
+
+### Shapes
+
+### Animals
+
+octopus – otopus
+
+### Fruits and vegetables
+
+### Cooking ingredients
+
+### Materials
+
+### Objects
+
+pen
+pencil
+paper
+document
+desk
+
+### Languages
+
+### Nationalities
+
 ## Word selection
 
 English + Romance + Russian + Arabic + Turkish + Swahili + Malay + Indo-Aryan
@@ -273,6 +350,13 @@ Arabic + Turkish + Swahili + Malay
 English + Japanese + Korean
 English + Romance + Indo-Aryan
 English + Romance
+
+## Proper names
+
+Proper names of countries are re-spelled in Nibasa's alphabet.
+Personal names and city names will inevitably be spelled irregularly in many circumstances.
+Proper names have access to the bonus letters.
+They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith jen, Jorje raja, Zamenhof dotor)
 
 # grammar
 

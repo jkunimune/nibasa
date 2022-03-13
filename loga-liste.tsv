@@ -21,6 +21,7 @@ ze			from; since; than
 na			at; in; on; for
 e			with; and
 o			or
+lakin		but
 siro		none; zero
 siro-fen?	none of; neither
 pan			all
@@ -41,34 +42,34 @@ lo?k		six
 cet			seven
 bat			eight
 tisa		nine
-des			ten
-des-un		eleven
-des-du		twelve
-des-tri		thirteen
-des-nelu	fourteen
-des-lima	fifteen
-des-lok		sixteen
-des-cet		seventeen
-des-bat		eighteen
-des-tisa	nineteen
-du-des		twenty
-du-des-un	twenty-one
-du-des-du	twenty-two
-du-des-lima	twenty-five
-tri-des		thirty
-nelu-des	forty
-lima-des	fifty
-lok-des		sixty
-cet-des		seventy
-bat-des		eighty
-tisa-des	ninety
-sento		hundred
-du-sento	two hundred
-lima-sento	five hundred
+deka		ten
+deka-un		eleven
+deka-du		twelve
+deka-tri	thirteen
+deka-nelu	fourteen
+deka-lima	fifteen
+deka-lok	sixteen
+deka-cet	seventeen
+deka-bat	eighteen
+deka-tisa	nineteen
+du-deka		twenty
+du-deka-un	twenty-one
+du-deka-du	twenty-two
+du-deka-lima	twenty-five
+tri-deka	thirty
+nelu-deka	forty
+lima-deka	fifty
+lok-deka	sixty
+cet-deka	seventy
+bat-deka	eighty
+tisa-deka	ninety
+heko		hundred
+du-heko		two hundred
+lima-heko	five hundred
 kilo		thousand; kilo-
 du-kilo		two thousand
 lima-kilo	five thousand
-des-kilo	ten thousand
+deka-kilo	ten thousand
 sento-kilo	hundred thousand
 mega		million; mega-
 giga		billion; giga-
@@ -80,17 +81,19 @@ nano		miniscule; nano-
 poli		many; much
 poli-sento	hundreds
 poli-kilo	thousands
-poli-des-kilo	tens of thousands
+poli-deka-kilo	tens of thousands
 sau			few; little
 mas			more
 min?		less
 par			even; equal
+tai			too; excessively
+bas			enough; sufficiently
 alo			other
 sam			same
 un-me		first
 du-me		second
 tri-me		third
-des-me		tenth
+deka-me		tenth
 siro-mar	never
 sau-mar		rarely
 poli-mar	often
@@ -98,13 +101,31 @@ alo-mar		another time; again
 mas poli	more
 min poli	less; fewer
 par poli	as much
-sekunde?	second
+do			degree; level
+so			element; essence
+ta			v. be; exist; n. state
+fa			v. do; change; become; n. act; change
+teze		v. state; claim; declare; n. thesis; statement; claim; declaration
+alat?		tool; instrument
+macin		machine; apparatus
+cei			thing
+kan			building; house
+topia		place; region; area
+jama?		v. collect; gather; n. collection
+lun			n. theory; argument; essay; v. discuss; debate
+din			religion
+desa		country; state
+provinse?vilaya?	province; state; prefecture; oblast
+nas			people; nation
+basa		v. speak; n. language; speech; lect
+loga		v. say; n. word; speech
+sekunde		second
 minut		minute
 sat			hour
 den			day
 mes			month
 nen			year
-des-nen		decade
+deka-nen	decade
 sento-nen	century
 un-me mes	January
 du-me mes	February
@@ -114,8 +135,6 @@ noc?		night; nighttime
 suba		morning
 cam?		afternoon; evening
 umet		hope; wish
-loga		n. speech; word; v. say
-basa		n. language; lect; v. speak
 liste		list
 loga-liste	dictionary; glossary
 satan		n. opponent; antagonist; v. oppose
@@ -124,7 +143,6 @@ kaucuk		rubber
 amoniak		ammonia
 termo		temperature
 metre		v. measure; n. measurement
-macin		machine
 fei			v. fly
 fei-macin	airplane
 gu (ki?)	tool; instrument; implement
@@ -168,7 +186,6 @@ ruh			soul; spirit; psyche; essence
 idiot		a. stupid; idiotic; n. (see *idiot-jen*) idiot
 fas-karibu	shallow; superficial
 fas-tele	deep; profound
-teze		statement; thesis
 cool
 uncool; lame
 pre			before; previous
@@ -181,8 +198,26 @@ kaos		chaos
 ratibu		order
 blu			blue
 nil			indigo
-deo-sin?-jen	theist
-no-deo-sin?-jen	atheist
+sit			v. lose; stop having; n. loss
+bai			v. lose; not win; n. loss
+sit-bai		v. fail; n. failure; blunder
+sit-bai-jen	n. loser
+kata		n. story; v.tell; narrate
+kat			cut; shear
+kat-gu?		shears; scissors; knife
+petra-kat-alat?	chisel
+teori		n. theory; reason
+Mesi		Messiah; Christ
+Mesi-din	Christianity
+Mesi-din-ja	Christian
+deo-lun		theism
+deo-lun-jen	theist
+no-deo-lun	atheism
+no-deo-lun-jen	atheist
+fito-yam-lun	vegetarianism
+fito-yam-lun-jen	vegetarian
+vegan		veganism
+vegan-jen	vegan
 mas-bon		better; best; optimal
 mas-dus		worse; worst; dismal
 pul-bon		perfect
@@ -190,6 +225,27 @@ no-pul-bon	imperfect
 tele-fon	telephone (see *tele-fon-macin*)
 tele-fon-macin	telephone
 tele-vide	TV; television (see *tele-vide-macin*)
+kludi		v. close; a. closed
+in-klude	v. include; a. inclusive
+ek-klude	v. exclude; a. exclusive
+pre-klude	v. preclude
+kon-klude	v. conclude; n. conclusion
+se?-klude	v. seclude
+portu?e?	v. ship; send; n. port (see *porte-kan*)
+in-portu	import
+ek-portu	export
+tras-portu	v. transport
+mit			v. send; n. mission
+ek-mit		v. emmit; n. emission
+tras-mit	v. transmit; transmission
+migra		v. move; migrate
+in-migra	v. immigrate
+ek-migra	v. emmigrate
+pende		v. hang; n. pendant (see *pende-cei*)
+posta		n. mail
+posta-jen	n. courrier
+azilu?		shelter; asylum; refuge; haven; harbor
+azilu-jen	refugee
 kinema		motion; movement; activity
 kinema energi	kinetic energy
 kinema-graf	movie; moving picture
@@ -199,6 +255,19 @@ darsa basa	acquired language; second language
 mei-sut		fine arts; art
 mei-sut-jen	artist
 mei-sut-kan	art museum
+muzeo?		museum
+sifat-teze	description
+ming-teze	explanation
+magi?-teze	spell; magic word
+jui-teze	warning; alert
+klar-teze	clarification
+argu		v. argue; n. argument (see *argu-teze*)
+arena		sand
+arena-topia	desert
+nesia		island
+dunia		world; globe
+cakic		hammer
+ai			like; love
 Naijeria desa	Nigeria
 Nijer desa	Niger
 Somal desa	Somalia
@@ -207,6 +276,8 @@ Katar desa	Qatar
 Kazak desa	Kazakhstan
 Irak desa	Iraq
 Havai'i desa	Hawaii
+Jaza'ir desa	Algeria
+Franse desa	France
 Kxosa basa	Xhosa language
 Igbo basa	Igbo language
 Afghan desa	Afghanistan
@@ -214,4 +285,5 @@ Panamá desa	Panama
 Hercegovina desa	Herzegovina
 Artsah desa	Artsakh
 Tsuana desa	Botswana
+Mikronesia desa	Micronesia
 herz		Hertz
