@@ -92,7 +92,17 @@ Because it doesn't actually make the language easier to learn, and only leads to
 Because of that confusion, tho, students are incentivized to keep working on their pronunciation until they can produce "r" reliably.
 If there are no minimal pairs between "r" and "l", then students in, for example, Myanmar, may be misled into thinking that they don't *need* to learn the difference, since as long as they and their classmates only use "l", there will never be a problem.
 This will lead to more confusion later on when they try to communicate with speakers outside of Myanmar.
-It's better to include a few minimal pairs and cause some minor confusion early on in the classroom than to eliminate them and encourage speakers to create branching diagraphs.
+
+To use a different example, I once knew a Greek person who spoke English,
+but did not pronounce the difference between /ɔ/ as in "thought" and /ʌ/ as in "strut".
+It rarely caused misunderstandings in speech since English has a lot of vowels and those aren't the most common ones.
+But it often led to him misspelling words that should have been spellable phonetically.
+For instance, he regularly misspelled "lunch" as "launch".
+If the functional load of the ɔ/ʌ distinction were higher, he might have been incentivized to learn to pronounce the difference sooner,
+which would have improved his spelling and overall intelligibility.
+
+Thus, it's better to include a few minimal pairs and cause some minor confusion early on in the classroom
+than to eliminate them and encourage speakers to create branching dialects.
 
 ### Aren't words that end in consonants difficult to pronounce for many people?
 

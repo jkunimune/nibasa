@@ -3,15 +3,15 @@ di			’s (possessive postposition)
 mi			I; me
 tu			you (singular)
 ye			it; she; he; they; her; him; them
-mi-di		my
-tu-di		your (singular)
-ye-di		its; her; his; their
+mi di		my
+tu di		your (singular)
+ye di		its; her; his; their
 mimon		we; us
 tumon		you (plural)
 yemon		they; them
-mimon-di	our
-tumon-di	your (plural)
-yemon-di	their
+mimon di	our
+tumon di	your (plural)
+yemon di	their
 ni			this
 go			that
 ga			(subject postposition)
@@ -41,7 +41,7 @@ lima		five
 lo?k		six
 cet			seven
 bat			eight
-tisa		nine
+nona		nine
 deka		ten
 deka-un		eleven
 deka-du		twelve
@@ -78,14 +78,14 @@ senti		percent; centi-
 mili		permille; milli-
 mikro		tiny; micro-
 nano		miniscule; nano-
+semi		a. partial; half; n. fraction; half
 poli		many; much
-poli-sento	hundreds
-poli-kilo	thousands
-poli-deka-kilo	tens of thousands
+poli sento	hundreds
+poli kilo	thousands
+poli deka-kilo	tens of thousands
 sau			few; little
 mas			more
-min?		less
-par			even; equal
+par			even; equal; as
 tai			too; excessively
 bas			enough; sufficiently
 alo			other
@@ -101,14 +101,22 @@ alo-mar		another time; again
 mas poli	more
 min poli	less; fewer
 par poli	as much
-do			degree; level
-so			element; essence
+semi-nesia	peninsula
+semi-deo	demigod
+semi-sirkle	semicircle
+semi-bol?	hemisphere
+semi-kontinen	subcontinent
+semi-nen	semester
+semi-sar?-pasi?	migraine
+du?			degree; level
+su			element; essence
 ta			v. be; exist; n. state
 fa			v. do; change; become; n. act; change
 teze		v. state; claim; declare; n. thesis; statement; claim; declaration
-alat?		tool; instrument
+alat?		tool; instrument; implement; utensil; organ; -ware
 macin		machine; apparatus
 cei			thing
+jan			person
 kan			building; house
 topia		place; region; area
 jama?		v. collect; gather; n. collection
@@ -118,7 +126,10 @@ desa		country; state
 provinse?vilaya?	province; state; prefecture; oblast
 nas			people; nation
 basa		v. speak; n. language; speech; lect
+pul			full; total?; absolute?
 loga		v. say; n. word; speech
+debe		must; should
+pak			coerce
 sekunde		second
 minut		minute
 sat			hour
@@ -134,33 +145,45 @@ dia			daytime; afternoon
 noc?		night; nighttime
 suba		morning
 cam?		afternoon; evening
+sat-metre	clock; watch (see *sat-metre-ki*)
+vakat		time
 umet		hope; wish
+lin			neighbor
 liste		list
 loga-liste	dictionary; glossary
 satan		n. opponent; antagonist; v. oppose
 cal			shawl
 kaucuk		rubber
 amoniak		ammonia
+adamas		diamond
+junbei		a. ready; v. prepare
+tuka		insult
+jete		throw; launch
+lansa		spear; lance; javelin
+kon-mal		share
+krede		believe
+avaria		damage
+tabi		nature; essence
+suki		a. happy; n. pleasure; v. enjoy; like
+nan			a. male; n. man
+fem?		a. female; n. woman
 termo		temperature
 metre		v. measure; n. measurement
 fei			v. fly
 fei-macin	airplane
-gu (ki?)	tool; instrument; implement
 muzika		music
-metre-ki	measuring instrument
-muzika-ki	musical instrument
 termo-metre	thermometer (see termo-metre-ki)
 bon			good
 dus			bad; evil
 vide		v. see; n. vision
 rupa		v. appear; seem; n. appearance
-rupa-bon	pretty; good-looking
-rupa-dus	ugly
+bon-rupa	pretty; good-looking
+dus-rupa	ugly
 sut			skill; art
 abil		va. can; n. ability; power; a. possible; able; av. possibly
 abil do		av. maybe; possibly
-abil-bon	good; skillful; competent
-abil-dus	bad; poor; incompetent
+bon-abil	good; skillful; competent
+dus-abil	bad; poor; incompetent
 fat			v. punish; penalize; n. punishment; penalty
 misal		n. example
 te-na		as; like
@@ -168,24 +191,24 @@ misal-do	for example
 sum			v. sum; add together; n. sum; summation; summary
 sum do		in summary
 reste		vi. stay; remain; vt. leave; n. rest; remainder
-pandu-dai	steep
-pandu-peti	gentle (of a slope)
-soni-dai	loud
-soni-peti	soft; quiet
-dai-voze va	shouting
-peti-voze va	whispering
+dai-pandu	steep
+peti-pandu	gentle (of a slope)
+dai-soni	loud
+peti-soni	soft; quiet
+dai-voze	shouting
+peti-voze	whispering
 nau			brain
 sofi		a. wise; intelligent; smart; n. (see *sofi-te*) wisdom; intellect; intelligence; (see *sofi-gu*) mind
-sabe-poli	knowledgeable; intelligent
-sabe-sau	unintelligent; ignorant
+poli-sabe	knowledgeable; intelligent
+sau-sabe	unintelligent; ignorant
 fikir		v. think; n. thought
 razon		n. reason; reasoning; a. rational; reasonable
 memo		v. remember; n. memory
-memo-fa		memorize
+memo fa		memorize
 ruh			soul; spirit; psyche; essence
-idiot		a. stupid; idiotic; n. (see *idiot-jen*) idiot
-fas-karibu	shallow; superficial
-fas-tele	deep; profound
+idiot		a. stupid; idiotic; n. (see *idiot-jan*) idiot
+karibu-fas	shallow; superficial
+tele-fas	deep; profound
 cool
 uncool; lame
 pre			before; previous
@@ -201,23 +224,23 @@ nil			indigo
 sit			v. lose; stop having; n. loss
 bai			v. lose; not win; n. loss
 sit-bai		v. fail; n. failure; blunder
-sit-bai-jen	n. loser
+sit-bai-jan	n. loser
 kata		n. story; v.tell; narrate
 kat			cut; shear
-kat-gu?		shears; scissors; knife
-petra-kat-alat?	chisel
+kat-gu?		shears; scissors; knife; scalpel
+eskulpe-alat? cizmel?	chisel
 teori		n. theory; reason
 Mesi		Messiah; Christ
-Mesi-din	Christianity
-Mesi-din-ja	Christian
+Mesi din	Christianity
+Mesi din jan	Christian
 deo-lun		theism
-deo-lun-jen	theist
+deo-lun-jan	theist
 no-deo-lun	atheism
-no-deo-lun-jen	atheist
+no-deo-lun-jan	atheist
 fito-yam-lun	vegetarianism
-fito-yam-lun-jen	vegetarian
+fito-yam-lun-jan	vegetarian
 vegan		veganism
-vegan-jen	vegan
+vegan-jan	vegan
 mas-bon		better; best; optimal
 mas-dus		worse; worst; dismal
 pul-bon		perfect
@@ -225,27 +248,31 @@ no-pul-bon	imperfect
 tele-fon	telephone (see *tele-fon-macin*)
 tele-fon-macin	telephone
 tele-vide	TV; television (see *tele-vide-macin*)
+tras?dia?	across
+klin		diagonal; slanted; sloping; oblique; tilted
+tras-metre	diameter
+medi-loga	dialogue
 kludi		v. close; a. closed
 in-klude	v. include; a. inclusive
-ek-klude	v. exclude; a. exclusive
+es-klude	v. exclude; a. exclusive
 pre-klude	v. preclude
 kon-klude	v. conclude; n. conclusion
 se?-klude	v. seclude
 portu?e?	v. ship; send; n. port (see *porte-kan*)
-in-portu	import
-ek-portu	export
-tras-portu	v. transport
+in-porto	import
+es-porto	export
+tras-porto	v. transport
 mit			v. send; n. mission
-ek-mit		v. emmit; n. emission
+es-mit		v. emmit; n. emission
 tras-mit	v. transmit; transmission
 migra		v. move; migrate
 in-migra	v. immigrate
-ek-migra	v. emmigrate
+es-migra	v. emmigrate
 pende		v. hang; n. pendant (see *pende-cei*)
 posta		n. mail
-posta-jen	n. courrier
+posta-jan	n. courrier
 azilu?		shelter; asylum; refuge; haven; harbor
-azilu-jen	refugee
+azilu-jan	refugee
 kinema		motion; movement; activity
 kinema energi	kinetic energy
 kinema-graf	movie; moving picture
@@ -253,7 +280,7 @@ kinema kan	movie theater (see *kinema-graf-kan*)
 gen basa	native language; first language
 darsa basa	acquired language; second language
 mei-sut		fine arts; art
-mei-sut-jen	artist
+mei-sut-jan	artist
 mei-sut-kan	art museum
 muzeo?		museum
 sifat-teze	description
@@ -268,6 +295,36 @@ nesia		island
 dunia		world; globe
 cakic		hammer
 ai			like; love
+yang		kind; style
+yang na		like; as
+?			porcelain
+metre ki	measuring instrument
+muzika ki	musical instrument
+yam ki		tableware; eating utensil
+kitabu-ki	stationary
+fishing equipment
+van-gu		toy
+geo-ki?		earthenware
+metal-ki?	hardware; ironware
+cina-ki		chinaware
+kancha?-ki?	glassware
+petra-ki?	stone tools
+sekse-ki?	genitals
+?-ki		jaw
+?-ki		weapon
+lak			fall
+eskal		climb
+super		a. high; tall; superior; v. rise; ascend; get on (a vehicle); n. top
+super na	above; over; on
+baso		a. low; short; inferior; v. descend; fall; get off (a vehicle); n. bottom; base
+baso na		below; under; underneath
+fas			surface; face; side
+sol-cut		sunrise; sunup; dawn
+sol-lak		sunset; sundown; dusk
+men			noodle
+?men		ramen
+?men		chow-mein
+?men		saimin
 Naijeria desa	Nigeria
 Nijer desa	Niger
 Somal desa	Somalia
@@ -286,4 +343,6 @@ Hercegovina desa	Herzegovina
 Artsah desa	Artsakh
 Tsuana desa	Botswana
 Mikronesia desa	Micronesia
+Zong desa 	China
 herz		Hertz
+animal		animal

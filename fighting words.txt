@@ -1,0 +1,11 @@
+Latinate auxlangs just don't make sense.  proponents point out that Latinate roots are the most widely recognized, so a Latinate auxlang is clearly the easiest to learn, but why does an auxlang need to draw all of its vocabulary from one place?  the real reason is that these auxlangers expect to be able to understand the language instantly without learning anything first and discount the fact that most peeple won't be able to do that no matter what.
+Risto just wanted to not throw away his old work.  but like, that's how you make good things.  he cared more about having all of the ideas he's ever had in one place than making a language for the goal he claimed he was making a language.
+adding these grammatical features does not make it more propedeutic; there is such a tenuous scientific basis for the claim that this language works.
+I don't think Risto has taukd to any teachers.  if he had, they probably would have pointed out these issues, and probably others that I don't even kno about?  you don't desine a product for a specific group of peeple without heavily involving members of that group in the process; it just leads to bad products that no one wants.
+
+the truncated morphemes are the worst of both worlds.  if you try to learn them as truncated morphemes, you will quickly be confounded by the lack of a pattern; they're so irregular!  if you try to learn them as separate words, you must slog thru a bunch of essentially meaningless combinations of letters because none of them are a recognizable form of any morpheme you may have heard of.
+Globasa is way to agglutinative.  it combines long strings of two-letter grammatical particles into new grammatical particles in a way that I'm sure is perfectly logical to the creator but just comes across as arcane to anyone else.  why do you need to do that?  just leave them as separate words and let speakers use them in conjunction when they feel the need to do so.
+
+none of them have coherent wobsites.  the reference grammar is always ritten as if peeple are supposed to learn from them, but they have way too much information for a learner.
+
+issue with Pd and Gb: both use tense markers to indicate verbs, which just makes them somewhat mandatory, which defeats the point of not having tenses.  that's mostly an issue with Gb; at least Pd has other particles.
