@@ -21,26 +21,30 @@ ze			from; since; than
 na			at; in; on; for
 e			with; and
 o			or
+bi ze		compared to; than; as
+kon e		together with
+super na	above; over; on; on top
+in na		inside; in
+in do		into
+faida do?	for the benefit of; for the sake of; on behalf of
+gol do		in order to; toward the goal of
 lakin		but
 siro		none; zero
 siro-fen?	none of; neither
-pan			all
-pan-fen?	all of; both
+pan			all; both
 un			one
-un-fen?		one of
 unik		only; unique
-			any
-			any of; either
+			any; either
 pan-un		each
 yo			some; a; an
-yo-fen?		some of
+yo poli		some
 du			two
 tri			three
 nelu		four
 lima		five
 lo?k		six
 cet			seven
-bat			eight
+okto		eight
 nona		nine
 deka		ten
 deka-un		eleven
@@ -50,8 +54,8 @@ deka-nelu	fourteen
 deka-lima	fifteen
 deka-lok	sixteen
 deka-cet	seventeen
-deka-bat	eighteen
-deka-tisa	nineteen
+deka-okto	eighteen
+deka-nona	nineteen
 du-deka		twenty
 du-deka-un	twenty-one
 du-deka-du	twenty-two
@@ -61,8 +65,8 @@ nelu-deka	forty
 lima-deka	fifty
 lok-deka	sixty
 cet-deka	seventy
-bat-deka	eighty
-tisa-deka	ninety
+okto-deka	eighty
+nona-deka	ninety
 heko		hundred
 du-heko		two hundred
 lima-heko	five hundred
@@ -94,12 +98,12 @@ un-me		first
 du-me		second
 tri-me		third
 deka-me		tenth
-siro-mar	never
-sau-mar		rarely
-poli-mar	often
-alo-mar		another time; again
+siro-varat?	never
+sau-varat?	rarely
+poli-varat?	often
+alo-varat?	another time; again
 mas poli	more
-min poli	less; fewer
+mas sau		less; fewer
 par poli	as much
 semi-nesia	peninsula
 semi-deo	demigod
@@ -111,7 +115,9 @@ semi-sar?-pasi?	migraine
 du?			degree; level
 su			element; essence
 ta			v. be; exist; n. state
-fa			v. do; change; become; n. act; change
+fa			v. change; become
+labor?karma?	v. do; act; make; n. deed; act; action
+labor		work; labor
 teze		v. state; claim; declare; n. thesis; statement; claim; declaration
 alat?		tool; instrument; implement; utensil; organ; -ware
 macin		machine; apparatus
@@ -124,8 +130,10 @@ lun			n. theory; argument; essay; v. discuss; debate
 din			religion
 desa		country; state
 provinse?vilaya?	province; state; prefecture; oblast
-nas			people; nation
+demo		people; populace
+nasia		nation
 basa		v. speak; n. language; speech; lect
+fakto		fact
 pul			full; total?; absolute?
 loga		v. say; n. word; speech
 debe		must; should
@@ -179,6 +187,10 @@ vide		v. see; n. vision
 rupa		v. appear; seem; n. appearance
 bon-rupa	pretty; good-looking
 dus-rupa	ugly
+halo		v. greet; n. greeting; i. hello
+salam		n. prosperity; fortune; wellbeing; peace; health; a. well; i. hello
+klama?		v. call; summon; hail; invoke
+es-klama?	exclaim; call out; shout; yell
 sut			skill; art
 abil		va. can; n. ability; power; a. possible; able; av. possibly
 abil do		av. maybe; possibly
@@ -207,20 +219,24 @@ memo		v. remember; n. memory
 memo fa		memorize
 ruh			soul; spirit; psyche; essence
 idiot		a. stupid; idiotic; n. (see *idiot-jan*) idiot
+tele		far; distant
+karibu		a. near; close; n. proximity; v. approach; enter; i. welcome
 karibu-fas	shallow; superficial
 tele-fas	deep; profound
-cool
-uncool; lame
+un-varat	n. while; short time; a. temporary; provisional; interim; short-lived
+pan-varat	n. eternity; eon; lifetime; a. permanent; perpetual; eternal; long-lived
+?			cool
+?			uncool; lame
 pre			before; previous
 pos			after; next; subsequent
-fren		front; fore; forward; anterior
+frente		front; fore; forward; anterior
 retro		back; rear; backward; posterior
 jin			enter; advance
 cut			exit; retreat
 kaos		chaos
 ratibu		order
-blu			blue
-nil			indigo
+nil			blue
+indigo		indigo
 sit			v. lose; stop having; n. loss
 bai			v. lose; not win; n. loss
 sit-bai		v. fail; n. failure; blunder
@@ -230,6 +246,8 @@ kat			cut; shear
 kat-gu?		shears; scissors; knife; scalpel
 eskulpe-alat? cizmel?	chisel
 teori		n. theory; reason
+bi			v. compare; n. comparison; ratio; a. relative
+kon-fronte	n. face-off; confrontation; v. face; confront
 Mesi		Messiah; Christ
 Mesi din	Christianity
 Mesi din jan	Christian
@@ -256,7 +274,7 @@ kludi		v. close; a. closed
 in-klude	v. include; a. inclusive
 es-klude	v. exclude; a. exclusive
 pre-klude	v. preclude
-kon-klude	v. conclude; n. conclusion
+kon-klude	v. wrap-up; conclude; n. conclusion
 se?-klude	v. seclude
 portu?e?	v. ship; send; n. port (see *porte-kan*)
 in-porto	import
@@ -277,13 +295,17 @@ kinema		motion; movement; activity
 kinema energi	kinetic energy
 kinema-graf	movie; moving picture
 kinema kan	movie theater (see *kinema-graf-kan*)
+yam-kan		dining hall; restaurant
+restoran	restaurant
 gen basa	native language; first language
 darsa basa	acquired language; second language
+keramik		ceramic
+cina		porcelain; china
 mei-sut		fine arts; art
 mei-sut-jan	artist
 mei-sut-kan	art museum
 muzeo?		museum
-sifat-teze	description
+sifa-teze	description
 ming-teze	explanation
 magi?-teze	spell; magic word
 jui-teze	warning; alert
@@ -294,9 +316,12 @@ arena-topia	desert
 nesia		island
 dunia		world; globe
 cakic		hammer
-ai			like; love
+ai			v. like; love; a. dear; favorite
+mas-ai		prefer; favor
+latif		a. kind; nice; friendly; n. kindness (see *latif-te*); favor (see *latif-karna*); v. do a favor; i. please
 yang		kind; style
 yang na		like; as
+fatura		bill; invoice
 ?			porcelain
 metre ki	measuring instrument
 muzika ki	musical instrument
@@ -312,19 +337,36 @@ petra-ki?	stone tools
 sekse-ki?	genitals
 ?-ki		jaw
 ?-ki		weapon
+pulve		powder; dust; spray
 lak			fall
 eskal		climb
+ore?audi-ki?	ear
+mum?		wax
+ore-mum		earwax
+proses?		process
+proses-le	processed
+jin-le		advanced
 super		a. high; tall; superior; v. rise; ascend; get on (a vehicle); n. top
-super na	above; over; on
 baso		a. low; short; inferior; v. descend; fall; get off (a vehicle); n. bottom; base
 baso na		below; under; underneath
 fas			surface; face; side
+auto		self; myself; outselves; yourself; themself; himself; herself; itself
+auto-loga	monologue
+du-loga		dialogue
+auto-krati	autocracy
+auto-nomi	autonomy; independence
+flu?		flow
+in-flu		influx
+kon			together
 sol-cut		sunrise; sunup; dawn
 sol-lak		sunset; sundown; dusk
+okto-fut	octopus
 men			noodle
 ?men		ramen
 ?men		chow-mein
 ?men		saimin
+fai			n. garbage; trash; waste; refuse v. discard; dispose of; throw away
+_ di _ ga te	_ have _
 Naijeria desa	Nigeria
 Nijer desa	Niger
 Somal desa	Somalia
@@ -343,6 +385,11 @@ Hercegovina desa	Herzegovina
 Artsah desa	Artsakh
 Tsuana desa	Botswana
 Mikronesia desa	Micronesia
+Barat desa	India
+Svahili basa	Swahili
 Zong desa 	China
+Amerika desa	United States of America
+Amerika kontinen?	America
 herz		Hertz
 animal		animal
+amen		amen
