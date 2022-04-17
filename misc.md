@@ -167,7 +167,7 @@ tese | eng:thesis, por:tese, spa:may:tesis, fra:thèse, deu:These, rus:те́з�
 alkasus, alkol, alkali -> kasus, kohol, kali
 bucha -> buchar (check transcription of "-er")
 gomu -> kauchu
-klien -> keka
+klien -> kek
 kave, tolera, rezerve -> kava, toler, rezerva
 tong -> tung
 hogo sanduku -> foto sanduku
@@ -250,3 +250,31 @@ and therefore does not have immediate practical value or a large body of literat
 there are still reasons you might want to learn to speak it.
 
 do I actually need ei and ou?
+
+compounds may be adopted as roots in Nibasa, but only if
+1. the compound itself is internationally used, not just the components
+2. neither component of the compound is itself a Nibasa root, and
+3. neither component already summarizes the meaning of the compound (e.g. the 学 in 学習)
+
+these rules can be suspended if the compound is extremely international and there is no recourse (such as *ramen*).
+also, "im-" and "kom-" are fine because they're not usually transparent enuff to cause confusion.
+
+should forward be fronte or pro?
+definitely fronte.  peeple will think "pro" means "in favor" or "professional";
+even if some of the "pro-" compounds still make sense, they're not transparent.
+
+all sentence-level things should go after the verb.  tenses, aspects, negation, and moods.  just for consistency's sake.
+placing a **no** before the verb indicates that you are negating specifically the verb rather than the whole sentence.
+
+productive suffixes should never use hyphens.
+but suffixes with vague and semantically variable meanings should never be productive and should generally take hyphens
+-kan
+-jen
+-gu
+-makin
+ le
+ fa
+ ta
+
+don't mention tenses at all to learners.  it will just confuse them.
+teach past tense at some point, teach progressive aspect another time, and that's enuff.

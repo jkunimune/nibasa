@@ -75,22 +75,39 @@ or from a combination of several.
 | c (soft)| s    | |
 | ch (kʰ) | k    | |
 | g (hard)| g    | |
-| g (soft)| j    | |
+| g (soft)| g    | |
+| i (i~j) | i    | |
 | j (j)   | j    | |
 | ph (pʰ) | f    | |
 | qu (kʷ) | ku?  | |
 | s (s)   | s    | |
 | s (z)   | z    | |
 | th (tʰ) | t    | |
+| u (u~w) | u    | |
+| v (w)   | v    | |
 | x (ks)  | ks   | |
 | y (y)   | i    | |
-| -ition  | -i   | |
-| -ation  | -a   | |
-| -um     | -o   | |
-| -us     | -o   | |
+| -um     | -o\* | fero |
+| -ium    | -i\*\* | imperi |
+| -us     | -o\* | |
+| -ius    | -i   | |
+| -a      | -a\* | |
+| -ia     | -i\*\*\* | famili |
+<!-- | -ition  | -i   | |
+| -ation  | -a   | dona |
+| -ktion  | -k   | frik |
+| -ssion  | -t   | tras-mis |
+| -sion   | -di  | in-kluz? | -->
+
+\* Nouns describing people and adjectives all take "-e" instead of "-a" or "-o".
+\*\* The names of chemical elements for which the "-ium" is universal are suffixed with the dedicated morpheme "ium".
+\*\*\* Feminine or Greek "-i" is expanded to "-ia" for words representing places that would otherwise be two syllables.
 
 Generally, "c" is soft when followed by "i", "e", or "y" and hard otherwise.
 However, note that Nibasa treats "c" as hard if it derives from a Greek "κ".
+
+Generic suffixes may be omitted entirely if they have been lost in Spanish and Portuguese.
+
 
 ### English
 
@@ -148,9 +165,11 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | ظ (zˤ)  | z    | |
 | غ (ɣ)   | g    | |
 | ء (ʔ)   | siro | |
-| ة (t)   | t\* | |
+| ة-(-at)   | a\* | |
 
-\* ta-marbuta is only included in the transliterated word if the word would otherwise be only two letters long (compare "sat" with "sifa").
+\* a "t" is included in the transliterated word if it would otherwise only be two letters long (e.g. "sat").
+Verbs and adverbs should be converted to adjectives or nouns before being transliterated.
+Adjectives and nouns describing people are transcribed as feminine.
 
 ### Sanskrit
 
@@ -166,7 +185,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | (t͡ʃ)    | c    ||
 | (ɡʰ)    | g    ||
 | (k)     | t    ||
-| (ʃ)     | c    ||
+| (ʃ)     | s    ||
 |
 
 ### Chinese
@@ -232,7 +251,15 @@ Some rimes change their vowel to mark the tone in Mandarin
 
 # grammar
 
-the grammar will be isolating and use SOV word order, with postpositions to mark nouns instead of articles or word endings.  two new postpositions, **ga** and **ro**, will be introduced to mark the subject and direct object, respectively.  **do** will be expanded to mark the indirect object, as well as adverbs.  by making the grammar entirely left-branching, we reduce the number of types of phrase, and the number of structures needed to combine them, thus greatly reducing the number of function words.  specifically,
+the grammar will be isolating and use SOV word order, with postpositions to mark nouns instead of articles or word endings.
+There will be seven postpositions total:
+- ga (nominative)
+- ro (accusative)
+- do (dative, also marks adverbs)
+- ze (ablative)
+- na (locative)
+- e (instrumental, also additive conjunction)
+- o (also alternate conjunction)
 
 - there is no definite article **la** (all nouns are markd by postpositions (tho maybe I should use **al** for this anyway)).
 - there is no relative pronoun **jo** or content clause marker **ki** (both are indicated by **di**).
@@ -246,7 +273,9 @@ in addition, many words that were necessarily function words in Pandunia 2.0 are
 
 the two main auxiliary verbs will be **ta** and **fa**.  **ta** means "to be", and is used to indicate states, existence, and the progressive aspect.  **fa** means "do", and is used to indicate changes of state, action, and the perfective aspect.
 
-grammatical voice is usually simply implied.  however, there are a handful of suffixes that can indicate voice explicitly: **-fa** is causative, **-get** is passive, **auto-** is reflexive, and **unalo-** is reciprocal.
+Nibasa verbs are all ambitransitive, so grammatical voice is usually simply implied.
+for instance, "" can mean either "cause " or "receive "...
+however, there are a handful of suffixes that can indicate voice explicitly: **-fa** is causative, **-get** is passive, **auto-** is reflexive, and **unalo-** is reciprocal.
 
 the three tenses will be **le** (past), **zai** (present), and **sha** (future).  these will most typically be used as adverbs, but can also go at the end of the main verb like **ti** and **fa**.  the suffix **le** in particular is useful for using verbs as adjectives.
 
