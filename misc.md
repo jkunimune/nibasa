@@ -78,6 +78,9 @@ Arabic + Turkish + Swahili + Malay
 English + Japanese + Korean
 English + Romance + Indo-Aryan
 English + Romance
+English + German + Japanese + Korean + Hausa (\~600M)
+Arabic + Turkish + Persian (\~300M)
+English + German + Japanese + Korean + Lingala
 
 ## Proper names
 
@@ -278,3 +281,29 @@ but suffixes with vague and semantically variable meanings should never be produ
 
 don't mention tenses at all to learners.  it will just confuse them.
 teach past tense at some point, teach progressive aspect another time, and that's enuff.
+
+check consistency in Taino -oa (barbakoa, kanoa)
+
+I need a better name.  with what words do I have to work?
+- universal (putong)
+- earth (geo)
+- global (dunia)
+- international (nasia-medi (could be inter-nasia))
+- human (insan)
+- simple (simple)
+- standard (norma)
+- lexicon (loga-jama)
+
+global stanardized lexicon (dunol)?
+international simplified lexicon (nasil)?
+
+
+- there is no definite article **la** (all nouns are markd by postpositions (tho maybe I should use **al** for this anyway)).
+- there is no relative pronoun **jo** or content clause marker **ki** (both are indicated by **di**).
+- there is no possessive preposition **da** (only the postposition **di** is needed).
+- there is no passive auxiliary **be** (the subject and object are marked with postpositions, so they can be swapd around freely).
+
+in addition, many words that were necessarily function words in Pandunia 2.0 are effectively content words in Nibasa, so you don't need to know their part of speech to parse a sentence.  this includes
+- pronouns **mi**, **tu**, and **ye**, which are just normal nouns (**se** merges with **auto**)
+- demonstratives **ni**, **go**, **yo**, and **ke**, and quantifiers **un**, **yo**, **eni**, **pan**, which are just adjectives that can also function as nouns (**poli** merges with **ba**)
+- auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).

@@ -9,16 +9,16 @@ This is to avoid confusion and ease the learning for people not familiar with th
 When PIL words are pronounced out loud, they should always be pronounced phonetically.
 There are no silent letters, and each letter is only pronounced one way.
 
-- "a" is always open as in "father".
+- "a" always sounds like the "a" in "father".
 - "c" sounds like the "ch" in "charlie".
-- "e" is always short as in "echo".
+- "e" is always short as in "dress".
 - "g" is always hard as in "get".
 - "i" always sounds like the "i" in "machine".
 - "o" always sounds like the "o" in "force".
 - "r" may be smooth as it is in English or trilled as it is in Spanish or Hindi. It is never silent.
-- "s" is always soft as in "thesis"
+- "s" is always soft as in "sass"
 - "u" always sounds like the "oo" in "goose".
-- "y" is always a consonant as in "yankey". It is never a vowel.
+- "y" is always a consonant as in "yes". It is never a vowel.
 
 Compound words are formed by connecting smaller words with hyphens.
 
@@ -71,7 +71,6 @@ A prepositional phrase ends with one of the six postpositions, which specifies.
 
 If there are multiple postpositional phrases, then "ro" should generally come last;
 some speakers may prefer to place "ga" before or after the other postpositions according to personal style.
-The postpositional phrase next to the verb can usually have its postposition omitted.
 - meza na dosti e mi ga ris (ro) yam. I eat rice at a table with a friend.
 
 A predicate can be a noun, adjective, or verb.
@@ -97,10 +96,10 @@ Different words imply different levels of directness.
 - mun kai latifa. = Would you please open the door?
 - mun kai bon. = You had better open the door.
 - mun kai debe. = You have to open the door.
-- mun kai yau. = You need to open the door.
+- mun kai neses. = You need to open the door.
 
 Negative requests and commands are formed by putting "no" between the verb and the modal word.
-- mun kai no yau. = You must not open the door.
+- mun kai no neses. = You must not open the door.
 
 Conjunctions
 

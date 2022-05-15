@@ -2,20 +2,14 @@
 
 # phonology
 
-the phonology will be largely the same as in Pandunia 2.0 but for some modifications.
+common PIL roots are composed of eighteen distinct consonants and five vowels.
 
-- I'm allowing all consonants besides voiced obstruents at the end of a syllable.
-- I'm forbidding **eu** and replacing all instances with **yu** or **eo**.
-- I'm allowing the clusters **kn** and **gn** for **tekni**, **magnete**, and **jagna**.
-- I'm merging **s** with **sh** and **z** with **j**, and changing **ch** to **c**.  this removes the need for digraphs. (or maybe I should lean into digraphs and spell **j** as **zh** (or just do the normal thing and merge sh~ch into ⟨c⟩))
-- I'm calling **ng** a consonant.
-
-|           | labial  | coronal    | palatal           | dorsal | 
-|-----------|---------|------------|-------------------|--------|
-| nasal     | m       |            |                   | ng     |
-| stop      | p b     | t d        | c (t͡ʃ~ʃ) j (d͡ʒ~ʒ) | k g    |
-| fricative | f       | s z (z~d͡z) |                   | h      |
-| glide     | v (w~v) | l r (r~ɹ)  | y (j)             |        |
+|           | labial   | coronal    | palatal            | dorsal   | 
+|-----------|----------|------------|--------------------|----------|
+| nasal     | m        | n          |                    | ng (ŋ)   |
+| stop      | p (pʰ) b | t (tʰ) d   | c (t͡ʃʰ~ʃ) j (d͡ʒ~ʒ) | k (kʰ) g |
+| fricative | f        | s z (z~d͡z) |                    | h (x~h)  |
+| glide     | v (w~v)  | l r (r~ɹ)  | y (j)              |          |
 
 |       | front | back |
 |-------|-------|------|
@@ -23,40 +17,47 @@ the phonology will be largely the same as in Pandunia 2.0 but for some modificat
 | mid   | e     | o    |
 | open  | a     |      |
 
+there exist several additional letters that are only used in proper names:
+- “gh” for the voiced dorsal fricative (ɣ\~ʁ)
+- “th” and “dh” for the voiceless and voiced dental fricatives (θ and ð)
+- “kc” and “gc” for the voiceless and voiced laminal clicks (k͡|\~k͡ǂ and ɡ͡|\~ɡ͡ǂ)
+- “kq” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
+- “kx” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
+- "’" for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. n.ɡ, t.h)
+- "á", "é", "í", "ó", and "ú" for irregular stress
+
 ## phonotactics
 
-a syllable is CVC or PLVC.  restrictions apply to medial CC clusters:
-- they must differ in manner of articulation (no fricative+fricative, stop+stop, nasal+nasal, or liquid+liquid).
-- if the first is a stop, they must differ in place of articulation (or maybe not, I haven't decided)
-- if the first is a nasal and the second is a stop, they must agree in place of articulation
-- if both are obstruents, they must agree in voicing.
-- where three consonants appear in a row, the first one must be a nasal or voiceless fricative
+in general, there are three firm rules that are never violated for any PIL word:
+- the nucleus of every syllable is a vowel, or a diphthong composed of an open or mid vowel followed by a close vowel.
+- the semivowels “y” and “v” are always followed by a vowel.
+- the letter “y” is never adjacent to “i”, and “v” is never adjacent to “u”.
+- adjacent identical letters are forbidden.
 
-restrictions also apply to the coda consonant.
-- it must not be a voiced obstruent
-- it must not be a semivowel
+there are also several stricter rules that apply to common PIL roots (as opposed to proper names).
+- the onset of every syllable is either a single consonant or a stop followed by a liquid.
+- the coda of a syllable is a single consonant.
+- adjacent obstruents always agree in voicing
+- nasal consonants always agree with the following consonant when the following consonant is an occlusive.
+- stops always differ in place of articulation from the following consonant unless the following consonant is “r”.
+- semivowels never appear adjacent to a consonant.
+- a word never ends with a voiced obstruent.
+- the vowel sequences “ei” and “ou” may only be at the end of a word, and “eu” is forbidden in all positions.
+- a root contains no more than three syllables.
 
-also, "y" may not be adjacent to "i", nor "v" adjacent to "u".
-all vowel sequences are allowd, but "ei" and "ou" may only be at the end of a word, and "eu" is actually forbidden.
-an open or mid vowel followd by a close vowel should ideally be pronounced as a diphthong.
-since they will naturally
-a syllable can't start with "tl" or "dl".
-
-obviously, any proper name has laxer rules.  it has no phonotactic constraints, including bonus characters.
-but semivowels should still be spelld via normal conventions if the source language doesn't use the latin alphabet
-
-Bonus characters: ts (t͡s), tl (t͡ɬ), dl (d͡ɮ), gh (ɣ), th (θ), dh (ð), ' (ʔ), kc (k͡ǀ), gc (ɡ͡ǀ), kx (k͡ǁ), gx (ɡ͡ǁ), kq (k͡ǃ), gq (ɡ͡ǃ), á, é, í, ó, ú (stress)
+while there is no minimum length for common roots,
+one- and two-letter roots are typically reserved for grammatical particles and common suffixes.
 
 ## stress
 
-Stress falls on the last heavy syllable if such a syllable exists?
-Otherwise, it falls on the first syllable?
+A PIL word should be pronounced with one syllable for each vowel or closed diphthong “ai”, “au”, “oi”, “ei”, or “ou”.
+Stress falls before the last consonant or closed diphthong.
 
 /gé.o/
 /pu.táu̯/
 /kris.tál/
 /dú.ni.a/
-/ká.ri.bu/
+/ka.rí.bu/
 /res.to.rán/
 
 ## spelling conventions
@@ -93,18 +94,28 @@ or from a combination of several.
 | -ius    | -i   | |
 | -a      | -a\* | |
 | -ia     | -i\*\*\* | famili |
-<!-- | -ition  | -i   | |
-| -ation  | -a   | dona |
+| -is     | -e   | teze
+| -ēs     | -    | magnet |
+| -o-     | -o   | bio |
+| -icus   | -i   | tekni |
+| -ition  | -i   |  |
+| -ation  | -a   |  |
 | -ktion  | -k   | frik |
-| -ssion  | -t   | tras-mis |
-| -sion   | -di  | in-kluz? | -->
+| -ssion (s) | -s   | agres |
+| -ssion (t) | -t   | tras-mit |
+| -sion (z)  | -zi  | fuzi |
+| -sion (d)  | -di  | in-kludi |
 
-\* Nouns describing people and adjectives all take "-e" instead of "-a" or "-o".
-\*\* The names of chemical elements for which the "-ium" is universal are suffixed with the dedicated morpheme "ium".
-\*\*\* Feminine or Greek "-i" is expanded to "-ia" for words representing places that would otherwise be two syllables.
+\* Nouns describing people and adjectives all take “-e” instead of “-a” or “-o”.
+\*\* The names of chemical elements for which the “-ium” is universal are suffixed with the dedicated morpheme “ium”.
+\*\*\* Feminine or Greek “-i” is expanded to “-ia” for words representing places that would otherwise be two syllables.
 
-Generally, "c" is soft when followed by "i", "e", or "y" and hard otherwise.
-However, note that Nibasa treats "c" as hard if it derives from a Greek "κ".
+words should be adapted as whatever part of speech is most semantically appropriate.
+when multiple parts of speech would be reasonable, nouns should be preferred, followed by verbs, then adjectives.
+prefixing forms should only be used if all other forms are now rare.
+
+Generally, “c” is soft when followed by “i”, “e”, or “y” and hard otherwise.
+However, note that Nibasa treats “c” as hard if it is hard in Russian (as descendants of Greek "κ" usually are).
 
 Generic suffixes may be omitted entirely if they have been lost in Spanish and Portuguese.
 
@@ -145,6 +156,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | u (ʌ)   | avoid this one at all costs | |
 | u (ʊ)   | u    | |
 | u (juː) | yu   | |
+| er (ər) | a    | |
 
 ### Arabic
 
@@ -156,7 +168,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | ط (tˤ)  | t    | |
 | ع (ʕ)   | siro | |
 | ص (sˤ)  | s    | |
-| ق (q)   | k    | |
+| ق (q)   | k    | kalam |
 | ش (ʃ)   | c    | |
 | ث (θ)   | s    | |
 | خ (x)   | h    | |
@@ -164,10 +176,16 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | ض (dˤ)  | d    | |
 | ظ (zˤ)  | z    | |
 | غ (ɣ)   | g    | |
-| ء (ʔ)   | siro | |
+| ء (ʔ)   | siro | amir |
 | ة-(-at)   | a\* | |
 
-\* a "t" is included in the transliterated word if it would otherwise only be two letters long (e.g. "sat").
+\* a “t” is included in the transliterated word if it would otherwise only be two letters long (e.g. “sat”).
+
+adjectives should be taken as masculine, unless doing so would cause the word to end with a semivowel or voiced obstruent.
+the CaCiC(a) form should be preferred, followed by CaCaC(a), then CuCuC.
+CaCC violates the phonotactics and may not be used.
+
+The digraphs /aj/ and /aw/ are transcribed as “ej” and “ou” where permitted by the phonotactics, and “e” and “o” elsewhere.
 Verbs and adverbs should be converted to adjectives or nouns before being transliterated.
 Adjectives and nouns describing people are transcribed as feminine.
 
@@ -249,54 +267,133 @@ Some rimes change their vowel to mark the tone in Mandarin
 | en (əm)
 | ong (uŋ)| center u  | center u | species o  | species o
 
+## capitalization
+
+By convention, capital letters are used to mark proper nouns.
+Common nouns should always start with lowercase letters, even at the beginning of a sentence.
+
+
+# vocabulary
+
+Nibasa words are chosen to maximize international recognizability.
+Names of elements are always taken from Latin such that they correspond to the chemical symbol.
+Names of living things with limited ranges are taken from a language spoken in the region where it is common.
+Names of living things that exist across a large enough area are based on their scientific name,
+unless the scientific name is obscure or another common name is particularly internationally recognizable.
+
+PIL words should have meanings as close as possible to the natural words they are based on.
+For example, even though the genus *Chrysanthemum* is native to China,
+the Latin root “chrysanthema” is preferred over the Chinese root “菊” for its PIL name,
+because “chrysanthema” specifically refers to *Chrysanthemum* while “菊” also refers to other plants in the family *Asteraceae*.
+On the other hand, for the order *Hymenoptera*,
+the Chinese root “蜂” is preferred over the Latin roots “apis” and “vespa”,
+because “蜂” covers the full order while “apis” and “vespa” make a nonphyletic distinction.
+<!-- TODO: ants make this a bad example -->
+
+## word derivation
+
+compound words are formed by connecting two existing words using a hyphen “-”.
+A middle dot “·” is also acceptable depending on preference.
+The first word modifies the meaninng of the second.
+
 # grammar
 
-the grammar will be isolating and use SOV word order, with postpositions to mark nouns instead of articles or word endings.
-There will be seven postpositions total:
+The grammar of PUDUL is based on unchanging content words that can fill any part of speech.
+For example, the word “ai” can mean "(n.) love", "(v.) to love", "(a.) loving; beloved", or "(av.) lovingly".
+The context determines the word's part of speech.
+Generally, nouns are followed by postpositions, verbs come at the ends of clauses,
+adjectives come before nouns, and adverbs come before verbs.
+
+Note in the above example that there are no true particilpse in PUDUL,
+and accordingly no distinction between active or passive participles.
+Most cases where the difference is important are satisfied by the suffixes
+"-jen" ("-er"), "-cei" ("-thing"), "-fa" ("-ify"), and "-lio" ("-ed").
+<!--TODO how awesome would it be to automatically link to those words in the dictionary-->
+
+## phrases
+
+Simple phrases in PUDUL are composed of simple sequences of content words.
+The last word in a phrase is the head, and the others modify it.
+When three content words appear in sequence, it is ambiguous whether the first one modifies the second modifier, or the head.
+For example, the phrase "vere [daiji] dokumen" can mean “a truly important document”, or “a true, important document”.
+The genitive particle “di” exists to clarify such ambiguities when they arise.
+It separates a modifier from the word it modifies.
+As such, it is never strictly necessary, but is useful for grouping words together.
+For example, "vere [daiji] di dokumen" means “a truly important document”,
+while "vere di [daiji] dokumen" means “a true, important document”.
+
+There are two conjunctions:
+- e (and)
+- o (or)
+They may connect any kinds of phrases, including clauses.
+
+Noun phrases are not marked for number or definiteness by default.
+Adjectives like “ta” (“some”), “go” (“that”), or “mi di” (“my”) may be used to explicitly express definiteness,
+while adjectives like “un” (“one”), “du” (“two”), or “poli” (“many”) may be used to express number.
+Pudul nouns do not have grammatical gender.
+
+## clauses
+
+A basic clause in PuDuL is composed of a series of postpositional phrases followed by a predicate.
+There are six postpositions in PuDuL:
 - ga (nominative)
 - ro (accusative)
-- do (dative, also marks adverbs)
+- li (dative, also marks adverbs when they do not precede the verb)
 - ze (ablative)
 - na (locative)
-- e (instrumental, also additive conjunction)
-- o (also alternate conjunction)
+- e (instrumental)
 
-- there is no definite article **la** (all nouns are markd by postpositions (tho maybe I should use **al** for this anyway)).
-- there is no relative pronoun **jo** or content clause marker **ki** (both are indicated by **di**).
-- there is no possessive preposition **da** (only the postposition **di** is needed).
-- there is no passive auxiliary **be** (the subject and object are marked with postpositions, so they can be swapd around freely).
+These postpositional phrases may be in any order,
+and any of them may be omitted if is unnecessary or implied, including the subject.
+The postposition adjacent to the verb can also usually be omitted.
+By convention, the “ro” phrase is usually placed last.
 
-in addition, many words that were necessarily function words in Pandunia 2.0 are effectively content words in Nibasa, so you don't need to know their part of speech to parse a sentence.  this includes
-- pronouns **mi**, **tu**, and **ye**, which are just normal nouns (**se** merges with **auto**)
-- demonstratives **ni**, **go**, **yo**, and **ke**, and quantifiers **un**, **yo**, **eni**, **pan**, which are just adjectives that can also function as nouns (**poli** merges with **ba**)
-- auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).
+The predicate may be a verb, adjective, or noun.
+While it is usually clear from semantics whether a content word at the end of the sentence is a verb or an adjective,
+nouns can sometimes be ambiguous.
+In that event, the suffix “ta”, which can be translated as “to be”, should be appended to the predicate.
+Note that in this usage, “ta” is technically not a verb and thus should not take a direct object.
 
-the two main auxiliary verbs will be **ta** and **fa**.  **ta** means "to be", and is used to indicate states, existence, and the progressive aspect.  **fa** means "do", and is used to indicate changes of state, action, and the perfective aspect.
+When a verb is used transitively, “ga” should mark the agent or the stimulus,
+while “ro” should mark the patient or the experiencer.
+When any verb is used without a “ro”, “ga” may mark either role.
 
-Nibasa verbs are all ambitransitive, so grammatical voice is usually simply implied.
-for instance, "" can mean either "cause " or "receive "...
-however, there are a handful of suffixes that can indicate voice explicitly: **-fa** is causative, **-get** is passive, **auto-** is reflexive, and **unalo-** is reciprocal.
+Subordinate clauses are simply formed by using a clause as a noun phrase.
+Similarly, relative clauses are formed by using a clause as an adjective.
+The role of the head noun in the relative clause is encoded only with a gap
+(the gap should be a missing postpositional phrase; hanging postpositions are not allowed in Pudul)
+While not strictly required, a relative clause that contains postpositions
+should almost always be followed by “di” to clarify the sentence structure.
 
-the three tenses will be **le** (past), **zai** (present), and **sha** (future).  these will most typically be used as adverbs, but can also go at the end of the main verb like **ti** and **fa**.  the suffix **le** in particular is useful for using verbs as adjectives.
+## existential and possessive statements
 
-the affirmative, negative, and interrogative particles "ya", "no", and "ke" can go before or after the verb.  before is more common.  same as the tense particles.  auxiliary verbs such as "abil" and "amir" must go after.
+Existential statements are formed with the predicate “ta”.
 
-The basic sentence structures will look like this:
+There is no PUDUL verb meaning “to have”.
+Posession is indicated by combining the genitive particle “di” with the existential predicate “ta”.
+For example, the sentence "I have a cat." is expressed as "mi di mau ga ta.".
 
-there is an N.
-N ga ta.
+## Sentence-level markings
 
-N1 is N2.  
-N1 ga N2 ta.
+Tense and aspect are usually either indicated with specific phrases like “pos den na” (“tomorrow”), or left unspecified.
+The most common tense and aspect statements can be expressed with simple adverbs/auxiliaries.
+The most common ones are:
+- lio (past tense)
+- zai (present tense)
+- te (progressive aspect)
+- fa (perfective aspect)
+- ada (habitual aspect)
 
-N1 has N2.  
-N1 di N2 ga ta.
+Mood and polarity are marked with particles immediately before the predicate.
+The most common particles particles are:
+- ke (interrogative)
+- latif (polite imperative)
+- neses (impolite imperative)
+- ya (positive)
+- no (negative)
+All of these particles may also be placed before the predicate with no difference in meaning except “ke”,
+which would be interpreted as a direct object.
 
-N1 V.  
-N1 ga V.
-
-N1 V N2.  
-N1 ga N2 ro V.
-
-Interrogatives are formed by placing "ke" rite before or after the verb.
-
+Voice is not marked in Pudul.
+A passive voice can be approximated by reversing the usual order of the “ga” phrase and “ro” phrase.
+Reflexive and reciprocal voices should be explicitly described by inserting the phrase “auto ro” or “un alo ro”.
