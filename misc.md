@@ -97,7 +97,7 @@ in Nibasa, there are a handful of postpositions that can be used to mark the arg
 
 aside from subjects and direct objects, postpositions are fairly loose in Nibasa.  the intention is that speakers will use whatever postposition feels most natural to them, which will lead to a good deal of variation.  this is acceptable as long as it does not impact intelligibility.  some examples of common variations:
 
-| english | bil sei 1 | bil sei 2 |
+| english | bil cei 1 | bil cei 2 |
 | go to school | darse kan ro gou | darse kan do gou |
 | give it to me | mi na don | mi do don |
 | explain it to me | mi na ming fa | mi do ming fa |
@@ -109,7 +109,7 @@ in Nibasa, an unmarked verb is, depending on its semantics, either a state (such
 
 there also exist three tense suffixes.  the most useful by far is "le", as it changes an action into an ambiguous combination of stative (the result of the action) and perfective (the action, but in the past), which can again be enforced by adding "ta" or "fa".  "le ta" thus functions as the opposite of "fa" in certain situations.
 
-these particles also interact with the transitivity of verbs.  a state is always intransitive, and its one argument may only be markd by "ga".  a perfective action or an imperfective action, is ambitransitive.  if it has two arguments, "ga" marks the agent and "ro" marks the patient.  if it has one argument markd by "ro", it is the patient.  if it has one argument markd by "ga", it could be the agent or the patient -- whichever is more likely given the semantics of the verb.  note that this makes it impossible to include an agent without including a patient; the phrase "sei ro" is typically inserted when the patient is unknown or unimportant.
+these particles also interact with the transitivity of verbs.  a state is always intransitive, and its one argument may only be markd by "ga".  a perfective action or an imperfective action, is ambitransitive.  if it has two arguments, "ga" marks the agent and "ro" marks the patient.  if it has one argument markd by "ro", it is the patient.  if it has one argument markd by "ga", it could be the agent or the patient -- whichever is more likely given the semantics of the verb.  note that this makes it impossible to include an agent without including a patient; the phrase "cei ro" is typically inserted when the patient is unknown or unimportant.
 
 | loga | ding mana | varati | use |
 |------|-----------|--------|-----|
@@ -252,8 +252,6 @@ While it does not have the large speaker base of a natural language,
 and therefore does not have immediate practical value or a large body of literature,
 there are still reasons you might want to learn to speak it.
 
-do I actually need ei and ou?
-
 compounds may be adopted as roots in Nibasa, but only if
 1. the compound itself is internationally used, not just the components
 2. neither component of the compound is itself a Nibasa root, and
@@ -307,3 +305,140 @@ in addition, many words that were necessarily function words in Pandunia 2.0 are
 - pronouns **mi**, **tu**, and **ye**, which are just normal nouns (**se** merges with **auto**)
 - demonstratives **ni**, **go**, **yo**, and **ke**, and quantifiers **un**, **yo**, **eni**, **pan**, which are just adjectives that can also function as nouns (**poli** merges with **ba**)
 - auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).
+
+subordinate clauses, be they relative or otherwise, must always be followed by "di" and then a content word.
+
+# hyperspecific transcription notes
+
+country names should be stripped to whatever minimum root is present in both the country name, language name, and people name.
+in some cases that will include a root that means "land", like "island" or "osteraih", and that's okay.  but keep "ia" if it has one.  not if it's just in the nisba adjective tho; nisba adjectives don't count for "ia".
+
+## Scientific terms
+
+-um -> -o
+-ium -> -iu
+-ine -> -o
+-on (noble gas or particle) -> -on
+-on (other) -> -o
+
+## Albanian
+
+ʃ -> c
+
+## Arabic
+
+if a word ends in b, d, D, or gh, append "a"
+stress: accute accent
+ʃ -> c
+names should always be transcribed in standard arabic, except that jiim can be spelled "g" for Egyptian names
+
+## Bantu
+
+g -> g
+ng -> ing (but ingurube would be too long...)
+intervocalic d -> r
+b -> b
+mb -> imb
+ʊ -> u
+
+## Chinese
+
+stress: unmarked
+middle chinese ŋ -> g
+well, but it's lost before a yod in cantonese...
+words with velar nasal include stone, ideology, and jade
+sh -> s
+proper names should be spelled as they are in Mandarin, except that j, q, and x should go to z, g, c, k, s, and h as usual
+
+## Dutch
+
+ei -> ei
+ij -> ei
+
+## English
+
+if a word ends in b, d, or g, append "e"
+place names that come from languages outside english should be spelld with the same vowel letters as in english, if that brings it closer to the etymological pronunciation.
+stress: accute accent
+sh -> c
+th -> th no matter voicing
+plural marker -> keep
+north/south/east/west -> translated
+new -> nove
+saint -> sante
+the -> remove
+island -> nesia
+port -> porto
+
+## French
+
+stress: accute accent
+
+## German
+
+ei -> ei
+eu -> eu
+ch -> h
+
+## Indo-iranian
+
+kʰ -> k
+
+## Japanese
+
+stress: unmarked
+-shima -> nesia if it's an actual island
+in proper names, [ɕ] and [d͡ʑ] -> sh and zh, and [t͡s] -> ts
+
+## Korean
+
+stress: unmarked
+
+## Nahuatl
+
+tl -> t
+
+## Persian
+
+u~ʊ~o -> o
+-a~e -> -a
+
+## Portuguese
+
+plural marker -> keep
+lh -> ly
+nh -> ny
+north/south/east/west -> translated
+new -> nove
+sãõ -> sau
+la/el/las/los -> remove
+
+## Spanish
+
+stress: accute accent
+plural marker -> keep
+ll -> ly
+ñ -> ny
+norte/sud/este/oeste -> translated
+nuevo -> nove
+san -> san
+la/el/las/los -> remove
+isla -> nesia
+puerto -> puerto, but usually there's a single-word version with porto
+
+## Sotho
+
+ʊ -> o
+
+## Swahili
+
+ng -> ng
+ny -> nj
+mw -> mv
+remove any prefixen
+
+## Taino
+
+## Tswana
+
+ts -> ts

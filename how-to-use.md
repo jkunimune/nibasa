@@ -51,8 +51,26 @@ For example:
 ### Complex phrases
 
 Longer phrases can be formed by combining more words.
-The word "di" may be used to break phrases up to make their structures clear.
+...
 
+Sometimes, when a phrase becomes too long, it can be difficult to discern the structure.
+Consider the example phrase
+- dai vaf dom
+
+This phrase is unclear, because "dai" might be describing the dog, or the house.
+In English, we might clarify this by using the word "of".
+- the house of big dogs
+- the big house of dogs
+
+When we use "of", we rearrange the phrase and space out its components.
+Similarly, in Nibasa, we use "di".
+Unlike "of", it does not change the order of the phrase.
+However, it does divide the components in a way that makes the phrase structure more clear.
+
+- dai vad di dom = ""
+-
+
+Because adjectives and adverbs are the same in Nibasa, we sometimes use it in situations where we would never use "of" in English.
 - pul put di kaguzi di sak = bag of completely soaked paper
 - pul di put kaguzi di sak = bag full of wet paper
 - pul di sip di kaguzi sak = full and wet paper bag
@@ -61,35 +79,59 @@ The word "di" may be used to break phrases up to make their structures clear.
 
 Complete sentences are formed in USL by combining postpositional phrases with a predicate.
 
-A prepositional phrase ends with one of the six postpositions, which specifies.
-- "ga" indicates the subject of an action. (mi ga yam = I eat)
-- "ro" indicates the object of an action. (ris ro yam = eat rice)
-- "na" indicates the location of an action. (meza na yam = eat at a table)
+A postpositional phrase ends with one of the six postpositions, which specifies.
+- "ga" indicates the subject of an action. (mi ga jam = I eat)
+- "ro" indicates the object of an action. (ris ro jam = eat rice)
+- "na" indicates the location of an action. (meza na jam = eat at a table)
 - "do" indicates the destination of an action. ()
 - "ze"
 - "e"
 
 If there are multiple postpositional phrases, then "ro" should generally come last;
 some speakers may prefer to place "ga" before or after the other postpositions according to personal style.
-- meza na dosti e mi ga ris (ro) yam. I eat rice at a table with a friend.
+- meza na dosti e mi ga ris ro yam. I eat rice at a table with a friend.
 
 A predicate can be a noun, adjective, or verb.
 - mau ga kore. = The cat runs.
 - mau ga rubi. = The cat is red.
-- mau ga mi dosti. = The cat is my friend.
+- mau ga mi di dosti. = The cat is my friend.
 
-Sentences do not need to start with capital letters.
+Sentences do not start with capital letters.
 
 ### Complex sentences
+
+Commands are indicated by adding to the end of the sentence...
+
+Commands are the only sentences that can have an object without a subject.
+- ris ro yam deve. = Eat rice.
+
+Note that unlike in some languages, the subject is never left out of statements or questions.
 
 ### Proper names
 
 Proper names of countries are re-spelled in Nibasa's alphabet.
 Personal names and city names will inevitably be spelled irregularly in many circumstances.
 Proper names have access to the bonus letters.
-They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith jen, Jorje raja, Zamenhof dotor)
+They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith jen, Jorje raja, Zamenhof doktor)
 
 ### Other things
+
+Yes-or-no questions are formed by adding "ke" ("what") to the end of a sentence.
+- tu ga go abil? = Can you do that?
+
+Nibasa does not have a word for "yes".
+To answer a yes-or-no question in the affirmative, simply repeat the last word before "ke".
+To answer a yes-or-no question in the negative, one can simply use "no" ("not"),
+or repeat the last word of the question followed by "no".
+- abil. = Yes, I can.
+- abil no. = No, I can't.
+
+Open questions are not specially marked, as they are apparent from the presence of the word "ke",
+which can modify a noun or act as a noun of its own.
+- tu ga ke jen? = Who are you?
+- ke ro yam? = What are you eating?
+- ke li moto? = Where did it go?
+- ke sabu na ni yang? = Why is she like this?
 
 Requests and commands are formed by adding a modal word to the end of the sentence.
 Different words imply different levels of directness.
@@ -109,4 +151,4 @@ Simple comparisons are made by adding the point of comparison followed by "bi ze
 
 More precise comparisons can be made by adding "zoi" or "par".
 - mi ga mi-mon bi ze zoi lau. = I am the oldest of us.
-- mi ga tu bi ze par ????. = I am just as stubborn as you. 
+- mi ga tu sam na ????. = I am just as stubborn as you. 

@@ -4,12 +4,12 @@
 
 common PIL roots are composed of eighteen distinct consonants and five vowels.
 
-|           | labial   | coronal    | palatal            | dorsal   | 
-|-----------|----------|------------|--------------------|----------|
-| nasal     | m        | n          |                    | ng (ŋ)   |
-| stop      | p (pʰ) b | t (tʰ) d   | c (t͡ʃʰ~ʃ) j (d͡ʒ~ʒ) | k (kʰ) g |
-| fricative | f        | s z (z~d͡z) |                    | h (x~h)  |
-| glide     | v (w~v)  | l r (r~ɹ)  | y (j)              |          |
+|           | labial   | coronal    | palatal | dorsal   | 
+|-----------|----------|------------|---------|----------|
+| nasal     | m        | n          |         | ng (ŋ)   |
+| stop      | p (pʰ) b | t (tʰ) d   | c (t͡ʃʰ~ʃ) | k (kʰ) g |
+| fricative | f        | s z (z~d͡z) |         | h (x~h)  |
+| glide     | v (w~v)  | l r (r~ɹ)  | y (j)   |          |
 
 |       | front | back |
 |-------|-------|------|
@@ -18,32 +18,37 @@ common PIL roots are composed of eighteen distinct consonants and five vowels.
 | open  | a     |      |
 
 there exist several additional letters that are only used in proper names:
+- “zh” for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
+- “sh” for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
 - “gh” for the voiced dorsal fricative (ɣ\~ʁ)
 - “th” and “dh” for the voiceless and voiced dental fricatives (θ and ð)
+- “lh” for the voiceless lateral approximant or lateral fricative (l̥\~ɬ)
+- “mh”, “nh”, “ngh”, and “rh” for voiceless sonorants (m̥, n̥, ŋ̊, and r̥\~ɹ̥)
 - “kc” and “gc” for the voiceless and voiced laminal clicks (k͡|\~k͡ǂ and ɡ͡|\~ɡ͡ǂ)
-- “kq” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
-- “kx” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
-- "’" for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. n.ɡ, t.h)
-- "á", "é", "í", "ó", and "ú" for irregular stress
+- “q” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
+- “x” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
+- “pc” and “bc” for the voiceless and voiced labial clicks (k͡ʘ and g͡ʘ)
+- “’” for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. n.ɡ, t.h)
+- “á”, “é”, “í”, “ó”, and “ú” for irregular stress
 
 ## phonotactics
 
-in general, there are three firm rules that are never violated for any PIL word:
+in general, there are two firm rules that are never violated for any PIL word:
 - the nucleus of every syllable is a vowel, or a diphthong composed of an open or mid vowel followed by a close vowel.
 - the semivowels “y” and “v” are always followed by a vowel.
-- the letter “y” is never adjacent to “i”, and “v” is never adjacent to “u”.
-- adjacent identical letters are forbidden.
+- adjacent identical consonants are forbidden.
 
 there are also several stricter rules that apply to common PIL roots (as opposed to proper names).
-- the onset of every syllable is either a single consonant or a stop followed by a liquid.
+- the onset of every syllable is either a single consonant or an obstruent followed by a liquid.
 - the coda of a syllable is a single consonant.
-- adjacent obstruents always agree in voicing
+- adjacent obstruents always agree in voicing.
 - nasal consonants always agree with the following consonant when the following consonant is an occlusive.
 - stops always differ in place of articulation from the following consonant unless the following consonant is “r”.
-- semivowels never appear adjacent to a consonant.
+- the letters "s”, "z”, and "c” never occur next to each other.
+- semivowels never appear adjacent to their corresponding vowel.
 - a word never ends with a voiced obstruent.
-- the vowel sequences “ei” and “ou” may only be at the end of a word, and “eu” is forbidden in all positions.
-- a root contains no more than three syllables.
+- the vowel sequences “ei” and “ou” only appear at the ends of a syllables, and “eu” is never used.
+- roots typically contain no more than three syllables.
 
 while there is no minimum length for common roots,
 one- and two-letter roots are typically reserved for grammatical particles and common suffixes.
@@ -60,6 +65,29 @@ Stress falls before the last consonant or closed diphthong.
 /ka.rí.bu/
 /res.to.rán/
 
+## capitalization
+
+By convention, capital letters are used to mark proper names.
+PIL roots should always start with lowercase letters, even at the beginning of a sentence.
+
+
+# vocabulary
+
+Nibasa words are chosen to maximize international recognizability.
+Names of elements are always taken from Latin such that they correspond to the chemical symbol.
+Names of living things with limited ranges are taken from a language spoken in the region where it is common.
+Names of living things that exist across a large enough area are based on their scientific name,
+unless the scientific name is obscure or another common name is particularly internationally recognizable.
+
+PIL words should have meanings as close as possible to the natural words they are based on.
+For example, even though the genus *Chrysanthemum* is native to China,
+the Latin root “chrysanthema” is preferred over the Chinese root “菊” for its PIL name,
+because “chrysanthema” specifically refers to *Chrysanthemum* while “菊” also refers to other plants in the family *Asteraceae*.
+On the other hand, for the order *Hymenoptera*,
+the Chinese root “蜂” is preferred over the Latin roots “apis” and “vespa”,
+because “蜂” covers the full order while “apis” and “vespa” make a nonphyletic distinction.
+<!-- TODO: ants make this a bad example -->
+
 ## spelling conventions
 
 The following tables describe the standard transcription style of Nibasa.
@@ -70,15 +98,17 @@ or from a combination of several.
 
 ### Latin
 
+Latin vocabulary has been...
+
 | zi (fon) | tarjum | misal |
 |----------|--------|-------|
-| c (hard)| k    | |
-| c (soft)| s    | |
+| c (k)| k    | |
+| c (t͡s)| s    | |
 | ch (kʰ) | k    | |
-| g (hard)| g    | |
-| g (soft)| g    | |
+| g (ɡ)| g    | |
+| g (d͡ʒ)| g    | |
 | i (i~j) | i    | |
-| j (j)   | j    | |
+| j       | j    | |
 | ph (pʰ) | f    | |
 | qu (kʷ) | ku?  | |
 | s (s)   | s    | |
@@ -94,20 +124,20 @@ or from a combination of several.
 | -ius    | -i   | |
 | -a      | -a\* | |
 | -ia     | -i\*\*\* | famili |
+| -ex     | -e   | jude |
 | -is     | -e   | teze
 | -ēs     | -    | magnet |
 | -o-     | -o   | bio |
+| -t      | -ze? | Marze |
 | -icus   | -i   | tekni |
-| -ition  | -i   |  |
-| -ation  | -a   |  |
-| -ktion  | -k   | frik |
-| -ssion (s) | -s   | agres |
-| -ssion (t) | -t   | tras-mit |
-| -sion (z)  | -zi  | fuzi |
-| -sion (d)  | -di  | in-kludi |
+| -ation  | -a  |  |
+| -ition  | -i  |  |
+| -tion   | -si  |  |
+| -ssion  | -si   | agresi |
+| -sion   | -zi  | in-kluzi |
 
-\* Nouns describing people and adjectives all take “-e” instead of “-a” or “-o”.
-\*\* The names of chemical elements for which the “-ium” is universal are suffixed with the dedicated morpheme “ium”.
+\* Nouns describing people and adjectives all take “-e” instead of “-a” or “-u”.
+\*\* Masculine or neuter "-i” is expanded to "-iu” for the names of chemical elements.
 \*\*\* Feminine or Greek “-i” is expanded to “-ia” for words representing places that would otherwise be two syllables.
 
 words should be adapted as whatever part of speech is most semantically appropriate.
@@ -115,23 +145,23 @@ when multiple parts of speech would be reasonable, nouns should be preferred, fo
 prefixing forms should only be used if all other forms are now rare.
 
 Generally, “c” is soft when followed by “i”, “e”, or “y” and hard otherwise.
-However, note that Nibasa treats “c” as hard if it is hard in Russian (as descendants of Greek "κ" usually are).
+However, note that Nibasa treats “c” as hard if it is hard in Russian (as descendants of Greek "κ” usually are).
 
 Generic suffixes may be omitted entirely if they have been lost in Spanish and Portuguese.
 
-
 ### English
 
+English is currently the most widely spoken...
 Note that these rules only apply for words that originate from English.
 Most words shared between Nibasa and English originally come from Latin, which has its rules above.
 
-| zi (fon) | tarjum | misal |
+| zi (fon) | tarjuma | misal |
 |----------|--------|-------|
 | c (k)   | k    | |
 | c (s)   | s    | |
 | ch (t͡ʃ) | c    | |
 | g (ɡ)   | g    | |
-| g (d͡ʒ)  | j    | |
+| g (d͡ʒ)  | g    | |
 | qu (kw) | ku   | |
 | s (s)   | s    | |
 | s (z)   | z    | |
@@ -153,95 +183,109 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | o (oʊ)  | o    | |
 | oo (uː) | u    | |
 | ou (aʊ) | au   | |
-| u (ʌ)   | avoid this one at all costs | |
+| u (ʌ)   | avoid at all costs | |
 | u (ʊ)   | u    | |
-| u (juː) | yu   | |
+| u (juː) | ju   | |
 | er (ər) | a    | |
+| -ing (ɪŋ) | ?  | |
 
 ### Arabic
 
-| zi (fon) | tarjum | misal |
+Because of the spread of Islam...
+
+| zi (fon) | tarjuma | misal |
 |----------|--------|-------|
-| ج (d͡ʒ)  | j    | |
+| ج (d͡ʒ)  | c    | |
 | ه (h)   | h    | |
 | ح (ħ)   | h    | |
 | ط (tˤ)  | t    | |
-| ع (ʕ)   | siro | |
+| ع (ʕ)   | nulo | |
 | ص (sˤ)  | s    | |
 | ق (q)   | k    | kalam |
-| ش (ʃ)   | c    | |
+| ش (ʃ)   | s    | |
 | ث (θ)   | s    | |
 | خ (x)   | h    | |
 | ذ (ð)   | z    | |
-| ض (dˤ)  | d    | |
+| ض (dˤ)  | d\*  | |
+| ب (b)   | b\*  | |
+| ﺪ (d)   | d\*  | |
 | ظ (zˤ)  | z    | |
-| غ (ɣ)   | g    | |
-| ء (ʔ)   | siro | amir |
-| ة-(-at)   | a\* | |
+| غ (ɣ)   | g\*  | |
+| ء (ʔ)   | nulo | amir |
+| ة-(-at)   | a\*\* | |
 
-\* a “t” is included in the transliterated word if it would otherwise only be two letters long (e.g. “sat”).
+\* voiced stops are transliterated as voiceless stops when at the end of the word.
+\*\* a “t” is included in the transliterated word if it would otherwise only be two letters long (e.g. “sat”).
 
-adjectives should be taken as masculine, unless doing so would cause the word to end with a semivowel or voiced obstruent.
-the CaCiC(a) form should be preferred, followed by CaCaC(a), then CuCuC.
-CaCC violates the phonotactics and may not be used.
+Arabic roots are taken in the form that is most internationally widespread; usually as CaCiC(a) adjectives or CaCaC(a) nouns.
+adjectives are taken as masculine, unless doing so would cause the word to end with a semivowel or voiced obstruent.
 
-The digraphs /aj/ and /aw/ are transcribed as “ej” and “ou” where permitted by the phonotactics, and “e” and “o” elsewhere.
-Verbs and adverbs should be converted to adjectives or nouns before being transliterated.
-Adjectives and nouns describing people are transcribed as feminine.
+The digraphs /aj/ and /aw/ are transcribed as “ej” and “ou” where permitted by the phonotactics, and “e” and “o” elsewhere, I think (maimun?).
+Verbs and adverbs should generally be converted to adjectives or nouns, respectively before being transliterated.
+Nouns of variable gender and adjectives are transcribed as masculine, unless doing so would violate the phonotactics.
 
 ### Sanskrit
 
-| zi (fon) | tarjum | misal |
+Sanskrit was the...
+
+| zi (fon) | tarjuma | misal |
 |----------|--------|-------|
 | (bʰ)    | b    ||
 | (p)     | p    ||
+| (pʰ)    | f     ||
 | (dʰ)    | d    ||
 | (t)     | t    ||
 | (ɖʰ)    | d    ||
 | (ʈ)     | t    ||
-| (d͡ʒʰ)   | j    ||
+| (d͡ʒʰ)   | z    ||
 | (t͡ʃ)    | c    ||
 | (ɡʰ)    | g    ||
-| (k)     | t    ||
+| (kʰ)     | h    ||
 | (ʃ)     | s    ||
-|
+
+Schwas should usually be transcribed as "a”, but may be omitted to preserve stress.
 
 ### Chinese
 
+Chinese roots have spread...
 This table is based on Mandarin, since it's by far the most spoken chinese language,
-but the transcription style is based on a consideration of all chinese and Chinese-derived languages.
+but the transcription style is based on a consideration of all chinese and Chinese-adjacent languages.
 That, in addition to a desire to maintain spelling, is why retroflex consonants are transcribed as alveolar,
 and tenuis occlusive obstruents are transcribed as voiced.
-For palatal consonants and final nasals, the spelling depends on the conservative pronunciation,
-which is however it's pronounced in Cantonese.
+For palatal consonants, initial glides, and final nasals, the spelling depends on the equivalent Cantonese pronunciation.
 
 Note that this table does not include stop codas, which are maintained from Old Chinese.
 
-| zi (fon) | tarjum | misal |
+| zi (fon) | tarjuma | misal |
 |----------|--------|-------|
 | b (p)    | b      |       |
 | d (t)    | d      |       |
 | g (k)    | g      |       |
 | h (x)    | h      |       |
 | j (k)    | k      |       |
-| j (t͡s)   | j      |       |
-| q (kʰ)   | k      |       |
+| j (t͡s)   | z      | jinzan |
+| q (kʰ)   | k      | vancen |
 | q (t͡sʰ)  | c      |       |
 | x (x)    | h      |       |
 | x (s)    | s      |       |
 | zh (d͡ʐ)  | z      |       |
 | ch (t͡ʂʰ) | c      |       |
 | sh (ʂ)   | s      |       |
-| r (ɻ)    |        |       |
+| r (ɻ)    | n      | nit   |
 | z (t͡s)   | z      |       |
 | c (t͡sʰ)  | c      |       |
 | w (w)    | v      |       |
+| w (ŋ?)    | \*      |       |
+| w (m)    | m      |       |
 
-| zi (fon) | tarjum | zi (fon) | tarjum |
-| i (ɻ)    |        | i (i)    |        |
-| u (u)    |        | ü (y)    |        |
-| e (ə)    |        | ie (je)  |        |
-| ue (wo)  |        | üe (ɥə)  |        |
+\* In Mandarin, words that start with Note that words starting with vowels in Mandarin sometimes derive from an initial "ŋ” in Middle Chinese, which is transliterated as "g”.
+
+| zi (fon) | tarjuma | zi (fon) | tarjum |
+|----------|--------|-------|-----------|
+| i (ɻ)    | i      | i (i)    | i      |
+| u (u)    | u      | ü (y)    | iu     |
+| e (ə)    | e      | ie (je)  | e      |
+| uo (wo)  | o      | üe (ɥə)  |        |
 | a (a)    |        | ia (ja)  |        |
 | ua (wa)  |        |          |        |
 | ei (ej)  |        |          |        |
@@ -252,49 +296,47 @@ Note that this table does not include stop codas, which are maintained from Old 
 | ao (aw)  |        | iao (jaw)|        |
 | en (ən)  |        | in (in)  |        |
 | un (wən) |        | ün (yn)  |        |
-| an (an)  |        | ian (jen)|        |
+| an (an)  |        | ian (jen)| en     |
 | uan (wan)|        | üan (ɥen)|        |
 | eng (əŋ) |        | ing (iŋ) |        |
 | ang (aŋ) |        | ianɡ (jaŋ)|       |
 | uanɡ (waŋ)|       |          |        |
 | ong (uŋ) |        | iong (juŋ)|       |
 
-Some rimes change their vowel to mark the tone in Mandarin
+### Other
 
-| Cmn.    | Asa. (T1) | Asa. (T2) | Asa. (T3) | Asa. (T4) |
-|---------|------|
-| en (ən) | part   e  | part  e   | powder o  | o
-| en (əm)
-| ong (uŋ)| center u  | center u | species o  | species o
+Many words from Nibasa come from languages outside of this list,
+such as Spanish, Dutch, Persian, Swahili, Tamil, Nahuatl, Tupi, or Taino.
+Such words follow consistent spelling systems when possible,
+but it is not necessary to enumerate those systems here in full.
+In general, Nibasa words should be faithful to their sources' native pronunciations,
+and favor spellings that are similar to their sources' native spellings when possible.
+However, these principles are balanced against the phonotactic constraints,
+which are satisfied for every PIL root.
 
-## capitalization
+Proper names follow the same principles as PIL roots, but have more lenient phonotactic constraints and a larger phonetic inventory to allow more faithful transcription.
+They thus should always match the name's native spelling or romanization as closely as possible, except to account for differences between the native spelling system and PIL's
+(for example, the "H" in ).
+Chinese names keep final stops just like sinitic common roots do.
 
-By convention, capital letters are used to mark proper nouns.
-Common nouns should always start with lowercase letters, even at the beginning of a sentence.
-
-
-# vocabulary
-
-Nibasa words are chosen to maximize international recognizability.
-Names of elements are always taken from Latin such that they correspond to the chemical symbol.
-Names of living things with limited ranges are taken from a language spoken in the region where it is common.
-Names of living things that exist across a large enough area are based on their scientific name,
-unless the scientific name is obscure or another common name is particularly internationally recognizable.
-
-PIL words should have meanings as close as possible to the natural words they are based on.
-For example, even though the genus *Chrysanthemum* is native to China,
-the Latin root “chrysanthema” is preferred over the Chinese root “菊” for its PIL name,
-because “chrysanthema” specifically refers to *Chrysanthemum* while “菊” also refers to other plants in the family *Asteraceae*.
-On the other hand, for the order *Hymenoptera*,
-the Chinese root “蜂” is preferred over the Latin roots “apis” and “vespa”,
-because “蜂” covers the full order while “apis” and “vespa” make a nonphyletic distinction.
-<!-- TODO: ants make this a bad example -->
+Acute accents are used to mark stress in proper names when the native stress is different from the regular Nibasa stress.
+These accents not always included in informal writing.
+They are not used for names from tonal or quasi-tonal languages, such as Thai or Japanese.
 
 ## word derivation
 
 compound words are formed by connecting two existing words using a hyphen “-”.
-A middle dot “·” is also acceptable depending on preference.
-The first word modifies the meaninng of the second.
+A middle dot “·” is also acceptable, according to preference.
+The first word modifies the meaninng of the second,
+and the part-of-speech is inherited from the second.
+
+## pseudomorphemes
+
+There are two suffixes that cannot stand as words on their own, but that do hint at the meaning of a root.
+Therefore, roots will sometimes be modified from their most regular transcriptions to include these.
+- Roots that end in -ia or -ja always describe places (for example, "topia").
+- Roots that end in -iu or -ju always describe chemical elements (for example, "litiu").
+These don't neccessarily apply to three-letter words, like "dia", or to proper names, like "Melayu".
 
 # grammar
 
@@ -304,10 +346,10 @@ The context determines the word's part of speech.
 Generally, nouns are followed by postpositions, verbs come at the ends of clauses,
 adjectives come before nouns, and adverbs come before verbs.
 
-Note in the above example that there are no true particilpse in PUDUL,
+Note in the above example that there are no true participles in PUDUL,
 and accordingly no distinction between active or passive participles.
 Most cases where the difference is important are satisfied by the suffixes
-"-jen" ("-er"), "-cei" ("-thing"), "-fa" ("-ify"), and "-lio" ("-ed").
+"-jen" ("-er"), "-cei" ("-ee"), "-fa" ("-ing"), and "-lio" ("-ed").
 <!--TODO how awesome would it be to automatically link to those words in the dictionary-->
 
 ## phrases
@@ -315,12 +357,12 @@ Most cases where the difference is important are satisfied by the suffixes
 Simple phrases in PUDUL are composed of simple sequences of content words.
 The last word in a phrase is the head, and the others modify it.
 When three content words appear in sequence, it is ambiguous whether the first one modifies the second modifier, or the head.
-For example, the phrase "vere [daiji] dokumen" can mean “a truly important document”, or “a true, important document”.
+For example, the phrase "vere bar-sei dokumen" can mean “a truly important document”, or “a true, important document”.
 The genitive particle “di” exists to clarify such ambiguities when they arise.
 It separates a modifier from the word it modifies.
 As such, it is never strictly necessary, but is useful for grouping words together.
-For example, "vere [daiji] di dokumen" means “a truly important document”,
-while "vere di [daiji] dokumen" means “a true, important document”.
+For example, "vere bar-sei di dokumen" means “a truly important document”,
+while "vere di bar-sei di dokumen" means “a true, important document”.
 
 There are two conjunctions:
 - e (and)
@@ -343,9 +385,7 @@ There are six postpositions in PuDuL:
 - na (locative)
 - e (instrumental)
 
-These postpositional phrases may be in any order,
-and any of them may be omitted if is unnecessary or implied, including the subject.
-The postposition adjacent to the verb can also usually be omitted.
+These postpositional phrases may be in any order.
 By convention, the “ro” phrase is usually placed last.
 
 The predicate may be a verb, adjective, or noun.
@@ -354,16 +394,16 @@ nouns can sometimes be ambiguous.
 In that event, the suffix “ta”, which can be translated as “to be”, should be appended to the predicate.
 Note that in this usage, “ta” is technically not a verb and thus should not take a direct object.
 
-When a verb is used transitively, “ga” should mark the agent or the stimulus,
-while “ro” should mark the patient or the experiencer.
-When any verb is used without a “ro”, “ga” may mark either role.
+When a verb is used transitively, “ga” marks the agent or the stimulus,
+while “ro” marks the patient or the experiencer.
+When a verb is used intransitively, “ga” marks whichever role is included and “ro” is not used.
+Because of this, a sentence never contains "ro" without "ga".
 
 Subordinate clauses are simply formed by using a clause as a noun phrase.
 Similarly, relative clauses are formed by using a clause as an adjective.
 The role of the head noun in the relative clause is encoded only with a gap
 (the gap should be a missing postpositional phrase; hanging postpositions are not allowed in Pudul)
-While not strictly required, a relative clause that contains postpositions
-should almost always be followed by “di” to clarify the sentence structure.
+A relative clause that contains postpositions is alwaly followed by “di” to clarify the sentence structure.
 
 ## existential and possessive statements
 
@@ -393,6 +433,10 @@ The most common particles particles are:
 - no (negative)
 All of these particles may also be placed before the predicate with no difference in meaning except “ke”,
 which would be interpreted as a direct object.
+
+There is no subjunctive or hypothetical mood in Pudul.
+Conditional sentences are apparent from the inclusion of a conditional clause that ends with “gar na”.
+For example, “tu ga bina gar na jen ga lai” (“if you build it, they will come”).
 
 Voice is not marked in Pudul.
 A passive voice can be approximated by reversing the usual order of the “ga” phrase and “ro” phrase.

@@ -122,7 +122,15 @@ Tenuis occlusive obstruents in Mandarin are conventionally transcribed as voiced
 
 ### Why are "y" and "v" separate from "i" and "u"?  Don't they represent the same sound?
 
-Many languages spell "y" and "i" using the same symbol because they are pronounced with the tongue and lips in the same position.  however, most languages have two separate symbols, or else modify
+It depends on your definition of "sound". Many languages spell "y" and "i" using the same symbol because they are pronounced with the tongue and lips in the same position.  however, most languages have two separate symbols, or else modify
+
+### Why do all the country names end in "desa"?
+
+In Nibasa, every proper noun must be suffixed with a common noun that states what it is.
+Most natural languages don't do this as consistently as Nibasa does, but you see similar patterns in affixes like Arabic's "مدينة", Japanese's "国", and Malay's "bahasa".
+Enforcing these suffixes makes it more clear which nouns in a sentence are proper, and what they refer to.
+Consider the English pairs "Turkey" (a country) and "turkey" (a bird), or "Georgia" (a country) and "Georgia" (a U.S. state).
+These similarities can cause confusion in English, but in Nibasa, suffixes like "desa" and "vilaya" can clearly distinguish similar pairs.
 
 ### Why are there so many hyphens?
 
@@ -140,8 +148,13 @@ The purely left-branching syntax simplifies the grammar, reducing the number of 
 
 ### Why are antonyms separate roots instead of using a prefixing system?
 
-For those who aren't aware, Esperanto has this antonym derivation system
+For those who aren't aware, Esperanto has a system for deriving antonyms using the prefix "mal-".
+So rather than having, for example, two different roots for "hot" and "cold", Esperanto has one root -- "varm-" for "hot",
+and uses the compound stem "malvarm-" for "cold".
 
+this system makes sense for a lot of reasons.
+it reduces the number of roots in the language substantially, which reduces the time required to learn it,
+and it allows the derivation of words that don't have common roots in natural languages, like ??? for "unwell".
 it improves root recognition and prevents
 
 It's not quite accurate to say that Nibasa has twice as many adjective roots as Esperanto.
