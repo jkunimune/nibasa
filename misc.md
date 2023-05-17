@@ -162,7 +162,7 @@ between v and w, the choice is clear.
 
 # other stuff
 
-hello, I'm the scientific advisor to the new country of Hopeland (soon to be calld Nidesa).
+hello, I'm the scientific advisor to the new country of Hopeland (soon to be calld Asadesa).
 subsequent to my primary policy goals of promoting nuclear energy and the new decimal time system, I am constructing a language for use in Hopeland.
 it will be based primarily on Pandunia, but I want to comb thru the grammar, comparing it against that of Lidepla and Globasa for any good ideas.
 
@@ -295,6 +295,10 @@ I need a better name.  with what words do I have to work?
 global stanardized lexicon (dunol)?
 international simplified lexicon (nasil)?
 
+sinitic words should usually be two-characters, unless they're a suffix.
+but they follow the same compound rules.  so we don't use 終了 (jungliau) because 了 (liau) is already used as a suffix.
+feminine nisba adjectives don't count as -ia, so don't use them like that
+
 
 - there is no definite article **la** (all nouns are markd by postpositions (tho maybe I should use **al** for this anyway)).
 - there is no relative pronoun **jo** or content clause marker **ki** (both are indicated by **di**).
@@ -307,6 +311,51 @@ in addition, many words that were necessarily function words in Pandunia 2.0 are
 - auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).
 
 subordinate clauses, be they relative or otherwise, must always be followed by "di" and then a content word.
+
+# family words
+
+every family word can be expressed by the following pattern:
+  /(fem|nam)? (sangue-|adopta-|gami-|lau-|joven-)?(cin|mama|baba)?-kak\*-ben?/
+
+the last three parts dictate the nature of the relation.  "cin", "mama", or "baba" moves up one generation,
+"kak" moves across one level of cosanguinity, and "ben" moves down one generation.
+"cin"/"mama"/"baba" are never used in the same term as "ben" (they cancel out to make a "kak").
+"mama" and "baba" are also never used in the same term as "cin" or "kak" (such terms must be expanded to phrases or left genderless).
+"fem" and "nam" are never used with "mama"/"baba" because that would be redundant.
+we exclude "fem cin" and "nam cin" because those have dedicated roots.
+
+
+# I think I need a causative suffix separate from the hortative suffix
+
+changing the verbal arguments doesn’t work well for ditransitive verbs
+
+know -> inform/find out
+marifa -> marifa-fa
+
+eat -> feed
+
+
+# words that are more specific in every language but their originators
+
+kitab
+film
+manga
+anime
+rock (’n’ roll)
+drink
+sake
+meeting
+soiree
+crepe
+sombrero
+katana
+jian?
+epee?
+darma?
+karma?
+allah
+bazaar
+
 
 # hyperspecific transcription notes
 
@@ -346,8 +395,9 @@ mb -> imb
 stress: unmarked
 middle chinese ŋ -> g
 well, but it's lost before a yod in cantonese...
-words with velar nasal include stone, ideology, and jade
-sh -> s
+words with ŋ include stone, ideology, and jade
+middle chinese ɦ -> ◌
+mandarin sh -> s, zh -> z, ch -> c
 proper names should be spelled as they are in Mandarin, except that j, q, and x should go to z, g, c, k, s, and h as usual
 
 ## Dutch
@@ -370,6 +420,12 @@ the -> remove
 island -> nesia
 port -> porto
 
+## Fijian
+
+v -> v
+w -> v
+ti -> ci
+
 ## French
 
 stress: accute accent
@@ -379,6 +435,10 @@ stress: accute accent
 ei -> ei
 eu -> eu
 ch -> h
+
+## Hindi
+
+ai (पै) -> e
 
 ## Indo-iranian
 
@@ -402,6 +462,9 @@ tl -> t
 
 u~ʊ~o -> o
 -a~e -> -a
+a~æ -> e (nefta)
+ð~d -> d
+add -a to the end if it ends with voiced obstruent and has a feminine form
 
 ## Portuguese
 

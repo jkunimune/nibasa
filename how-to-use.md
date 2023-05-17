@@ -9,13 +9,13 @@ This is to avoid confusion and ease the learning for people not familiar with th
 When PIL words are pronounced out loud, they should always be pronounced phonetically.
 There are no silent letters, and each letter is only pronounced one way.
 
-- "a" always sounds like the "a" in "father".
+- "a" is always open as in "father".
 - "c" sounds like the "ch" in "charlie".
 - "e" is always short as in "dress".
 - "g" is always hard as in "get".
 - "i" always sounds like the "i" in "machine".
 - "o" always sounds like the "o" in "force".
-- "r" may be smooth as it is in English or trilled as it is in Spanish or Hindi. It is never silent.
+- "r" may be smooth as it is in English or trilled as it is in Spanish or Japanese. It is never silent.
 - "s" is always soft as in "sass"
 - "u" always sounds like the "oo" in "goose".
 - "y" is always a consonant as in "yes". It is never a vowel.
@@ -30,19 +30,20 @@ Compound words are formed by connecting smaller words with hyphens.
 
 Stress falls on the syllable before the last consonant or digraph.
 
-/gé.o/
-/pu.táu̯/
-/kris.tál/
-/dú.ni.a/
-/ka.rí.bu/
-/res.to.rán/
+/*gé*.o/
+/*bá*.sa/
+/pu.*táu̯*/
+/kris.*tál*/
+/*dú*.ni.a/
+/gu.*rú*.be/
+/res.to.*rán*/
 
 ## Grammar
 
-### Basic phrases
+### Noun phrases
 
-Simple phrases are formed by placing two words next to each other.
-The meaning of the second word is modified by the first word.
+Nouns in Pudul do not require articles, and they do not change depending on whether they are plural or singular.
+Adjectives are placed before the noun.
 For example:
 - dai (large) + vaf (dog) = dai vaf (large dog)
 - kafe (coffee) + kup (cup) = kafe kup (coffee cup)
@@ -73,28 +74,36 @@ However, it does divide the components in a way that makes the phrase structure 
 Because adjectives and adverbs are the same in Nibasa, we sometimes use it in situations where we would never use "of" in English.
 - pul put di kaguzi di sak = bag of completely soaked paper
 - pul di put kaguzi di sak = bag full of wet paper
-- pul di sip di kaguzi sak = full and wet paper bag
+- pul di sip di kaguzi sak = full, wet paper bag
 
 ### Basic sentences
 
-Complete sentences are formed in USL by combining postpositional phrases with a predicate.
+The most basic sentence structure in Pudul is
 
-A postpositional phrase ends with one of the six postpositions, which specifies.
-- "ga" indicates the subject of an action. (mi ga jam = I eat)
-- "ro" indicates the object of an action. (ris ro jam = eat rice)
+<u>*subject* ga</u> <u>*predicate*</u>.
+
+The subject can be any noun, and the predicate can be a noun, adjective, or verb.
+
+- mau ga dosti. = The cat is a friend.
+- mau ga rubi. = The cat is red.
+- mau ga kore. = The cat runs.
+
+When a verb requires two nouns, the sentence structure becomes
+
+<u>*subject* ga</u> <u>*object* ro</u> <u>*predicate*</u>.
+
+- mau ga pes ro yam. = The cat eats fish.
+
+The words "ga" and "ro" are called *postpositions*.
+There are three others that can be used to add additional nouns to a sentence.
+
 - "na" indicates the location of an action. (meza na jam = eat at a table)
 - "do" indicates the destination of an action. ()
 - "ze"
-- "e"
 
 If there are multiple postpositional phrases, then "ro" should generally come last;
 some speakers may prefer to place "ga" before or after the other postpositions according to personal style.
 - meza na dosti e mi ga ris ro yam. I eat rice at a table with a friend.
-
-A predicate can be a noun, adjective, or verb.
-- mau ga kore. = The cat runs.
-- mau ga rubi. = The cat is red.
-- mau ga mi di dosti. = The cat is my friend.
 
 Sentences do not start with capital letters.
 
@@ -145,10 +154,12 @@ Negative requests and commands are formed by putting "no" between the verb and t
 
 Conjunctions
 
-Simple comparisons are made by adding the point of comparison followed by "bi ze".
-- mi ga tu bi ze rapide kore abil. = I can run faster than you.
-- mi ga tu bi ze sar bon no. = I'm not as smart as you.
+Simple comparisons are expressed as normal sentences.
+- tren e fei-makin ze, ke fang ga rapide? fei-makin ga rapide. = Which is faster, going by train or going by plane? The plane is faster.
+Simple comparisons are made by adding the point of comparison followed by "bi ze" or "do na".
+- mi ga *tu bi ze* rapide kore abil. = I can run faster *than you*.
+- mi ga *tu do na* sar bon no. = I'm not as smart *as you*.
 
-More precise comparisons can be made by adding "zoi" or "par".
-- mi ga mi-mon bi ze zoi lau. = I am the oldest of us.
-- mi ga tu sam na ????. = I am just as stubborn as you. 
+Adjectives are quantified using "di" like so:
+- mi ga 163 senti-metro di gau. = I am 163 centimeters tall.
+- mi ga 10 nen di lau. = I am 10 years old.

@@ -165,7 +165,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | qu (kw) | ku   | |
 | s (s)   | s    | |
 | s (z)   | z    | |
-| sh (ʃ)  | c?   | |
+| sh (ʃ)  | c?   | cok |
 | th (θ)  | | |
 | th (ð)  | | |
 | v (v)   | v    | |
@@ -316,8 +316,7 @@ which are satisfied for every PIL root.
 
 Proper names follow the same principles as PIL roots, but have more lenient phonotactic constraints and a larger phonetic inventory to allow more faithful transcription.
 They thus should always match the name's native spelling or romanization as closely as possible, except to account for differences between the native spelling system and PIL's
-(for example, the "H" in ).
-Chinese names keep final stops just like sinitic common roots do.
+(for example, the "H" in "Aiti").
 
 Acute accents are used to mark stress in proper names when the native stress is different from the regular Nibasa stress.
 These accents not always included in informal writing.
@@ -376,28 +375,45 @@ Pudul nouns do not have grammatical gender.
 
 ## clauses
 
-A basic clause in PuDuL is composed of a series of postpositional phrases followed by a predicate.
+A basic clause in PuDuL is composed of a series of noun phrases marked with postpositions, followed by a predicate.
 There are six postpositions in PuDuL:
 - ga (nominative)
 - ro (accusative)
 - li (dative, also marks adverbs when they do not precede the verb)
 - ze (ablative)
 - na (locative)
-- e (instrumental)
-
-These postpositional phrases may be in any order.
-By convention, the “ro” phrase is usually placed last.
 
 The predicate may be a verb, adjective, or noun.
 While it is usually clear from semantics whether a content word at the end of the sentence is a verb or an adjective,
 nouns can sometimes be ambiguous.
 In that event, the suffix “ta”, which can be translated as “to be”, should be appended to the predicate.
-Note that in this usage, “ta” is technically not a verb and thus should not take a direct object.
 
-When a verb is used transitively, “ga” marks the agent or the stimulus,
-while “ro” marks the patient or the experiencer.
-When a verb is used intransitively, “ga” marks whichever role is included and “ro” is not used.
-Because of this, a sentence never contains "ro" without "ga".
+The exact assignment of postpositions can be determined from the type of predicate as follows:
+- For the existential predicate "ta", the subject is marked with "ga" and the possessor is marked with "di" (the attributive postposition).
+- For noun predicates, the subject is marked with "ga".
+- For adjectives of state, the subject is marked with "ga".
+- For adjectives of position, the subject is marked with "ga" and the reference is marked with "ze".
+- For adjectives of relation, the subject is marked with "ga" and the reference is marked with "na".
+- For adjectives or verbs of emotion, the stimulus is marked with "ga" and the experiencer is marked with "ro".
+- For verbs of giving and telling, the source is marked with "ga", the theme is marked with "ro", and the destination with "li".
+- For verbs of taking and learning, the recipient is marked with "ga", the theme is marked with "ro", and the source is marked with "li".
+- For verbs of motion, the subject is marked with "ga", the origin is marked with "ze", the destination is marked with "li", and the location or means is marked with "na".
+- For other intranstive verbs, the subject is marked with "ga".
+- For other transitive verbs, the agent is marked with "ga" and the patient is marked with "ro".
+- The auxiliary verb [] forms the causative of a sentence: whatever would normally be marked with "ga" is marked with "li" instead, and the cause is marked with "ga" in its place (unless it’s a verb of giving or taking?).
+- The auxiliary verb [] forms the passive of a sentence: whatever would normally be marked with "ro" is marked with "ga" and what would normally be marked with "ga" is marked with "ze" (unless it’s a verb of giving or taking?).
+
+*CONFLICT*: does that mean that explicitly causative verbs o femotion take "li" while implicitly cuasative verbs of emotion take "ro"? I’d like to match Japanese... に食べさせる vs. を驚かせる? I also want passive and causative to be consisten with each other, and consistent with "don" and "get".
+
+Naturally, adjunct phrases can always be added to specify additional contextual details; "li" marks destinations, goals, and manners, "na" marks locations, paths, and instruments, and "ze" marks origins, causes, and poinst of comparison.
+Such adjuncts often use compound postpositions such as "gol li", "util na", and "bi ze" to clarify their role.
+
+The noun phrases may be in any order.
+The topic is usually placed first,
+and the “ro” phrase is conventionally placed last.
+The subject may always be ommitted when it is implied or nonreferential.
+
+Many Pudul verbs are ambitransitive, meaning they can be used either transitively or intransitively.
 
 Subordinate clauses are simply formed by using a clause as a noun phrase.
 Similarly, relative clauses are formed by using a clause as an adjective.
