@@ -3,13 +3,14 @@
 # phonology
 
 common PIL roots are composed of eighteen distinct consonants and five vowels.
+in this table, IPA is given in parentheses when it differs from the orthography, which is not in parentheses.
 
 |           | labial   | coronal    | palatal | dorsal   | 
 |-----------|----------|------------|---------|----------|
 | nasal     | m        | n          |         | ng (ŋ)   |
-| stop      | p (pʰ) b | t (tʰ) d   | c (t͡ʃʰ~ʃ) | k (kʰ) g |
-| fricative | f        | s z (z~d͡z) |         | h (x~h)  |
-| glide     | v (w~v)  | l r (r~ɹ)  | y (j)   |          |
+| stop      | p (pʰ) ⋅ b | t (tʰ) ⋅ d   | c (t͡ʃʰ~ʃ) | k (kʰ) ⋅ g |
+| fricative | f        | s ⋅ z (z~d͡z) |         | h (x~h)  |
+| glide     | v (w~v)  | l ⋅ r (r~ɹ)  | y (j)   |          |
 
 |       | front | back |
 |-------|-------|------|
