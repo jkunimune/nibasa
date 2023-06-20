@@ -8,7 +8,7 @@ in this table, IPA is given in parentheses when it differs from the orthography,
 |           | labial   | coronal    | palatal | dorsal   | 
 |-----------|----------|------------|---------|----------|
 | nasal     | m        | n          |         | ng (ŋ)   |
-| stop      | p (pʰ) ⋅ b | t (tʰ) ⋅ d   | c (t͡ʃʰ~ʃ) | k (kʰ) ⋅ g |
+| stop      | p (pʰ) ⋅ b | t (tʰ) ⋅ d   | c (t͡ʃʰ) | k (kʰ) ⋅ g |
 | fricative | f        | s ⋅ z (z~d͡z) |         | h (x~h)  |
 | glide     | v (w~v)  | l ⋅ r (r~ɹ)  | y (j)   |          |
 
