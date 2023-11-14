@@ -3,8 +3,7 @@
 ## Spelling and pronunciation
 
 USL words are written using a simplified form of the Latin alphabet.
-The letters *q* and *x* are not used in basic USL words.
-This is to avoid confusion and ease the learning for people not familiar with the Latin alphabet.
+The letters *j*, *q*, and *x* are not used in basic USL words.
 
 When PIL words are pronounced out loud, they should always be pronounced phonetically.
 There are no silent letters, and each letter is only pronounced one way.
@@ -28,7 +27,7 @@ Compound words are formed by connecting smaller words with hyphens.
 
 ## stress
 
-Stress falls on the syllable before the last consonant or digraph.
+Stress falls on the syllable before the last consonant or diphthong.
 
 /*gé*.o/
 /*bá*.sa/
@@ -130,10 +129,10 @@ Yes-or-no questions are formed by adding "ke" ("what") to the end of a sentence.
 
 Nibasa does not have a word for "yes".
 To answer a yes-or-no question in the affirmative, simply repeat the last word before "ke".
-To answer a yes-or-no question in the negative, one can simply use "no" ("not"),
-or repeat the last word of the question followed by "no".
+To answer a yes-or-no question in the negative, one can simply use "nai" ("not"),
+or repeat the last word of the question followed by "nai".
 - abil. = Yes, I can.
-- abil no. = No, I can't.
+- abil nai. = No, I can't.
 
 Open questions are not specially marked, as they are apparent from the presence of the word "ke",
 which can modify a noun or act as a noun of its own.
@@ -149,8 +148,8 @@ Different words imply different levels of directness.
 - mun kai debe. = You have to open the door.
 - mun kai neses. = You need to open the door.
 
-Negative requests and commands are formed by putting "no" between the verb and the modal word.
-- mun kai no neses. = You must not open the door.
+Negative requests and commands are formed by putting "nai" between the verb and the modal word.
+- mun kai nai yau. = You must not open the door.
 
 Conjunctions
 
@@ -158,7 +157,7 @@ Simple comparisons are expressed as normal sentences.
 - tren e fei-makin ze, ke fang ga rapide? fei-makin ga rapide. = Which is faster, going by train or going by plane? The plane is faster.
 Simple comparisons are made by adding the point of comparison followed by "bi ze" or "do na".
 - mi ga *tu bi ze* rapide kore abil. = I can run faster *than you*.
-- mi ga *tu do na* sar bon no. = I'm not as smart *as you*.
+- mi ga *tu do na* sar bon nai. = I'm not as smart *as you*.
 
 Adjectives are quantified using "di" like so:
 - mi ga 163 senti-metro di gau. = I am 163 centimeters tall.

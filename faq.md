@@ -73,6 +73,15 @@ That's not to say that recognizability is the only factor that plays into which 
 Other things, like length, ease of pronounciation, cultural significance, and how it affects the diversity of the lexicon are also considered.
 But recognizability is the most important determining factor.
 
+### Why use a spoken language rather than a sign language?
+
+While sign languages have many advantages over spoken languages for in-person communication,
+they have two major disadvantages that make a spoken language preferable as an international language.
+First, there is no simple way to phonetically write a sign language,
+so sign languages are typically written with logagrams (for example, the capitalized English words used to write American Sign Language).
+Second, far more people know spoken languages than know sign languages,
+so a language based on spoken languages' shared vocabulary is more familiar to more people than any sign language can be.
+
 ### Isn't "r" difficult to pronounce for many people?
 
 Yes, but we use it in Nibasa because word recognizability is more important than easy pronounceability.

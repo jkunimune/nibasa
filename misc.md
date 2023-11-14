@@ -160,6 +160,11 @@ between v and w, the choice is clear.
 - Sanskrit languages tend to use both \[v\] and \[w\] as variations on /ʋ/, but don't use the Latin alphabet.
 
 
+# needed suffixen
+
+I lack a good collective suffix.  something to make knowledge -> lore, island -> archipelago, Christian -> Christendom, text -> literature, human -> humanity, client -> clientelle
+
+
 # other stuff
 
 hello, I'm the scientific advisor to the new country of Hopeland (soon to be calld Asadesa).
@@ -315,13 +320,13 @@ subordinate clauses, be they relative or otherwise, must always be followed by "
 # family words
 
 every family word can be expressed by the following pattern:
-  /(fem|nam)? (sangue-|adopta-|gami-|lau-|joven-)?(cin|mama|baba)?-kak\*-ben?/
+  /(fem|mac)? (sangue|adopta|gami|lau|joven)?-(cin|mama|baba)\*-(kak)\*-(ben)\*/
 
 the last three parts dictate the nature of the relation.  "cin", "mama", or "baba" moves up one generation,
 "kak" moves across one level of cosanguinity, and "ben" moves down one generation.
 "cin"/"mama"/"baba" are never used in the same term as "ben" (they cancel out to make a "kak").
 "mama" and "baba" are also never used in the same term as "cin" or "kak" (such terms must be expanded to phrases or left genderless).
-"fem" and "nam" are never used with "mama"/"baba" because that would be redundant.
+"fem" and "mac" are never used with "mama"/"baba" because that would be redundant.
 we exclude "fem cin" and "nam cin" because those have dedicated roots.
 
 
@@ -355,6 +360,17 @@ darma?
 karma?
 allah
 bazaar
+
+# causatives
+
+in Nibasa, get indicates an intransitive or passive transitive verb,
+while don indicates an active transitive verb.
+neither is ever necessary.
+sana makes the causative of a verb, and is usually only used for the causatives of transitive verbs (since the causative of an intransitive can effectively be formed with don, tho sana also works.).
+but do "don" verb phrases mark the target with "li" or "ro"?
+in English, we have "make" as a causative and "get" as a passivizer.
+in Japanese, "give" can mark a beneficiary, "get" can be a passivizer.
+in Hindi, "go" sometimes marks intransitive and "give" sometimes marks transitive.
 
 
 # hyperspecific transcription notes
@@ -398,7 +414,7 @@ well, but it's lost before a yod in cantonese...
 words with ŋ include stone, ideology, and jade
 middle chinese ɦ -> ◌
 mandarin sh -> s, zh -> z, ch -> c
-proper names should be spelled as they are in Mandarin, except that j, q, and x should go to z, g, c, k, s, and h as usual
+proper names should be spelled as they are in Mandarin, except that j, and x should go to z, g, s, and h as usual (but q -> c always)
 
 ## Dutch
 
@@ -419,6 +435,7 @@ saint -> sante
 the -> remove
 island -> nesia
 port -> porto
+-er -> -er in names (-a normally)
 
 ## Fijian
 
@@ -435,6 +452,7 @@ stress: accute accent
 ei -> ei
 eu -> eu
 ch -> h
+-er -> -er in names (-a normally)
 
 ## Hindi
 
@@ -447,8 +465,9 @@ kʰ -> k
 ## Japanese
 
 stress: unmarked
--shima -> nesia if it's an actual island
-in proper names, [ɕ] and [d͡ʑ] -> sh and zh, and [t͡s] -> ts
+-shima -> -shima
+in proper names, [ɕ] -> sh, [d͡ʑ] -> zy, and [t͡s] -> ts
+ou -> o, ei -> ei
 
 ## Korean
 
@@ -505,3 +524,7 @@ remove any prefixen
 ## Tswana
 
 ts -> ts
+
+## Vietnamese
+
+final nh -> n

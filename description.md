@@ -18,13 +18,14 @@ in this table, IPA is given in parentheses when it differs from the orthography,
 | mid   | e     | o    |
 | open  | a     |      |
 
-there exist several additional letters that are only used in proper names:
+there exist several additional letters that are only used in proper names and culturally specific terms (like arts and dishes):
 - “zh” for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
 - “sh” for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
 - “gh” for the voiced dorsal fricative (ɣ\~ʁ)
 - “th” and “dh” for the voiceless and voiced dental fricatives (θ and ð)
 - “lh” for the voiceless lateral approximant or lateral fricative (l̥\~ɬ)
 - “mh”, “nh”, “ngh”, and “rh” for voiceless sonorants (m̥, n̥, ŋ̊, and r̥\~ɹ̥)
+- "ts" for the voiceless alveolar affricate (t͡s)
 - “kc” and “gc” for the voiceless and voiced laminal clicks (k͡|\~k͡ǂ and ɡ͡|\~ɡ͡ǂ)
 - “q” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
 - “x” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
@@ -39,7 +40,7 @@ in general, there are two firm rules that are never violated for any PIL word:
 - the semivowels “y” and “v” are always followed by a vowel.
 - adjacent identical consonants are forbidden.
 
-there are also several stricter rules that apply to common PIL roots (as opposed to proper names).
+there are also several stricter rules that apply to common PIL roots (as opposed to proper names or culturally specific terms).
 - the onset of every syllable is either a single consonant or an obstruent followed by a liquid.
 - the coda of a syllable is a single consonant.
 - adjacent obstruents always agree in voicing.
@@ -48,7 +49,7 @@ there are also several stricter rules that apply to common PIL roots (as opposed
 - the letters "s”, "z”, and "c” never occur next to each other.
 - semivowels never appear adjacent to their corresponding vowel.
 - a word never ends with a voiced obstruent.
-- the vowel sequences “ei” and “ou” only appear at the ends of a syllables, and “eu” is never used.
+- the vowel sequence “eu” is never used.
 - roots typically contain no more than three syllables.
 
 while there is no minimum length for common roots,
@@ -63,13 +64,13 @@ Stress falls before the last consonant or closed diphthong.
 /pu.táu̯/
 /kris.tál/
 /dú.ni.a/
-/ka.rí.bu/
+/gu.rú.be/
 /res.to.rán/
 
 ## capitalization
 
 By convention, capital letters are used to mark proper names.
-PIL roots should always start with lowercase letters, even at the beginning of a sentence.
+PIL roots always start with lowercase letters, even at the beginning of a sentence.
 
 
 # vocabulary
@@ -101,7 +102,7 @@ or from a combination of several.
 
 Latin vocabulary has been...
 
-| zi (fon) | tarjum | misal |
+| zi (fon) | tarcuma | misal |
 |----------|--------|-------|
 | c (k)| k    | |
 | c (t͡s)| s    | |
@@ -156,7 +157,7 @@ English is currently the most widely spoken...
 Note that these rules only apply for words that originate from English.
 Most words shared between Nibasa and English originally come from Latin, which has its rules above.
 
-| zi (fon) | tarjuma | misal |
+| zi (fon) | tarcuma | misal |
 |----------|--------|-------|
 | c (k)   | k    | |
 | c (s)   | s    | |
@@ -166,7 +167,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | qu (kw) | ku   | |
 | s (s)   | s    | |
 | s (z)   | z    | |
-| sh (ʃ)  | c?   | cok |
+| sh (ʃ)  | sy?   | cok |
 | th (θ)  | | |
 | th (ð)  | | |
 | v (v)   | v    | |
@@ -194,7 +195,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 
 Because of the spread of Islam...
 
-| zi (fon) | tarjuma | misal |
+| zi (fon) | tarcuma | misal |
 |----------|--------|-------|
 | ج (d͡ʒ)  | c    | |
 | ه (h)   | h    | |
@@ -229,7 +230,7 @@ Nouns of variable gender and adjectives are transcribed as masculine, unless doi
 
 Sanskrit was the...
 
-| zi (fon) | tarjuma | misal |
+| zi (fon) | tarcuma | misal |
 |----------|--------|-------|
 | (bʰ)    | b    ||
 | (p)     | p    ||
@@ -257,7 +258,7 @@ For palatal consonants, initial glides, and final nasals, the spelling depends o
 
 Note that this table does not include stop codas, which are maintained from Old Chinese.
 
-| zi (fon) | tarjuma | misal |
+| zi (fon) | tarcuma | misal |
 |----------|--------|-------|
 | b (p)    | b      |       |
 | d (t)    | d      |       |
@@ -325,10 +326,36 @@ They are not used for names from tonal or quasi-tonal languages, such as Thai or
 
 ## word derivation
 
-compound words are formed by connecting two existing words using a hyphen “-”.
-A middle dot “·” is also acceptable, according to preference.
+Many Nibasa words are formed by combining two existing roots into a compound word.
+The two base words are connected using a hyphen “-”.
 The first word modifies the meaninng of the second,
 and the part-of-speech is inherited from the second.
+For example, (put a good compound noun example here).
+
+While there are no dedicated suffixes in Nibasa (every morpheme can stand as a word on its own),
+some words are used as suffixes especially often.
+These include:
+- -{sei}, which indicates the object or medium of an action
+- -{zen}, which indicates a person who performs an action or is associated with an idea
+- -{gu}, which indicates a tool used to perform an action or handle an object
+- -{makina}, which indicates a machine used to perform an action
+- -{sito}, which indicates a place where an action occurs or an object can be found
+- -{ki}, which indicates a period of time
+- -{kolor}, which indicates the color of an object
+- -{rang}, which forms the ordinals of numbers
+- -{su}
+- -{do}
+- -{te}
+- -{fa}
+
+This structure is especially common for adjectives.
+A compound adjective typically comprises a noun, indicating the aspect or quality the adjective modifies,
+and one of {bon} or {dus}, {dai} or {mini}, {poli} or {sau}, {tele} or {karip}, {fasil} or {muskil}, or {teza} or {mirdu}.
+The antonym of the compound adjective can then be formed by inverting the second element.
+
+Compound postpositions also exist to describemany of the specific ways a noun can relate to a sentence, though these are not true compound words and accordingly use spaces instead of hyphens.
+For example, {tema pe} is used as a postposition to indicate the topic of a discussion,
+and {bi ze} is used to indicate the reference point of a comparison.
 
 ## pseudomorphemes
 
@@ -346,10 +373,12 @@ The context determines the word's part of speech.
 Generally, nouns are followed by postpositions, verbs come at the ends of clauses,
 adjectives come before nouns, and adverbs come before verbs.
 
-Note in the above example that there are no true participles in PUDUL,
-and accordingly no distinction between active or passive participles.
+Note in the above example that verbal roots used as adjectives often serve as participles.
+A more explicit way to form a participle is to suffix it with "nun" (for example, "ai nun").
+This is required if the participle has arguments.
+There is no distinction between active or passive participles.
 Most cases where the difference is important are satisfied by the suffixes
-"-jen" ("-er"), "-cei" ("-ee"), "-fa" ("-ing"), and "-lio" ("-ed").
+"-jen" ("-er"), "-sei" ("-ee"), "-fa" ("-ing"), and "-lio" ("-ed").
 <!--TODO how awesome would it be to automatically link to those words in the dictionary-->
 
 ## phrases
@@ -409,18 +438,18 @@ The exact assignment of postpositions can be determined from the type of predica
 Naturally, adjunct phrases can always be added to specify additional contextual details; "li" marks destinations, goals, and manners, "na" marks locations, paths, and instruments, and "ze" marks origins, causes, and poinst of comparison.
 Such adjuncts often use compound postpositions such as "gol li", "util na", and "bi ze" to clarify their role.
 
-The noun phrases may be in any order.
-The topic is usually placed first,
-and the “ro” phrase is conventionally placed last.
+The topic is usually placed first and the comment last,
+but other than that, the noun phrases may be in any order.
 The subject may always be ommitted when it is implied or nonreferential.
 
 Many Pudul verbs are ambitransitive, meaning they can be used either transitively or intransitively.
 
-Subordinate clauses are simply formed by using a clause as a noun phrase.
-Similarly, relative clauses are formed by using a clause as an adjective.
+Auxiliary verbs go after the content verb.
+
+Subordinate clauses are formed by adding "nun" after the verb.
+Relative clauses appear before the noun they modify, and are also suffixed with "nun".
 The role of the head noun in the relative clause is encoded only with a gap
-(the gap should be a missing postpositional phrase; hanging postpositions are not allowed in Pudul)
-A relative clause that contains postpositions is alwaly followed by “di” to clarify the sentence structure.
+(the gap should be a missing postpositional phrase; hanging postpositions are not allowed in Pudul).
 
 ## existential and possessive statements
 
@@ -432,28 +461,27 @@ For example, the sentence "I have a cat." is expressed as "mi di mau ga ta.".
 
 ## Sentence-level markings
 
-Tense and aspect are usually either indicated with specific phrases like “pos den na” (“tomorrow”), or left unspecified.
-The most common tense and aspect statements can be expressed with simple adverbs/auxiliaries.
-The most common ones are:
-- lio (past tense)
-- zai (present tense)
-- te (progressive aspect)
-- fa (perfective aspect)
+Tense is indicated with specific phrases like “pos den pe" (“tomorrow”), or left unspecified.
+Commonly used phrases include:
+- goku pe = in the past
+- henzai pe = currently
+- futuro pe = in the future
+- ta (progressive aspect)
+- = already
 - ada (habitual aspect)
 
-Mood and polarity are marked with particles immediately before the predicate.
-The most common particles particles are:
+Mood is marked with particles immediately before the predicate.
+The most common mood particles are:
+- nai (negative)
 - ke (interrogative)
 - latif (polite imperative)
-- neses (impolite imperative)
-- ya (positive)
-- no (negative)
+- yau (impolite imperative)
 All of these particles may also be placed before the predicate with no difference in meaning except “ke”,
 which would be interpreted as a direct object.
 
 There is no subjunctive or hypothetical mood in Pudul.
-Conditional sentences are apparent from the inclusion of a conditional clause that ends with “gar na”.
-For example, “tu ga bina gar na jen ga lai” (“if you build it, they will come”).
+Conditional sentences are apparent from the inclusion of a conditional clause that ends with “nun gar pe.
+For example, “tu ga bina nun gar pe jen ga lai” (“if you build it, they will come”).
 
 Voice is not marked in Pudul.
 A passive voice can be approximated by reversing the usual order of the “ga” phrase and “ro” phrase.
