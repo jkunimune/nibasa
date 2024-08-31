@@ -138,7 +138,7 @@ Latin vocabulary has been...
 | -ssion  | -si   | agresi |
 | -sion   | -zi  | in-kluzi |
 
-\* Nouns describing people and adjectives all take “-e” instead of “-a” or “-u”.
+\* Nouns describing people and adjectives all take “-e” instead of “-a” or “-o”.
 \*\* Masculine or neuter "-i” is expanded to "-iu” for the names of chemical elements.
 \*\*\* Feminine or Greek “-i” is expanded to “-ia” for words representing places that would otherwise be two syllables.
 
@@ -149,7 +149,9 @@ prefixing forms should only be used if all other forms are now rare.
 Generally, “c” is soft when followed by “i”, “e”, or “y” and hard otherwise.
 However, note that Nibasa treats “c” as hard if it is hard in Russian (as descendants of Greek "κ” usually are).
 
-Generic suffixes may be omitted entirely if they have been lost in Spanish and Portuguese.
+Generic suffixes are omitted entirely if they have been lost in English, Spanish, and Portuguese and doing so does not violate the phonotactics.  Note that the suffix is not considered lost from English if there's still a silent "-e" (so "lake" is still "lako", not "lak").
+
+Words recently loaned from Latin that retain their full Latinate suffix in modern languages, such as "virus", naturally also retain their full suffix in Nibasa.
 
 ### English
 
@@ -458,6 +460,34 @@ Existential statements are formed with the predicate “ta”.
 There is no PUDUL verb meaning “to have”.
 Posession is indicated by combining the genitive particle “di” with the existential predicate “ta”.
 For example, the sentence "I have a cat." is expressed as "mi di mau ga ta.".
+
+## auxiliary verbs
+
+The following table summarizes the potential and causative auxiliary verbs.
+
+| PUDUL | English |
+|:------|:--------|
+| konong | potential (I can) |
+| konong nai | inability (I cannot) |
+| neses nai | (I don't have to) |
+| neses | requirement (I must) |
+| permisi | permission (I may) |
+| permisi nai | forbiddance (I may not) |
+| debe nai | non-obligation(I don't have to) |
+| debe | obligation (I must) |
+
+The following table summarizes the auxiliary verbs of aspect.
+
+| PUDUL | Aspect |
+|:------|:--------|
+| vancen | perfect (I have done) |
+| klin | habitual (I tend to do) |
+| kaisi | incohative (I start doing) |
+| keizuk | continuous (I am doing) |
+| fin | cessative (I stop doing) |
+
+There are no auxiliary verbs for conditionality.
+A clause is implied to be conditional when it is preceded by a "… nun gar na" phrase.
 
 ## Sentence-level markings
 

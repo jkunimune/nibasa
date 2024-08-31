@@ -93,7 +93,7 @@ They must be followd by a common noun to identify them (e.g. Franse desa, Suahil
 
 in general, I beleve that descriptions like this are an unnecessary and inefficient way to learn a language.  however, since I know the language nerds here will be interested, here is a precise linguistic description of the aspect particles and thematic roles in Nibasa.
 
-in Nibasa, there are a handful of postpositions that can be used to mark the arguments of a sentence.  when a verb is transitive, the agent is he subject (markd with **ga**), and the patient is the direct object (markd with **ro**).  for emotions like happiness and anger, the experiencer is the patient and the stimulus is the agent, tho note that opinions and senses like hatred and vision are not considerd emotions.
+in Nibasa, there are a handful of postpositions that can be used to mark the arguments of a sentence.  when a verb is transitive, the agent is the subject (markd with **ga**), and the patient is the direct object (markd with **ro**).  for emotions like happiness and anger, the experiencer is the patient and the stimulus is the agent, tho note that opinions and senses like hatred and vision are not considerd emotions.
 
 aside from subjects and direct objects, postpositions are fairly loose in Nibasa.  the intention is that speakers will use whatever postposition feels most natural to them, which will lead to a good deal of variation.  this is acceptable as long as it does not impact intelligibility.  some examples of common variations:
 
@@ -103,7 +103,7 @@ aside from subjects and direct objects, postpositions are fairly loose in Nibasa
 | explain it to me | mi na ming fa | mi do ming fa |
 | near the city | siti di karibu | siti ze karibu |
 
-in Nibasa, an unmarked verb is, depending on its semantics, either a state (such as **blu**, which means "to be blue"), a perfective action (like **yam**, which means "to eat"), or an ambiguous combination of the two (like **furi**, which means "to be angry" or "to anger").  "ta" can emphasize that a state is stative, or force an ambiguous verb to be unambiguously stative.  "fa" can emphasize that an action is perfective or force an ambiguous verb to be perfective.  thus, "furi ta" means "to be angry" and "furi fa" means "to anger".
+in Nibasa, an unmarked verb is, depending on its semantics, either a state (such as **blu**, which means "to be blue"), a perfective action (like **yam**, which means "to eat"), or an ambiguous combination of the two (like **furi**, which means "to be angry" or "to anger").  "ta" can emphasize that a state is stative, or force an ambiguous verb to be unambiguously stative.  "fa" can emphasize that an action is perfective or force an ambiguous verb to be perfective.  thus, "furi ta" means "to be angry" and "furi fa" means "to get angry".
 
 "ta" can also be added to a semantic action, or to a verb phrase that already has "fa", to convert it to an imperfective action.  for example, "yam ta" means "to be eating", and "blu fa ta" means "to be turning blue".  analagously, "fa" can be added to a semantic state or to a verb phrase that already has "ta" to convert it to a perfective aspect, which corresponds to the causative incohative of the state.  so "blu fa" means "to turn blue" and "yam ta fa" means "to turn into something that is eating" ("ta fa" is not really useful in practice).
 
@@ -123,6 +123,8 @@ this assumes that every verb is semantically either a state (blue), a perfective
 
 there is no passivizer in Nibasa.  if it turns out to be necessary, I will introduce one -- probably "se", or maybe "get".
 but for now, I think reversing the order of the arguments should accomplish the same thing more simply.
+
+I wonder if it would be better to try active/stative alinement.  I would haff to change "ga" and "ro", since those are sourced pretty nominative-acusatively.  I wonder if I could so something clever like "fi" for agent and "ti" for patient, from "fa" and "ta".
 
 # on the spelling of /w/
 
@@ -162,7 +164,7 @@ between v and w, the choice is clear.
 
 # needed suffixen
 
-I lack a good collective suffix.  something to make knowledge -> lore, island -> archipelago, Christian -> Christendom, text -> literature, human -> humanity, client -> clientelle
+I lack a good collective suffix.  something to make knowledge -> lore, island -> archipelago, Christian -> Christendom, text -> literature, human -> humanity, client -> clientelle, leaf -> folliage
 
 
 # other stuff
@@ -340,6 +342,27 @@ marifa -> marifa-fa
 eat -> feed
 
 
+# I've been thinking of VSO
+
+I think it's easier to understand head-initial languages because whenever you hear a word you already know its part of speech and role in the sentence, but that's not backd up by evidence as far as I know.  I could check.
+
+it would also allow English-like prepositions.  the only trick is I would need to find one for the patient (I can use "bai" and "tu" for agent and theme).  maybe "da" from "the".
+
+in terms of word bilding:
+- head-initial would work better for arabic prefixes m-, mu, and ibn, english prepositions, english prefixes un- and non- and not and get and make/turn, and probably some swahili prefixes
+- head-final would work better for persian suffix -kan, and latin suffix -logi, -plika, and chinese suffixen -du
+- latin directionals re-, es-, in-, and frends would work fine either way
+
+the main issue is that -fa, -ta, -kan, and varius other suffixes are based on natlang suffixes, so I would probably need to find alternatives that would be good prefixes.  maybe ma- for place from Arabic (note it would be more general than -kan, which is only for bildings).  maybe get- for change and bi- for state???  I'm sure Swahili also has some good prefixes.  at least re- and es- and in- and al. would still work as prefixes.
+
+what if I get the best of both worlds by simply abandoning the precept of pure head direction?  I can have VSO and prepositions, with adjectives before nouns and keep my suffixes.  I gess the place where it gets hairy is relative clauses, subordinate clauses, and compound verbs.  but to first order, I think I should be able to make something similar to Mandarin work.  I should try to read up on some VSO languages other than Hawaiian.
+
+
+# articles
+
+I could abandon the precept of no articles and lean more into a hawaiian grammar, in order to avoid making up subject and object prepositions.  tho onestly, given that I'm afraid my language is too similar to english already for something that's not english (a false frend of a language, if you will), using "da" for actual "the" mite make that worse.  and anyway, it's not like hawaiian doesn't have subject and object prepositions.
+
+
 # words that are more specific in every language but their originators
 
 kitab
@@ -361,17 +384,23 @@ karma?
 allah
 bazaar
 
+I think in general it's better to use the original meanings.  "bazar" is a good word for "market" should I need it, "drinke" is a great word for drink, and cetera.
+
 # causatives
 
-in Nibasa, get indicates an intransitive or passive transitive verb,
-while don indicates an active transitive verb.
+in Nibasa, "get" indicates an intransitive or passive transitive verb,
+while "don" indicates an active transitive verb.
 neither is ever necessary.
-sana makes the causative of a verb, and is usually only used for the causatives of transitive verbs (since the causative of an intransitive can effectively be formed with don, tho sana also works.).
 but do "don" verb phrases mark the target with "li" or "ro"?
+
+auxiliary verbs can also be transitive or intransitive.
+adding a transitive auxiliary verb to a transitive content verb creates a ditransitive verb phrase.
+
+sana makes the causative of a verb, and is usually only used for the causatives of transitive verbs (since the causative of an intransitive can effectively be formed with don, tho sana also works.).
+
 in English, we have "make" as a causative and "get" as a passivizer.
 in Japanese, "give" can mark a beneficiary, "get" can be a passivizer.
 in Hindi, "go" sometimes marks intransitive and "give" sometimes marks transitive.
-
 
 # hyperspecific transcription notes
 
