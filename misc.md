@@ -132,9 +132,9 @@ the following table shows the use of the four relevant graphemes in Pandunia's s
 
 | basha           | ⟨v⟩ di valu  | ⟨w⟩ di valu  |
 | english         |      v      |      w      |
-| espanya         |     b~β     |      w*     |
-| franse          |      v      |      w*     |
-| turki           |      v      |      v*     |
+| espanya         |     b~β     |             |
+| franse          |      v      |             |
+| turki           |      v      |             |
 | suahili         |      v      |      w      |
 | malayu          |      v      |      w      |
 | viete           |      v      |             |
@@ -158,8 +158,15 @@ the goal is to make words as recognizable as possible.  that means matching nati
 between v and w, the choice is clear.
 - Latin-influenced languages exclusively uses ⟨v⟩.
 - the Arabic language uses /w/, but doesn't use the Latin alphabet.  when Arabic words are spelld with the Latin alphabet in Turkish and Swahili, they tend to use both ⟨v⟩ and ⟨w⟩ respectively.
-- Middle Chinese has /w/, which is spelld ⟨w⟩ in most Chinese-influenced langauges, but none of them use the Latin alphabet as their primary script.
+- Middle Chinese has /w/, which is spelld ⟨w⟩ in most Chinese-influenced languages, but none of them use the Latin alphabet as their primary script.
 - Sanskrit languages tend to use both \[v\] and \[w\] as variations on /ʋ/, but don't use the Latin alphabet.
+
+Let's look at some specific examples.  of words that start with v:
+- "waha", "waraka", and "waris" could go either way but are probably better with "w"
+- "wik", "wakcop", "widou", "wan-gu", "wancen", "wei", and "Wikipedia" are better with "w"
+- "waksina", "wale", "walu", "wampir", "wandal", "wegeta", "wende", "wersi", "wioleta", "wise", "wiza", "tele-wizi", "woto", and "woze" are all better with "v"
+
+It's tuff because there is a limit to how much you can change a word and have people still intuitively recognize it, and I feel like this crosses that line.
 
 
 # needed suffixen
@@ -168,42 +175,6 @@ I lack a good collective suffix.  something to make knowledge -> lore, island ->
 
 
 # other stuff
-
-hello, I'm the scientific advisor to the new country of Hopeland (soon to be calld Asadesa).
-subsequent to my primary policy goals of promoting nuclear energy and the new decimal time system, I am constructing a language for use in Hopeland.
-it will be based primarily on Pandunia, but I want to comb thru the grammar, comparing it against that of Lidepla and Globasa for any good ideas.
-
-tese | eng:thesis, por:tese, spa:may:tesis, fra:thèse, deu:These, rus:те́зис (tézis), tur:tez, ara:, fas:تز (tez), jpn:テーゼ (tēze), kor:테제 (teje) + swa:utetezi
-alkasus, alkol, alkali -> kasus, kohol, kali
-bucha -> buchar (check transcription of "-er")
-gomu -> kauchu
-klien -> kek
-kave, tolera, rezerve -> kava, toler, rezerva
-tong -> tung
-hogo sanduku -> foto sanduku
-minor -> legu
-an zai -> hin
-astatin -> astate
-redi -> junbei
-dokumen, restorante, hidrargente -> dokum, restoran, hidrargen
-zou -> zo
-zoku -> zuka
-Koran -> Quran
-lin -> liny to make room for lin=neighbor
-lanca -> jeta to make room for lance
-pulse could actually be better than darbe?
-
-one simple root dictionary, organized by lexical category
-one printed dictionary
-one printed textbook
-one printed light learning book (with basic words, examples, useful phrases, and a small glossary)
-book of word puzzles
-
-cut off all unnecessary letters; words that end in consonants are a-ok and will help reduce hiatus
-
-the suffixes *ce*, *jen*, *gu*, *fa*, and *te* are often left out when the context is clear, much like in English:
-- *mural*, short for *mural art*
-- *tele-fon*, short for *tele-fon-macin*
 
 English relative clauses restrict several useful formations:
 putting a prepositional phrase before the part of the sentence with the relative pronoun
@@ -260,12 +231,10 @@ and therefore does not have immediate practical value or a large body of literat
 there are still reasons you might want to learn to speak it.
 
 compounds may be adopted as roots in Nibasa, but only if
-1. the compound itself is internationally used, not just the components
-2. neither component of the compound is itself a Nibasa root, and
-3. neither component already summarizes the meaning of the compound (e.g. the 学 in 学習)
+1. the compound itself is internationally used, not just the components, and
+2. neither component of the compound is itself a Nibasa root.
 
-these rules can be suspended if the compound is extremely international and there is no recourse (such as *ramen*).
-also, "im-" and "kom-" are fine because they're not usually transparent enuff to cause confusion.
+"im-" and "kom-" are fine because they're not usually transparent enuff to cause confusion.
 
 should forward be fronte or pro?
 definitely fronte.  peeple will think "pro" means "in favor" or "professional";
@@ -303,7 +272,7 @@ global stanardized lexicon (dunol)?
 international simplified lexicon (nasil)?
 
 sinitic words should usually be two-characters, unless they're a suffix.
-but they follow the same compound rules.  so we don't use 終了 (jungliau) because 了 (liau) is already used as a suffix.
+but they follow the same compound rules.  so we don't use 終了 (jungliao) because 了 (liao) is already used as a suffix.
 feminine nisba adjectives don't count as -ia, so don't use them like that
 
 
@@ -313,7 +282,7 @@ feminine nisba adjectives don't count as -ia, so don't use them like that
 - there is no passive auxiliary **be** (the subject and object are marked with postpositions, so they can be swapd around freely).
 
 in addition, many words that were necessarily function words in Pandunia 2.0 are effectively content words in Nibasa, so you don't need to know their part of speech to parse a sentence.  this includes
-- pronouns **mi**, **tu**, and **ye**, which are just normal nouns (**se** merges with **auto**)
+- pronouns **mi**, **tu**, and **ye**, which are just normal nouns (**se** merges with **aoto**)
 - demonstratives **ni**, **go**, **yo**, and **ke**, and quantifiers **un**, **yo**, **eni**, **pan**, which are just adjectives that can also function as nouns (**poli** merges with **ba**)
 - auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).
 
@@ -322,7 +291,7 @@ subordinate clauses, be they relative or otherwise, must always be followed by "
 # family words
 
 every family word can be expressed by the following pattern:
-  /(fem|mac)? (sangue|adopta|gami|lau|joven)?-(cin|mama|baba)\*-(kak)\*-(ben)\*/
+  /(fem|mac)? (sangue|adopta|gami|lao|joven)?-(cin|mama|baba)\*-(kak)\*-(ben)\*/
 
 the last three parts dictate the nature of the relation.  "cin", "mama", or "baba" moves up one generation,
 "kak" moves across one level of cosanguinity, and "ben" moves down one generation.
@@ -346,21 +315,39 @@ eat -> feed
 
 I think it's easier to understand head-initial languages because whenever you hear a word you already know its part of speech and role in the sentence, but that's not backd up by evidence as far as I know.  I could check.
 
-it would also allow English-like prepositions.  the only trick is I would need to find one for the patient (I can use "bai" and "tu" for agent and theme).  maybe "da" from "the".
+it would also allow English-like prepositions.  the only trick is I would need to find one for the patient (I can use "bai" and "tu" for agent and theme).  maybe "da" from "the"?
 
 in terms of word bilding:
-- head-initial would work better for arabic prefixes m-, mu, and ibn, english prepositions, english prefixes un- and non- and not and get and make/turn, and probably some swahili prefixes
+- head-initial would work better for arabic prefixes m-, mu, and ibn, swahili prefixes mwana-, u-, and m-, english prepositions _from_, _of_, and maybe _en_ and _tu_, english prefixes _un-_ and _non-_ and _not_ and _get_ and _make/turn_; plus I could use _dat_ for introducing subordinate clauses.
 - head-final would work better for persian suffix -kan, and latin suffix -logi, -plika, and chinese suffixen -du
 - latin directionals re-, es-, in-, and frends would work fine either way
 
-the main issue is that -fa, -ta, -kan, and varius other suffixes are based on natlang suffixes, so I would probably need to find alternatives that would be good prefixes.  maybe ma- for place from Arabic (note it would be more general than -kan, which is only for bildings).  maybe get- for change and bi- for state???  I'm sure Swahili also has some good prefixes.  at least re- and es- and in- and al. would still work as prefixes.
+the main issue is that -fa, -ta, -kan, and varius other suffixes are based on natlang suffixes, so I would probably need to find alternatives that would be good prefixes.  maybe ma- for place from Arabic (note it would be more general than -kan, which is only for bildings).  maybe get- for change and bi- for state???  at least re- and es- and in- and al. would still work as prefixes.
 
-what if I get the best of both worlds by simply abandoning the precept of pure head direction?  I can have VSO and prepositions, with adjectives before nouns and keep my suffixes.  I gess the place where it gets hairy is relative clauses, subordinate clauses, and compound verbs.  but to first order, I think I should be able to make something similar to Mandarin work.  I should try to read up on some VSO languages other than Hawaiian.
+what if I get the best of both worlds by simply abandoning the precept of pure head direction?  I can have VSO and prepositions, with adjectives before nouns and keep my suffixes.  I gess the place where it gets hairy is relative clauses, subordinate clauses, and compound verbs.  but to first order, I think I should be able to make something similar to Mandarin work.  I should try to learn Tagalog, which seems like it does this.  if I like it and it seems like it would work for my use case, I'll take that.
+
+hmmm, I somehow only just noticed that the topic can't come at the start of the sentence in VSO unless you front the subject, which may be weerd.  Hawaiian seems to front the subject in some cases – I'm looking at the Hawaiian Wikipedia article for Hawaiian, which starts "ʻO ka ʻōlelo Hawai′i — ua mea ʻōlelo makuahine a ka poʻe maoli o ka pae moku o Hawaiʻi".  am I willing to allow subject fronting?  seems a slippery slope toward speakers leaving out the pause or fronting the subject in every sentence.  maybe that's paranoia.  if I just teach peeple the unmarkd word order it's unlikely they'll start doing it on their own, but it should still be easy for them to understand the fronted word order.  wow, this Wikipedia is not very active at all.
+
+# stress?
+
+I think I should change the strees rules to stop making i and u into glides, and also allow ny and maybe ly and sy as initial consonant clusters (but def not ty or ky).  this would change the stress of -ia words to be on the i, but after studying arabic and swahili (and spanish to a lesser extent), that feels a lot less weird to me.  it would also move the stress on -iu words, which is more problematic; I might drop the u then.
+
+Well, I should keep ai, au, oi, ei, and ou as monosyllables because that covers some important latin and arabic words.  and chinese words for that matter.  aodi, aoro, braoza, kaisi, and euro and auto to a lesser extent all really aut to be stressed on the first vowel.
+
+
+# hyphens?
+
+I wonder if I should just drop the hyphens.  like, do peeple really need to know where the morpheme boundaries are?  I'm not so sure.  and doutless some extra hyphens will get added to words like leiden that aren't technically compounds but are derived from compounds.
 
 
 # articles
 
 I could abandon the precept of no articles and lean more into a hawaiian grammar, in order to avoid making up subject and object prepositions.  tho onestly, given that I'm afraid my language is too similar to english already for something that's not english (a false frend of a language, if you will), using "da" for actual "the" mite make that worse.  and anyway, it's not like hawaiian doesn't have subject and object prepositions.
+
+
+# compound adjectives
+
+I've gone back and forth in the past over whether it should be "bon-vizi" or "vizi-bon".  but I think I've finally settled on the former.  it makes a much more intuitive noun (because remember, every adjective is also a noun), and it allows me to use "te" and "nai" for "-ful" and "-less" (as suffixes they already mean "-ness" and "not").
 
 
 # words that are more specific in every language but their originators
@@ -402,10 +389,16 @@ in English, we have "make" as a causative and "get" as a passivizer.
 in Japanese, "give" can mark a beneficiary, "get" can be a passivizer.
 in Hindi, "go" sometimes marks intransitive and "give" sometimes marks transitive.
 
+# au vs ao
+
+I think I should switch to ao.  it works so much better for chinese words, plus kakao and arguably tatao.  the problem children are auto, auro, and audi.  maybe they can just keep being spelled that way?  hmmm, but I do want peeple to be able to predict spelling from pronunciation.  maybe I can change audi to a different root and change auto to zi?  that's not great.  maybe I just suck it up and spell it aotomovi.
+
 # hyperspecific transcription notes
 
 country names should be stripped to whatever minimum root is present in both the country name, language name, and people name.
 in some cases that will include a root that means "land", like "island" or "osteraih", and that's okay.  but keep "ia" if it has one.  not if it's just in the nisba adjective tho; nisba adjectives don't count for "ia".
+
+when a cultural term has multiple languages associated with it, use the most widely spoken language (so chinese cities and provinces are generally going to use their mandarin names, tho dishes may use a different name if they're really specificly associated with a different chinese language; Aíti is spelled as it is in French (not Ayiti as it would be in Haitian Creole)).
 
 ## Scientific terms
 
@@ -443,7 +436,10 @@ well, but it's lost before a yod in cantonese...
 words with ŋ include stone, ideology, and jade
 middle chinese ɦ -> ◌
 mandarin sh -> s, zh -> z, ch -> c
-proper names should be spelled as they are in Mandarin, except that j, and x should go to z, g, s, and h as usual (but q -> c always)
+
+this only applies to basic words, which sample all chinese languages and chinese-adjacent languages.
+for cultural terms applying specificly to China, it's better to spell terms as they are in Mandarin,
+except that j and x should go to z, g, s, and h as usual (but q -> c always)
 
 ## Dutch
 
@@ -521,7 +517,7 @@ lh -> ly
 nh -> ny
 north/south/east/west -> translated
 new -> nove
-sãõ -> sau
+sãõ -> sao
 la/el/las/los -> remove
 
 ## Spanish

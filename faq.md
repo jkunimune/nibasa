@@ -1,5 +1,8 @@
 # frequently askd questions
 
+These are the answers to questions I presume will be asked frequently.
+This hasn't existed long enough to learn if they actually are.
+
 ## General
 
 ### Where did Nibasa come from?
@@ -44,19 +47,19 @@ thus, even though there is no tangible benefit to knowing Nibasa, it's probably 
 
 Nibasa is not based on any particular natural language.
 Its words come from all over the world, primarily from Latin, Arabic, Sanskrit, and Middle Chinese.
-Its grammar can be described as a combination of the word structure of English or Mandarin Chinese with the sentence structure of Japanese.
+Its grammar can be roughly described as a combination of the word structure of English or Mandarin Chinese with the sentence structure of Japanese.
 
 ### Is Nibasa meant to replace other languages?
 
 No, Nibasa cannot and should not replace existing native languages.
 Nibasa is meant to be the second language of all humans.
-It therefore seeks to replace widely spoken languages in certain contexts (such as English in scientific articles), but in the home and on the street, 
+It therefore seeks to replace widely spoken languages in certain contexts (such as English in scientific articles), but in the home and on the street, people will continue speaking their native languages as they do now.
 
 ## Language design
 
 ### Why are there words from so many different places?
 
-Nibasa is a global language, and as such is based on the idea of *wander words*, words that appear in many places around the world.
+Nibasa is a global language, and as such is based on the idea of *wander-words*, words that appear in many places around the world.
 The purpose of this is two-fold.  First, it maximizes the number of people who know any given word.
 Second, it evens out the difficulty of learning Nibasa so that it doesn't advantage any one nationality.
 
@@ -76,11 +79,9 @@ But recognizability is the most important determining factor.
 ### Why use a spoken language rather than a sign language?
 
 While sign languages have many advantages over spoken languages for in-person communication,
-they have two major disadvantages that make a spoken language preferable as an international language.
-First, there is no simple way to phonetically write a sign language,
-so sign languages are typically written with logagrams (for example, the capitalized English words used to write American Sign Language).
-Second, far more people know spoken languages than know sign languages,
-so a language based on spoken languages' shared vocabulary is more familiar to more people than any sign language can be.
+they have a major disadvantages in that there is no simple way to phonetically write a sign language.
+Since one of the primary media of international communication is written signage,
+a spoken language with a simple writing system is preferable as an international language.
 
 ### Isn't "r" difficult to pronounce for many people?
 
@@ -101,14 +102,6 @@ Because it doesn't actually make the language easier to learn, and only leads to
 Because of that confusion, tho, students are incentivized to keep working on their pronunciation until they can produce "r" reliably.
 If there are no minimal pairs between "r" and "l", then students in, for example, Myanmar, may be misled into thinking that they don't *need* to learn the difference, since as long as they and their classmates only use "l", there will never be a problem.
 This will lead to more confusion later on when they try to communicate with speakers outside of Myanmar.
-
-To use a different example, I once knew a Greek person who spoke English,
-but did not pronounce the difference between /ɔ/ as in "thought" and /ʌ/ as in "strut".
-It rarely caused misunderstandings in speech since English has a lot of vowels and those aren't the most common ones.
-But it often led to him misspelling words that should have been spellable phonetically.
-For instance, he regularly misspelled "lunch" as "launch".
-If the functional load of the ɔ/ʌ distinction were higher, he might have been incentivized to learn to pronounce the difference sooner,
-which would have improved his spelling and overall intelligibility.
 
 Thus, it's better to include a few minimal pairs and cause some minor confusion early on in the classroom
 than to eliminate them and encourage speakers to create branching dialects.
@@ -131,21 +124,33 @@ Tenuis occlusive obstruents in Mandarin are conventionally transcribed as voiced
 
 ### Why are "y" and "v" separate from "i" and "u"?  Don't they represent the same sound?
 
-It depends on your definition of "sound". Many languages spell "y" and "i" using the same symbol because they are pronounced with the tongue and lips in the same position.  however, most languages have two separate symbols, or else modify
+It depends on your definition of "sound". Many languages spell "y" and "i" using the same symbol because they are pronounced with the tongue and lips in the same position.  However, most languages have two separate pairs of symbols for these sounds to indicate the length and the effect they have on the word's stress pattern.  Nibasa uses the latter method because it makes it easier to figure out the pronunciation of a word from its spelling, and because it makes many English, Chinese, Arabic, and Bantu words more recognizable.
+
+### Why is /w/ spelled "v"?
+
+Most languages have at least one of /w/ or /v/, but few have both.
+The goal is to make words as recognizable as possible.  That means matching native spellings as closely as possible when those native spellings are in the Latin alphabet.  Con
+
+between v and w, the choice is clear.
+- Latin-influenced languages exclusively uses ⟨v⟩.
+- the Arabic language uses /w/, but doesn't use the Latin alphabet.  when Arabic words are spelld with the Latin alphabet in Turkish and Swahili, they tend to use both ⟨v⟩ and ⟨w⟩ respectively.
+- Middle Chinese has /w/, which is spelld ⟨w⟩ in most Chinese-influenced languages, but none of them use the Latin alphabet as their primary script.
+- Sanskrit languages tend to use both \[v\] and \[w\] as variations on /ʋ/, but don't use the Latin alphabet.
+
 
 ### Why do all the country names end in "desa"?
 
 In Nibasa, every proper noun must be suffixed with a common noun that states what it is.
 Most natural languages don't do this as consistently as Nibasa does, but you see similar patterns in affixes like Arabic's "مدينة", Japanese's "国", and Malay's "bahasa".
 Enforcing these suffixes makes it more clear which nouns in a sentence are proper, and what they refer to.
-Consider the English pairs "Turkey" (a country) and "turkey" (a bird), or "Georgia" (a country) and "Georgia" (a U.S. state).
-These similarities can cause confusion in English, but in Nibasa, suffixes like "desa" and "vilaya" can clearly distinguish similar pairs.
+Consider the English pairs "Turkey" (a country) and "turkey" (a bird), or "Georgia" (a country) and "Georgia" (an American state).
+These similarities can cause confusion in English, but in Nibasa, suffixes like "desa" and "vilaya" clearly distinguish similar pairs.
 
 ### Why are there so many hyphens?
 
 Nibasa uses hyphens to separate morphemes in compound words.
 they are an intuitive way to associate words with each other and make sentences more visually interesting while maintaining readers' ability to easily pick out morphemes.
-while I don't know of any natural languages that use them this much, most that use the Greek-derived alphabets use hyphens to join words to some extent.
+while I don't know of any natural languages that use them this much, most that use Latin or Cyrillic alphabets use them to some extent.
 
 ### Why is it SOV when most major languages are SVO?
 
@@ -153,7 +158,7 @@ The purely left-branching syntax simplifies the grammar, reducing the number of 
 
 - having both **da** and **du** (or **de** and **su**)
 - Where in the sentence can a prepositional phrase appear?  Before the subject?  Between the subject and the verb?  Between the verb and the object?
-- Can an adjective take arguments?  What about a participle
+- Can an adjective take arguments?  What about a participle?
 
 ### Why are antonyms separate roots instead of using a prefixing system?
 
@@ -164,7 +169,9 @@ and uses the compound stem "malvarm-" for "cold".
 this system makes sense for a lot of reasons.
 it reduces the number of roots in the language substantially, which reduces the time required to learn it,
 and it allows the derivation of words that don't have common roots in natural languages, like ??? for "unwell".
-it improves root recognition and prevents
+
+The more common system of simply having separate roots also has advantages, though.
+it improves root recognition, while also avoiding the awkward task of deciding which in each pair gets to be a root.
 
 It's not quite accurate to say that Nibasa has twice as many adjective roots as Esperanto.
 that's because for less common adjectives, Nibasa uses symmetric derivation: a noun like "rupa" will be prefixed with two common roots to form opposing compound adjectives.
@@ -174,6 +181,5 @@ common examples include "bon-rupa" and "dus-rupa" for "good-looking" and "ugly",
 
 Participles are not necessary.  Many languages have them, but many do not.  Nibasa gets by with semantic suffixes, like "jen" ("person"), "ce" ("thing"), and "gu" ("tool").
 
-suffixes that convey only syntactic information (like "noun, subject") are challenging to learn if a student is unfamiliar with the concept it encodes, and are rarely useful as anything but a suffix.
-Suffixes that convey semantic information, on the other hand, are easy to conceptualize, and often double as separate common content words.
-
+suffixes that convey only syntactic information (like "noun, subject") are challenging to learn if a student is unfamiliar with the concepts they encode, and are rarely useful as anything but a suffix.
+Suffixes that convey semantic information, on the other hand, are easy to conceptualize, and often double as standalone content words.

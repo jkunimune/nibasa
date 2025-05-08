@@ -18,6 +18,13 @@ in this table, IPA is given in parentheses when it differs from the orthography,
 | mid   | e     | o    |
 | open  | a     |      |
 
+the five vowels can combine to form five diphthong:
+- ai (ai̯)
+- ao (au̯)
+- ei (ei̯)
+- ou (ou̯)
+- oi (oi̯)
+
 there exist several additional letters that are only used in proper names and culturally specific terms (like arts and dishes):
 - “zh” for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
 - “sh” for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
@@ -30,40 +37,40 @@ there exist several additional letters that are only used in proper names and cu
 - “q” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
 - “x” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
 - “pc” and “bc” for the voiceless and voiced labial clicks (k͡ʘ and g͡ʘ)
-- “’” for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. n.ɡ, t.h)
+- “’” for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. _n’g_ or _t’h_)
+- “eu” for the diphthong eu̯
 - “á”, “é”, “í”, “ó”, and “ú” for irregular stress
 
 ## phonotactics
 
-in general, there are two firm rules that are never violated for any PIL word:
+in general, there are three firm rules that are never violated for any PIL word:
 - the nucleus of every syllable is a vowel, or a diphthong composed of an open or mid vowel followed by a close vowel.
 - the semivowels “y” and “v” are always followed by a vowel.
 - adjacent identical consonants are forbidden.
 
 there are also several stricter rules that apply to common PIL roots (as opposed to proper names or culturally specific terms).
-- the onset of every syllable is either a single consonant or an obstruent followed by a liquid.
+- the onset of every syllable is either a single consonant or one of "pr", "tr", "kr", "pl", "kl", or "ny".
 - the coda of a syllable is a single consonant.
 - adjacent obstruents always agree in voicing.
+- a word never ends with a voiced obstruent.
 - nasal consonants always agree with the following consonant when the following consonant is an occlusive.
-- stops always differ in place of articulation from the following consonant unless the following consonant is “r”.
 - the letters "s”, "z”, and "c” never occur next to each other.
 - semivowels never appear adjacent to their corresponding vowel.
-- a word never ends with a voiced obstruent.
-- the vowel sequence “eu” is never used.
-- roots typically contain no more than three syllables.
+- rising vowel sequences are always broken up by semivowels except for the five digraphs.
+- roots rarely contain more than three syllables.
 
 while there is no minimum length for common roots,
 one- and two-letter roots are typically reserved for grammatical particles and common suffixes.
 
 ## stress
 
-A PIL word should be pronounced with one syllable for each vowel or closed diphthong “ai”, “au”, “oi”, “ei”, or “ou”.
-Stress falls before the last consonant or closed diphthong.
+A PIL word should be pronounced with one syllable for each vowel or diphthong.
+Stress falls on the last syllable if it is closed, and on the penultimate syllable otherwise.
 
 /gé.o/
-/pu.táu̯/
+/ha.lóu̯/
 /kris.tál/
-/dú.ni.a/
+/du.ní.a/
 /gu.rú.be/
 /res.to.rán/
 
@@ -149,7 +156,7 @@ prefixing forms should only be used if all other forms are now rare.
 Generally, “c” is soft when followed by “i”, “e”, or “y” and hard otherwise.
 However, note that Nibasa treats “c” as hard if it is hard in Russian (as descendants of Greek "κ” usually are).
 
-Generic suffixes are omitted entirely if they have been lost in English, Spanish, and Portuguese and doing so does not violate the phonotactics.  Note that the suffix is not considered lost from English if there's still a silent "-e" (so "lake" is still "lako", not "lak").
+Generic suffixes are omitted entirely if they have been lost in English, Spanish, and Portuguese and doing so does not violate the phonotactics.  Note that the suffix is not considered lost from English if there's still a silent "-e" (so "lake" is still _lako_, not _lak_).
 
 Words recently loaned from Latin that retain their full Latinate suffix in modern languages, such as "virus", naturally also retain their full suffix in Nibasa.
 
@@ -169,7 +176,7 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | qu (kw) | ku   | |
 | s (s)   | s    | |
 | s (z)   | z    | |
-| sh (ʃ)  | sy?   | cok |
+| sh (ʃ)  | c    | cok |
 | th (θ)  | | |
 | th (ð)  | | |
 | v (v)   | v    | |
@@ -186,8 +193,8 @@ Most words shared between Nibasa and English originally come from Latin, which h
 | o (ɒ)   | o    | |
 | o (oʊ)  | o    | |
 | oo (uː) | u    | |
-| ou (aʊ) | au   | |
-| u (ʌ)   | avoid at all costs | |
+| ou (aʊ) | ao   | |
+| u (ʌ)   | o | |
 | u (ʊ)   | u    | |
 | u (juː) | ju   | |
 | er (ər) | a    | |
@@ -320,7 +327,7 @@ which are satisfied for every PIL root.
 
 Proper names follow the same principles as PIL roots, but have more lenient phonotactic constraints and a larger phonetic inventory to allow more faithful transcription.
 They thus should always match the name's native spelling or romanization as closely as possible, except to account for differences between the native spelling system and PIL's
-(for example, the "H" in "Aiti").
+(for example, the "H" in "Aíti").
 
 Acute accents are used to mark stress in proper names when the native stress is different from the regular Nibasa stress.
 These accents not always included in informal writing.
@@ -330,9 +337,7 @@ They are not used for names from tonal or quasi-tonal languages, such as Thai or
 
 Many Nibasa words are formed by combining two existing roots into a compound word.
 The two base words are connected using a hyphen “-”.
-The first word modifies the meaninng of the second,
-and the part-of-speech is inherited from the second.
-For example, (put a good compound noun example here).
+The first word modifies the meaninng of the second.
 
 While there are no dedicated suffixes in Nibasa (every morpheme can stand as a word on its own),
 some words are used as suffixes especially often.
@@ -345,15 +350,16 @@ These include:
 - -{ki}, which indicates a period of time
 - -{kolor}, which indicates the color of an object
 - -{rang}, which forms the ordinals of numbers
-- -{su}
-- -{do}
-- -{te}
-- -{fa}
+- -{su}, which indicates an element or chemical
+- -{du}, which indicates a degree
+- -{te}, which indicates a state
+- -{fa}, which indicates the becoming of a state
 
-This structure is especially common for adjectives.
-A compound adjective typically comprises a noun, indicating the aspect or quality the adjective modifies,
-and one of {bon} or {dus}, {dai} or {mini}, {poli} or {sau}, {tele} or {karip}, {fasil} or {muskil}, or {teza} or {mirdu}.
-The antonym of the compound adjective can then be formed by inverting the second element.
+There are also some common prefixes for compound adjectives.
+A compound adjective typically comprises an adjective followed by a noun.
+The adjective is usually one of {te} or {nai}, {bon} or {dus}, {dai} or {mini}, {poli} or {sau}, {tele} or {karip}, {fasil} or {muskil}, or {teza} or {mirdu}.
+You can think of it as a noun phrase that describes a quality.
+The antonym of the compound adjective can then be formed by inverting the first element.
 
 Compound postpositions also exist to describemany of the specific ways a noun can relate to a sentence, though these are not true compound words and accordingly use spaces instead of hyphens.
 For example, {tema pe} is used as a postposition to indicate the topic of a discussion,
@@ -427,17 +433,17 @@ The exact assignment of postpositions can be determined from the type of predica
 - For adjectives of position, the subject is marked with "ga" and the reference is marked with "ze".
 - For adjectives of relation, the subject is marked with "ga" and the reference is marked with "na".
 - For adjectives or verbs of emotion, the stimulus is marked with "ga" and the experiencer is marked with "ro".
-- For verbs of giving and telling, the source is marked with "ga", the theme is marked with "ro", and the destination with "li".
-- For verbs of taking and learning, the recipient is marked with "ga", the theme is marked with "ro", and the source is marked with "li".
+- For verbs of giving and telling, the source is marked with "ga", the object is marked with "ro", and the destination with "li".
+- For verbs of taking and learning, the recipient is marked with "ga", the object is marked with "ro", and the source is marked with "li".
 - For verbs of motion, the subject is marked with "ga", the origin is marked with "ze", the destination is marked with "li", and the location or means is marked with "na".
 - For other intranstive verbs, the subject is marked with "ga".
 - For other transitive verbs, the agent is marked with "ga" and the patient is marked with "ro".
 - The auxiliary verb [] forms the causative of a sentence: whatever would normally be marked with "ga" is marked with "li" instead, and the cause is marked with "ga" in its place (unless it’s a verb of giving or taking?).
 - The auxiliary verb [] forms the passive of a sentence: whatever would normally be marked with "ro" is marked with "ga" and what would normally be marked with "ga" is marked with "ze" (unless it’s a verb of giving or taking?).
 
-*CONFLICT*: does that mean that explicitly causative verbs o femotion take "li" while implicitly cuasative verbs of emotion take "ro"? I’d like to match Japanese... に食べさせる vs. を驚かせる? I also want passive and causative to be consisten with each other, and consistent with "don" and "get".
+*CONFLICT*: does that mean that explicitly causative verbs of emotion take "li" while implicitly causative verbs of emotion take "ro"? I’d like to match Japanese... に食べさせる vs. を驚かせる? I also want passive and causative to be consistent with each other, and consistent with "don" and "get".
 
-Naturally, adjunct phrases can always be added to specify additional contextual details; "li" marks destinations, goals, and manners, "na" marks locations, paths, and instruments, and "ze" marks origins, causes, and poinst of comparison.
+Naturally, adjunct phrases can always be added to specify additional contextual details; "li" marks destinations, goals, and manners, "na" marks locations, paths, and instruments, and "ze" marks origins, causes, and points of comparison.
 Such adjuncts often use compound postpositions such as "gol li", "util na", and "bi ze" to clarify their role.
 
 The topic is usually placed first and the comment last,

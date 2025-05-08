@@ -14,10 +14,14 @@ There are no silent letters, and each letter is only pronounced one way.
 - "g" is always hard as in "get".
 - "i" always sounds like the "i" in "machine".
 - "o" always sounds like the "o" in "force".
-- "r" may be smooth as it is in English or trilled as it is in Spanish or Japanese. It is never silent.
 - "s" is always soft as in "sass"
-- "u" always sounds like the "oo" in "goose".
+- "u" always sounds like the "u" in "rude".
 - "y" is always a consonant as in "yes". It is never a vowel.
+- "ai" sounds like the "i" in "prize".
+- "ao" sounds like the "ou" in "mouth".
+- "ei" sounds like the "ei" in "vein".
+- "oi" sounds like the "oi" in "choice".
+- "ou" sounds like the "ou" in "dough".
 
 Compound words are formed by connecting smaller words with hyphens.
 
@@ -27,13 +31,14 @@ Compound words are formed by connecting smaller words with hyphens.
 
 ## stress
 
-Stress falls on the syllable before the last consonant or diphthong.
+Stress falls on the last vowel if the word ends in a consonant,
+or the second-to-last vowel if the word ends in a vowel.
 
 /*gé*.o/
 /*bá*.sa/
-/pu.*táu̯*/
+/ha.*lóu̯*/
 /kris.*tál*/
-/*dú*.ni.a/
+/du.*ní*.a/
 /gu.*rú*.be/
 /res.to.*rán*/
 
@@ -145,7 +150,7 @@ They must be followd by a common noun to identify them (e.g. Franse desa, Suahil
 ### Questions
 
 Yes-or-no questions are formed by adding "ke" ("what") to the end of a sentence.
-- tu ga go abil? = Can you do that?
+- tu ga da abil ke? = Can you do that?
 
 Nibasa does not have a word for "yes".
 To answer a yes-or-no question in the affirmative, simply repeat the last word before "ke".
@@ -159,7 +164,7 @@ which can modify a noun or act as a noun of its own.
 - tu ga ke jen? = Who are you?
 - ke ro yam? = What are you eating?
 - ke li moto? = Where did it go?
-- ke sabu na ni yang? = Why is she like this?
+- ke sabu na da yang? = Why is she like this?
 
 ### Requests and commands
 
