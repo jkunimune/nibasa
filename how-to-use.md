@@ -29,7 +29,7 @@ Compound words are formed by connecting smaller words with hyphens.
 
 ### Compound words
 
-## stress
+### stress
 
 Stress falls on the last vowel if the word ends in a consonant,
 or the second-to-last vowel if the word ends in a vowel.
@@ -56,36 +56,14 @@ For example:
 Longer phrases can be formed by combining more words.
 ...
 
-Sometimes, when a phrase becomes too long, it can be difficult to discern the structure.
-Consider the example phrase
-- dai vaf dom
-
-This phrase is unclear, because "dai" might be describing the dog, or the house.
-In English, we might clarify this by using the word "of".
-- the house of big dogs
-- the big house of dogs
-
-When we use "of", we rearrange the phrase and space out its components.
-Similarly, in Nibasa, we use "di".
-Unlike "of", it does not change the order of the phrase.
-However, it does divide the components in a way that makes the phrase structure more clear.
-
-- dai vad di dom = ""
--
-
-Because adjectives and adverbs are the same in Nibasa, we sometimes use it in situations where we would never use "of" in English.
-- pul put di kaguzi di sak = bag of completely soaked paper
-- pul di put kaguzi di sak = bag full of wet paper
-- pul di sip di kaguzi sak = full, wet paper bag
-
 ### Verb phrases
 
 Verbs in PUDUL have a single form regardless of whether the action is past or present, or of who the subject is.
 
 Most of the time a verb phrase is composed of only a single verb.
-However, adverbs can also be added before the main verb, optionally separated with "di".
+However, adverbs can also be added before the main verb, optionally separated with "li".
 - kore = "to run"
-- rapide (di) kore = "to run quickly"
+- rapide (li) kore = "to run quickly"
 
 Multiple verbs can also be chained together, optionally separated with "nun".
 The first verb is called the content verb, and can be anything.
@@ -140,6 +118,24 @@ Sentences do not start with capital letters.
 
 Subordinate clauses are formed by adding 
 
+### Unusual sentence orders
+
+Occasionally it is useful to alter the normal subject–object–verb sentence order for emphasis.
+To add emphasis to the object, the object is occasionally placed before the subject.
+
+- `ris ro mi ga yam.`  
+  'Rice, I eat.'
+
+Alternatively, the object can be placed after the verb using the construction `nun sei ga`.
+
+- `mi ga yam nun sei ga ris.`  
+  'It is rice that I eat.' or 'What I eat is rice.'
+
+The subject can be emphasized by placing it after the verb in a similar fashion.
+
+- `ris ro yam nun zen ga mi.`  
+  'It is I who eats rice.' or 'The one who eats rice is me.'
+
 ### Proper names
 
 Proper names of countries are re-spelled in Nibasa's alphabet.
@@ -183,7 +179,7 @@ Commands are the only sentences that can have an object without a subject.
 
 Note that unlike in some languages, the subject is never left out of statements or questions.
 
-Conjunctions
+### Comparisons and measurements
 
 Simple comparisons are expressed as normal sentences.
 - tren e fei-makin ze, ke fang ga rapide? fei-makin ga rapide. = Which is faster, going by train or going by plane? The plane is faster.
@@ -191,6 +187,35 @@ Simple comparisons are made by adding the point of comparison followed by "bi ze
 - mi ga *tu bi ze* rapide kore abil. = I can run faster *than you*.
 - mi ga *tu do na* sar bon nai. = I'm not as smart *as you*.
 
-Adjectives are quantified using "di" like so:
-- mi ga 163 senti-metro di gau. = I am 163 centimeters tall.
-- mi ga 10 nen di lau. = I am 10 years old.
+Units of measurement are placed between the number and the object being modified.
+- mi ga 2 litro sui ro yam. = I drink 2 liters of water.
+- mi ga 163 senti-metro gao. = I am 163 centimeters tall.
+- mi ga 10 nen lao. = I am 10 years old.
+
+## Other things
+
+### Dates and times
+
+Dates in PuDuL are typically expressed in the following format:
+
+- `1887 nen 7 muezi 26 dia`  
+  '1887, July 26th'
+
+However, the year, month, and day are sometimes placed in other orders depending on the location and preference of the speaker.  The words `nen`, `muezi`, and `dia` always indicate which number is which.
+
+- `7 muezi 26 dia 1887 nen`  
+  'July 26th, 1887'
+- `26 dia 7 muezi 1887 nen`  
+  '26th of July 1887'
+
+Time is usually expressed in the 24-hour format like so:
+
+- `16 hora 30 minuto`  
+  '16:30'
+
+Hours between midnight and noon are numbered 0 to 11, and hours between noon and midnight are numbered 12 to 23.
+
+Sometimes, the 12-hour convention is used, where hours in both halves of the day are numbered 1 to 12.  In this case, the words `suba` and `cam` are used to disambiguate which period is being described:
+
+- `cam 4 hora 30 minuto`
+  '4:30 in the afternoon'

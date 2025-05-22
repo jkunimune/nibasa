@@ -87,7 +87,7 @@ English + German + Japanese + Korean + Lingala
 Proper names of countries are re-spelled in Nibasa's alphabet.
 Personal names and city names will inevitably be spelled irregularly in many circumstances.
 Proper names have access to the bonus letters.
-They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith jen, Jorje raja, Zamenhof dotor)
+They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith zen, Kamehameha rege, Zamenhof doktor)
 
 ## on verbs
 
@@ -163,8 +163,9 @@ between v and w, the choice is clear.
 
 Let's look at some specific examples.  of words that start with v:
 - "waha", "waraka", and "waris" could go either way but are probably better with "w"
+- "wino" and "wale" could go either way but is probably better with "v"
 - "wik", "wakcop", "widou", "wan-gu", "wancen", "wei", and "Wikipedia" are better with "w"
-- "waksina", "wale", "walu", "wampir", "wandal", "wegeta", "wende", "wersi", "wioleta", "wise", "wiza", "tele-wizi", "woto", and "woze" are all better with "v"
+- "waksina", "walu", "wampir", "wandal", "wegeta", "wende", "wersi", "wioleta", "wise", "wiza", "tele-wizi", "woto", and "woze" are all better with "v"
 
 It's tuff because there is a limit to how much you can change a word and have people still intuitively recognize it, and I feel like this crosses that line.
 
@@ -246,7 +247,7 @@ placing a **no** before the verb indicates that you are negating specifically th
 productive suffixes should never use hyphens.
 but suffixes with vague and semantically variable meanings should never be productive and should generally take hyphens
 -kan
--jen
+-zen
 -gu
 -makin
  le
@@ -287,6 +288,8 @@ in addition, many words that were necessarily function words in Pandunia 2.0 are
 - auxiliary verbs **si**, **fa**, which are just normal verbs as well as common suffixes (**si** merges with **ta** and **fa** merges with **karma**).
 
 subordinate clauses, be they relative or otherwise, must always be followed by "di" and then a content word.
+
+I should revisit my Bantu roots; I might have too many of them for how relatively small that language family is.
 
 # family words
 
@@ -398,7 +401,11 @@ I think I should switch to ao.  it works so much better for chinese words, plus 
 country names should be stripped to whatever minimum root is present in both the country name, language name, and people name.
 in some cases that will include a root that means "land", like "island" or "osteraih", and that's okay.  but keep "ia" if it has one.  not if it's just in the nisba adjective tho; nisba adjectives don't count for "ia".
 
-when a cultural term has multiple languages associated with it, use the most widely spoken language (so chinese cities and provinces are generally going to use their mandarin names, tho dishes may use a different name if they're really specificly associated with a different chinese language; Aíti is spelled as it is in French (not Ayiti as it would be in Haitian Creole)).
+The words "north", "south", "east", "west", "central", and "new" should be translated into PUDUL.
+Other geographic terms like "port", "coast", "cape", "island", and "saint" should be left in the language of origin.
+
+when a cultural term has multiple related languages associated with it, use the most widely spoken language (so chinese cities and provinces are generally going to use their mandarin names, tho dishes may use a different name if they're really specificly associated with a different chinese language; Aíti is spelled as it is in French (not Ayiti as it would be in Haitian Creole)).
+For places where multiple unrelated languages are co-officially associated with it, use the language from which the name originated (so Pearl City is transcribed as an English word); if there are multiple names, prefer the older one (so New Zealand uses its Maori name).
 
 ## Scientific terms
 
@@ -407,6 +414,8 @@ when a cultural term has multiple languages associated with it, use the most wid
 -ine -> -o
 -on (noble gas or particle) -> -on
 -on (other) -> -o
+th -> t, ph -> p, ch -> k, rh -> r
+y -> i except for some elements where it's yu to match the symbol
 
 ## Albanian
 
@@ -417,6 +426,7 @@ when a cultural term has multiple languages associated with it, use the most wid
 if a word ends in b, d, D, or gh, append "a"
 stress: accute accent
 ʃ -> c
+ðˀ -> z
 names should always be transcribed in standard arabic, except that jiim can be spelled "g" for Egyptian names
 
 ## Bantu
@@ -456,11 +466,12 @@ th -> th no matter voicing
 plural marker -> keep
 north/south/east/west -> translated
 new -> nove
-saint -> sante
 the -> remove
 island -> nesia
-port -> porto
 -er -> -er in names (-a normally)
+au -> o
+long o -> o or ou depending on what matches the spelling better
+long a -> ei
 
 ## Fijian
 

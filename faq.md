@@ -179,7 +179,7 @@ common examples include "bon-rupa" and "dus-rupa" for "good-looking" and "ugly",
 
 ### Why are there no participles?
 
-Participles are not necessary.  Many languages have them, but many do not.  Nibasa gets by with semantic suffixes, like "jen" ("person"), "ce" ("thing"), and "gu" ("tool").
+Participles are not necessary.  Many languages have them, but many do not.  Nibasa gets by with semantic suffixes, like `zen`, `sei`, and `gu`.
 
 suffixes that convey only syntactic information (like "noun, subject") are challenging to learn if a student is unfamiliar with the concepts they encode, and are rarely useful as anything but a suffix.
 Suffixes that convey semantic information, on the other hand, are easy to conceptualize, and often double as standalone content words.
