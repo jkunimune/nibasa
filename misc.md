@@ -87,7 +87,7 @@ English + German + Japanese + Korean + Lingala
 Proper names of countries are re-spelled in Nibasa's alphabet.
 Personal names and city names will inevitably be spelled irregularly in many circumstances.
 Proper names have access to the bonus letters.
-They must be followd by a common noun to identify them (e.g. Franse desa, Suahili basa, Smith zen, Kamehameha rege, Zamenhof doktor)
+They must be followd by a common noun to identify them (e.g. Frans desa, Svahili basa, Smith zen, Kamehameha rege, Zamenhof doktor)
 
 ## on verbs
 

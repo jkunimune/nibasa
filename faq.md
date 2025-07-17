@@ -46,8 +46,19 @@ thus, even though there is no tangible benefit to knowing Nibasa, it's probably 
 ### What is Nibasa based on?
 
 Nibasa is not based on any particular natural language.
-Its words come from all over the world, primarily from Latin, Arabic, Sanskrit, and Middle Chinese.
-Its grammar can be roughly described as a combination of the word structure of English or Mandarin Chinese with the sentence structure of Japanese.
+Its alphabet is a simplified version of the Latin alphabet, similar to the alphabets used in Spanish, Portuguese, German, Turkish, Swahili, Hausa, Indonesian, Vietnamese, and others.
+Its words come from all over the world, primarily from English, Latin, Arabic, Sanskrit, and Middle Chinese.
+Its grammar also borrows concepts from all over the world.  For example:
+- Overall sentence structure from Japanese and Korean
+- Whole-root affixes from Hawaiian and Chinese languages
+- Flexible parts-of-speech from English and Hawaiian
+- Ambitransitive verbs from English
+- Demonstrative system from French and German
+- Demonstrative-based third-person pronouns from Japanese
+- Yes/no question formation from Hindi and Urdu
+- Yes/no question answer system from Mandarin
+- Ordinal number system from Swahili
+- Kinship terminology from Indonesian and Malaysian (with some modifications)
 
 ### Is Nibasa meant to replace other languages?
 

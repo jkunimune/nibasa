@@ -5,12 +5,12 @@
 common PIL roots are composed of eighteen distinct consonants and five vowels.
 in this table, IPA is given in parentheses when it differs from the orthography, which is not in parentheses.
 
-|           | labial     | coronal      | palatal | dorsal    | 
-|-----------|------------|--------------|---------|-----------|
-| nasal     | m          | n            |         | ng (ŋ)    |
-| stop      | p (pʰ) · b | t (tʰ) · d    | c (t͡ʃʰ)  | k (kʰ) · g |
-| fricative | f          | s · z        |         | h         |
-| glide     | v (ʋ)      | l · r (ɾ)    | y (j)   |           |
+|           | labial         | coronal          | palatal   | dorsal        | 
+|-----------|----------------|------------------|-----------|---------------|
+| nasal     | `m`            | `n`              |           | `ng` (ŋ)      |
+| stop      | `p` (pʰ) · `b` | `t` (tʰ) · `d`    | `c` (t͡ʃʰ)  | `k` (kʰ) · `g` |
+| fricative | `f`            | `s` · `z`        |           | `h`           |
+| glide     | `v` (ʋ)        | `l` · `r` (ɾ)    | `y` (j)   |           |
 
 |       | front | back |
 |-------|-------|------|
@@ -18,28 +18,28 @@ in this table, IPA is given in parentheses when it differs from the orthography,
 | mid   | e     | o    |
 | open  | a     |      |
 
-the five vowels can combine to form five diphthong:
-- ai (ai̯)
-- ao (au̯)
-- ei (ei̯)
-- ou (ou̯)
-- oi (oi̯)
+the five vowels combine to form five diphthong:
+- `ai` (ai̯)
+- `ao` (au̯)
+- `ei` (ei̯)
+- `ou` (ou̯)
+- `oi` (oi̯)
 
 there exist several additional letters that are only used in proper names and culturally specific terms (like arts and dishes):
-- “zh” for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
-- “sh” for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
-- “gh” for the voiced dorsal fricative (ɣ\~ʁ)
-- “th” and “dh” for the voiceless and voiced dental fricatives (θ and ð)
-- “lh” for the voiceless lateral approximant or lateral fricative (l̥\~ɬ)
-- “mh”, “nh”, “ngh”, and “rh” for voiceless sonorants (m̥, n̥, ŋ̊, and r̥\~ɹ̥)
-- "ts" for the voiceless alveolar affricate (t͡s)
-- “kc” and “gc” for the voiceless and voiced laminal clicks (k͡|\~k͡ǂ and ɡ͡|\~ɡ͡ǂ)
-- “q” and “gq” for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
-- “x” and “gx” for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
-- “pc” and “bc” for the voiceless and voiced labial clicks (k͡ʘ and g͡ʘ)
-- “’” for the glottal stop (ʔ), for ejective stops (kʼ), and to separate digraphs (e.g. _n’g_ or _t’h_)
-- “eu” for the diphthong eu̯
-- “á”, “é”, “í”, “ó”, and “ú” for irregular stress (these are often omitted after the first time a word is used, or not used at all in informal writing)
+- `zh` for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
+- `sh` for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
+- `gh` for the voiced dorsal fricative (ɣ\~ʁ)
+- `th` and `dh` for the voiceless and voiced dental fricatives (θ and ð)
+- `lh` for the voiceless lateral approximant or lateral fricative (l̥\~ɬ)
+- `mh`, `nh`, `ngh`, and `rh` for voiceless sonorants (m̥, n̥, ŋ̊, and r̥\~ɹ̥)
+- `ts` for the voiceless alveolar affricate (t͡s)
+- `kc` and `gc` for the voiceless and voiced laminal clicks (k͡|\~k͡ǂ and ɡ͡|\~ɡ͡ǂ)
+- `q` and `gq` for the voiceless and voiced postalveolar clicks (k͡! and ɡ͡!)
+- `x` and `gx` for the voiceless and voiced lateral clicks (k͡ǁ and ɡ͡ǁ)
+- `pc` and `bc` for the voiceless and voiced labial clicks (k͡ʘ and g͡ʘ)
+- `'` for the glottal stop (ʔ) and for ejective stops (kʼ)
+- `eu` for the diphthong eu̯
+- `á`, `é`, `í`, `ó`, and `ú` for irregular stress (these are often omitted after the first time a word is used, or not used at all in informal writing)
 
 Because of the wide variety of backgrounds learners of PUDUL have, it is common for some letters' pronunciations to vary somewhat from person to person.
 For example, many pronounce `h` as [x], `v` as [v] or [w], or `r` as [ɹ].
@@ -352,7 +352,7 @@ More specifically, the general process for adopting a proper, technical, or cult
 For example, consider the Italian word _pizza_.  Italian already uses the Latin alphabet, so there's no need to romanize.  We consider each letter:
 - The letter _p_ represents [p] in Italian but [pʰ] in PUDUL.  However, because these sounds are not completely different (only one feature distinguishes them) and they do not contrast in Italian (which has no [pʰ]), the native letter is left unchanged.
 - The letter _i_ represents the same sound in both Italian and PUDUL, so it is left unchanged.
-- The letter _z_ represents [t͡s] in Italian but [z] in PUDUL.  These sounds are not completely different.  However, [z] is also a phoneme in Italian that can contrast with [t͡s] (see _Pisa_ for a near-minimal pair).  Therefore, it must be remapped to [t͡s].
+- The letter _z_ represents [t͡s] in Italian but [z] in PUDUL.  These sounds are not completely different (it's no coincidence that they share a grapheme in this case).  However, [z] is also a phoneme in Italian that can contrast with [t͡s] (see _Pisa_ for a near-minimal pair).  Therefore, it must be remapped to [t͡s].
 - The letter _a_ represents the same sound in both Italian and PUDUL, so it is left unchanged.
 Because there are two *z*s in _pizza_, the PUDUL word should arguably have two *ts*s (_pitstsa_).  However, this would violate the rule that PUDUL words don't have double consonants, so one is dropped to leave _pitsa_.  The stress in Italian is on the first syllable, which agrees with the default PUDUL stress for this word, so no acute accent is needed.
 
@@ -392,8 +392,8 @@ and `bi ze` is used to indicate the reference point of a comparison.
 
 There are two suffixes that cannot stand as words on their own, but that do hint at the meaning of a root.
 Therefore, roots will sometimes be modified from their most regular transcriptions to include these.
-- Roots that end in -ia or -ya always describe places (for example, "topia").
-- Roots that end in -iu or -yu always describe chemical elements (for example, "litiu").
+- Roots that end in -ia or -ya usually describe places (for example, "topia").
+- Roots that end in -iu or -yu usually describe chemical elements (for example, "litiu").
 These don't necessarily apply to three-letter words, like "dia", or to proper names, like "Melayu".
 
 ## grammar
@@ -454,16 +454,14 @@ The exact assignment of postpositions can be determined from the type of predica
 - For adjectives of state, the subject is marked with "ga".
 - For adjectives of position, the subject is marked with "ga" and the reference is marked with "ze".
 - For adjectives of relation, the subject is marked with "ga" and the reference is marked with "na".
-- For adjectives or verbs of emotion, the stimulus is marked with "ga" and the experiencer is marked with "ro".
+- For adjectives or verbs of emotion, the stimulus is marked with "ga" and the experiencer is marked with "li".
 - For verbs of giving and telling, the source is marked with "ga", the object is marked with "ro", and the destination with "li".
 - For verbs of taking and learning, the recipient is marked with "ga", the object is marked with "ro", and the source is marked with "li".
 - For verbs of motion, the subject is marked with "ga", the origin is marked with "ze", the destination is marked with "li", and the location or means is marked with "na".
 - For other intranstive verbs, the subject is marked with "ga".
 - For other transitive verbs, the agent is marked with "ga" and the patient is marked with "ro".
-- The auxiliary verb [] forms the causative of a sentence: whatever would normally be marked with "ga" is marked with "li" instead, and the cause is marked with "ga" in its place (unless it’s a verb of giving or taking?).
-- The auxiliary verb [] forms the passive of a sentence: whatever would normally be marked with "ro" is marked with "ga" and what would normally be marked with "ga" is marked with "ze" (unless it’s a verb of giving or taking?).
-
-*CONFLICT*: does that mean that explicitly causative verbs of emotion take "li" while implicitly causative verbs of emotion take "ro"? I’d like to match Japanese... に食べさせる vs. を驚かせる? I also want passive and causative to be consistent with each other, and consistent with "don" and "get".
+- The auxiliary verb `meik:v` forms the causative of a verb.  If the original verb is intransitive, then the subject moves to "ro" and the causer is marked with `ga`.  If the original verb is transitive, then the object stays at `ro`, the subject moves to `li`, and the causer is marked with `ga`.
+- The auxiliary verb `get:v` forms the passive of a transitive verb.  If the original verb is ditransitive, the recipient moves to `ga` and the subject moves to `ze`.  Otherwise, the object moves to `ga` and the subject moves to `ze`.
 
 Naturally, adjunct phrases can always be added to specify additional contextual details; "li" marks destinations, goals, and manners, "na" marks locations, paths, and instruments, and "ze" marks origins, causes, and points of comparison.
 Such adjuncts often use compound postpositions such as "gol li", "util na", and "bi ze" to clarify their role.
@@ -472,7 +470,7 @@ The topic is usually placed first and the comment last,
 but other than that, the noun phrases may be in any order.
 The subject may always be ommitted when it is implied or nonreferential.
 
-Many Pudul verbs are ambitransitive, meaning they can be used either transitively or intransitively.
+Many Pudul verbs are ambitransitive, meaning they are intransitive by default, but can be made transitive implicitly by simply adding an object.
 
 Auxiliary verbs go after the content verb.
 
