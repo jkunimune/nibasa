@@ -291,6 +291,8 @@ subordinate clauses, be they relative or otherwise, must always be followed by "
 
 I should revisit my Bantu roots; I might have too many of them for how relatively small that language family is.
 
+what if I change all astronomical terms (star, planet, satellite, comet, asteroid, meteor) to their chinese words so they all end in "sing"?  would that be good?
+
 # family words
 
 every family word can be expressed by the following pattern:
@@ -401,7 +403,7 @@ I think I should switch to ao.  it works so much better for chinese words, plus 
 country names should be stripped to whatever minimum root is present in both the country name, language name, and people name.
 in some cases that will include a root that means "land", like "island" or "osteraih", and that's okay.  but keep "ia" if it has one.  not if it's just in the nisba adjective tho; nisba adjectives don't count for "ia".
 
-The words "north", "south", "east", "west", "central", and "new" should be translated into PUDUL.
+The words "north", "south", "east", "west", "central", "inner", "outer", and "new" should be translated into PUDUL.
 Other geographic terms like "port", "coast", "cape", "island", and "saint" should be left in the language of origin.
 
 when a cultural term has multiple related languages associated with it, use the most widely spoken language (so chinese cities and provinces are generally going to use their mandarin names, tho dishes may use a different name if they're really specificly associated with a different chinese language; Aíti is spelled as it is in French (not Ayiti as it would be in Haitian Creole)).
@@ -530,6 +532,10 @@ north/south/east/west -> translated
 new -> nove
 sãõ -> sao
 la/el/las/los -> remove
+
+## Sanskrit
+
+ə -> a when it helps match Nibasa's phonotactics; -> remove otherwise.
 
 ## Spanish
 
