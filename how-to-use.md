@@ -1,4 +1,4 @@
-# How does it work?
+# Reference sheet
 
 ## Spelling and pronunciation
 

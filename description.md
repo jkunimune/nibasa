@@ -87,20 +87,22 @@ PIL roots always start with lowercase letters, even at the beginning of a senten
 
 ## vocabulary
 
-Nibasa words are chosen to maximize international recognizability.
+Nibasa words are adopted from languages all around the world – primarily English, the Romance languages, Arabic, The Indo-Aryan languages, and the Chinese languages.
+Deciding which source languages to use for a given word is a challenging task, and one that is central to the identity of PUDUL.
+The current vocabulary is built to optimize for four principles:
+1. Internationality – each word should have a cognate in many natural languages all over the world (such as "cai", which mirrors Portuguese "chá", Arabic "شاي", Hindi "चाय", and Mandarin "茶, chá").
+2. Recognizability – each word should only require minimal changes to fit PUDUL's phonology (such as "zebra", which maintains its English spelling exactly).
+3. Precision of meaning – each word should have the same range of meanings as its natural cognates (such as "banda", which has a variety of meanings related to closing, blocking, and binding, just like Hindi "बंद").
+
+In practice, meeting even just one of these criteria is quite difficult.
+However, for most words there are one or more good compromises that uphold all of these to some degree.
+
+There are a few more or less firm rules when it comes to choosing roots.
 Names of elements are always taken from Latin such that they correspond to the chemical symbol.
 Names of living things with limited ranges are taken from a language spoken in the region where it is common.
 Names of living things that exist across a large enough area are based on their scientific name,
 unless the scientific name is obscure or another common name is particularly internationally recognizable.
-
-PIL words should have meanings as close as possible to the natural words they are based on.
-For example, even though the genus *Chrysanthemum* is native to China,
-the Latin root “chrysanthema” is preferred over the Chinese root “菊” for its PIL name,
-because “chrysanthema” specifically refers to *Chrysanthemum* while “菊” also refers to other plants in the family *Asteraceae*.
-On the other hand, for the order *Hymenoptera*,
-the Chinese root “蜂” is preferred over the Latin roots “apis” and “vespa”,
-because “蜂” covers the full order while “apis” and “vespa” make a nonphyletic distinction.
-<!-- TODO: ants make this a bad example -->
+However, for the most part, the word selection process is done subjectively for each word.
 
 ### spelling conventions
 
@@ -110,7 +112,7 @@ Note that these rules are neither fast nor hard,
 and there may be variations when a word comes from a different source,
 or from a combination of several.
 
-#### Latin
+#### Romance languages
 
 Latin was the language of the Roman Empire, and its descendants are some of the most widely spoken languages in the world today.  Even European languages that aren't descended from it (especially English) have absorbed much of its lexicon due to its prominent role in the Scientific Revolution in Europe.  Because it had a relatively average phonology, it's relatively easy to fit its words into PUDUL.  Latin contains many ancient Greek borrowings, which do not fit quite so neatly, but most of them have Latinized pronunciations that serve as the basis for their PUDUL forms.
 
@@ -242,9 +244,9 @@ The diphthongs /aj/ and /aw/ are transcribed as “ei” and “ou”.
 Verbs and adverbs should generally be converted to adjectives or nouns, respectively before being transliterated.
 Nouns of variable gender and adjectives are transcribed as masculine, unless doing so would violate the phonotactics.
 
-#### Sanskrit
+#### Indo-Aryan languages
 
-Sanskrit was once the Lingua Franca of the Indian subcontinent, and its words have spread far and wide due to the spread of Indian religions and spices.  The main challenges of importing them to PUDUL are the aspirated and retroflex consonants, which are converted to unaspirated and alveolar consonants, respectively.
+Sanskrit was once the Lingua Franca of the Indian subcontinent, and has left a lasting impact on the lexicons of both its direct descendants and other languages of the region – some spreading worldwide along with Indian religions and spices.  The main challenges of importing them to PUDUL are the aspirated and retroflex consonants, which are converted to unaspirated and alveolar consonants, respectively.
 
 | zi (fon) | tarcuma | misal |
 |----------|--------|-------|
@@ -263,12 +265,12 @@ Sanskrit was once the Lingua Franca of the Indian subcontinent, and its words ha
 
 Schwas should usually be transcribed as "a”, but may be omitted to preserve stress.
 
-#### Chinese
+#### Chinese languages
 
-While what we now call "Chinese" is really a collection of closely related but distinct languages, each with many distinct dialects, in the middle ages there was a single Chinese language that exported many of its words to Korea, Japan, and Vietnam.  These words changed drastically in each language they were used in – especially in the pronunciation of the palatal initials, stop codas, and tones – and as a result it is now hard to adapt them into PUDUL in a way that retains recognizability to all of these groups.  However, by primarily importing two-character compounds, it is possible to do so for some words.
+While what we now call "Chinese" is really a collection of closely related but distinct languages, in the middle ages there was a single Chinese language that exported many of its words to Korea, Japan, and Vietnam.  These words changed drastically in each language they were used in – especially in the pronunciation of the palatal initials, stop codas, and tones – and as a result it is now hard to adapt them into PUDUL in a way that retains recognizability to all of these groups.  However, by primarily importing two-character compounds, it is possible to do so for some words.
 
-This table is based on Mandarin, since it's by far the most spoken chinese language,
-but the transcription style is based on a consideration of all chinese and Chinese-adjacent languages.
+This table is based on Mandarin, since it's by far the most spoken Chinese language,
+but the transcription style is based on a consideration of all Chinese and Chinese-adjacent languages.
 That, in addition to a desire to maintain spelling, is why retroflex consonants are transcribed as alveolar,
 and tenuis occlusive obstruents are transcribed as voiced.
 For palatal consonants, initial glides, and final nasals, the spelling depends on the equivalent Cantonese pronunciation.
