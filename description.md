@@ -154,7 +154,7 @@ Latin was the language of the Roman Empire, and its descendants are some of the 
 | -sion   | -zi  | in-kluzi |
 
 \* Nouns describing people and adjectives all take “-e” instead of “-a” or “-o”.
-\*\* Masculine or neuter "-i” is expanded to "-iu” for the names of chemical elements.
+\*\* The full suffix "-ium" is retained for the names of chemical elements.
 \*\*\* Feminine or Greek “-i” is expanded to “-ia” for words representing places that would otherwise be two syllables.
 
 words should be adapted as whatever part of speech is most semantically appropriate.
@@ -395,8 +395,8 @@ and `bi ze` is used to indicate the reference point of a comparison.
 There are two suffixes that cannot stand as words on their own, but that do hint at the meaning of a root.
 Therefore, roots will sometimes be modified from their most regular transcriptions to include these.
 - Roots that end in -ia or -ya usually describe places (for example, "topia").
-- Roots that end in -iu or -yu usually describe chemical elements (for example, "litiu").
-These don't necessarily apply to three-letter words, like "dia", or to proper names, like "Melayu".
+- Roots that end in -ium usually describe chemical elements (for example, "litium").
+These don't necessarily apply to three-letter words, like "dia", or to proper names, like "Stefanium".
 
 ## grammar
 

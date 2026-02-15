@@ -291,8 +291,6 @@ subordinate clauses, be they relative or otherwise, must always be followed by "
 
 I should revisit my Bantu roots; I might have too many of them for how relatively small that language family is.
 
-what if I change all astronomical terms (star, planet, satellite, comet, asteroid, meteor) to their chinese words so they all end in "sing"?  would that be good?
-
 # family words
 
 every family word can be expressed by the following pattern:
@@ -355,6 +353,11 @@ I could abandon the precept of no articles and lean more into a hawaiian grammar
 I've gone back and forth in the past over whether it should be "bon-vizi" or "vizi-bon".  but I think I've finally settled on the former.  it makes a much more intuitive noun (because remember, every adjective is also a noun), and it allows me to use "te" and "nai" for "-ful" and "-less" (as suffixes they already mean "-ness" and "not").
 
 
+# notating common word derivatives in the dictionary
+
+my current dictionary notation system has a problem, which is that when a root describes a state, I have to manually add the adjective to describe being in that state, the noun to describe the state itself, and the verbs to describe entering that state.  which is mostly annoying because typically I want all of those suffixen to be optional, so then I have to remember to link them all.  I think it would be good to add some syntactic sugar to my dictionary where instead of having a new entry called "n. dryness" than links back to the word for dry, I can add "n.(te) dryness" to the base word, and it'll automaticly create the new derived word and link them together so that the suffix is optional.
+
+
 # words that are more specific in every language but their originators
 
 kitab
@@ -388,15 +391,11 @@ but do "don" verb phrases mark the target with "li" or "ro"?
 auxiliary verbs can also be transitive or intransitive.
 adding a transitive auxiliary verb to a transitive content verb creates a ditransitive verb phrase.
 
-sana makes the causative of a verb, and is usually only used for the causatives of transitive verbs (since the causative of an intransitive can effectively be formed with don, tho sana also works.).
+meik makes the causative of a verb, and is usually only used for the causatives of transitive verbs (since the causative of an intransitive can effectively be formed with don, tho meik also works.).
 
 in English, we have "make" as a causative and "get" as a passivizer.
 in Japanese, "give" can mark a beneficiary, "get" can be a passivizer.
 in Hindi, "go" sometimes marks intransitive and "give" sometimes marks transitive.
-
-# au vs ao
-
-I think I should switch to ao.  it works so much better for chinese words, plus kakao and arguably tatao.  the problem children are auto, auro, and audi.  maybe they can just keep being spelled that way?  hmmm, but I do want peeple to be able to predict spelling from pronunciation.  maybe I can change audi to a different root and change auto to zi?  that's not great.  maybe I just suck it up and spell it aotomovi.
 
 # hyperspecific transcription notes
 
