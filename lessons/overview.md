@@ -304,43 +304,38 @@ Then they burned down our post office and kidnapped our vice president.
 # seasons
 # names
 
-Robert
-Emma
-Mikel
-Alex
-George
-Catharine
-Natalia
-Martin
-Vladimir
-Olga
-Sam
-Jordan
 Adam
-John
-Joseph
-Peter
-Matthew
-Eva
-Kezia
-Maria
-Elizabeth
-Sara
-Mohammed
-Ali
-Omar
-Fatima
-Nur
-Aisha
-Siddharth
-Shreya
+Sam
 Li
-Zhang
+Omar
 Wong
+Peter
+Lisa
+Vladimir
+Mohammed
 Huang
-Seojun?
-Izumi
-Chihiro
+Natalia
+Seojun
+Ali
+Nur
+Catharine
+Maria
+Shreya
+Mikel
+Thomas
+Siddharth
+Martin
+Fatima
+Zhang
+Masako
+Kezia
+Alex
+Olga
+Eva
+Aisha
+Ken
+Jordan
+George
 
 # common signs
 

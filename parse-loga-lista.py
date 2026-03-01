@@ -20,7 +20,7 @@ PRONUNCIATIONS = {
     },
     "Espanya": {
         "ng": "ŋ",
-        "v": "u", "y": "i", "zh": "y", "c": "ch", "h": "j", "k": "c",
+        "v": "w", "y": "i", "zh": "y", "c": "ch", "h": "j",
         "gh": "ɣ", "th": "θ", "dh": "ð",
         "hl": "ɬ", "hm": "m̥", "hn": "n̥", "hng": "ŋ̊", "hr": "r̥",
         "ts": "t͡s",
@@ -79,7 +79,7 @@ def parse_loga_liste():
             if is_subword(link, word) and link.replace("-", "") not in entries:
                 entries[link.replace("-", "")] = {
                     "Unia": link, "mara-du": entries[word]["mara-du"],
-                    "genus": "", "loga-asal": "", "Latine": "", "linke": "",
+                    "genus": "", "loga-asal": "", "linke": "",
                     **{language: "" for language in LANGUAGES}
                 }
                 entries[word]["mara-du"] = 3
@@ -251,9 +251,10 @@ def infer_pronunciation(word: str, language: str) -> str:
             syllables[stress][j] = syllables[stress][j].upper()
 
     # for mandarin, use a macron instead of an acute for stress
-    for i in range(len(syllables)):
-        for j in range(len(syllables[i])):
-            syllables[i][j] = syllables[i][j].replace("á", "ā").replace("í", "ī").replace("ú", "ū").replace("é", "ē").replace("ó", "ō")
+    if language == "putung Han":
+        for i in range(len(syllables)):
+            for j in range(len(syllables[i])):
+                syllables[i][j] = syllables[i][j].replace("á", "ā").replace("í", "ī").replace("ú", "ū").replace("é", "ē").replace("ó", "ō")
 
     # finally, use hyphens or periods for syllable breaks
     if language == "Engle":
