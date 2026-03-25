@@ -104,15 +104,13 @@ When a verb requires two nouns, the sentence structure becomes
 The words "ga" and "ro" are called *postpositions*.
 There are three others that can be used to add additional nouns to a sentence.
 
-- "na" indicates the location of an action. (meza na jam = eat at a table)
+- "pe" indicates the location of an action. (meza pe yam = eat at a table)
 - "do" indicates the destination of an action. ()
 - "ze"
 
 If there are multiple postpositional phrases, then "ro" should generally come last;
 some speakers may prefer to place "ga" before or after the other postpositions according to personal style.
 - meza na dosti e mi ga ris ro yam. I eat rice at a table with a friend.
-
-Sentences do not start with capital letters.
 
 ### Complex sentences
 

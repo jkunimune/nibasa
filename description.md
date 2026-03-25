@@ -9,7 +9,7 @@ in this table, IPA is given in parentheses when it differs from the orthography,
 |-----------|----------------|------------------|-----------|---------------|
 | nasal     | `m`            | `n`              |           | `ng` (ŋ)      |
 | stop      | `p` (pʰ) • `b` | `t` (tʰ) • `d`    | `c` (t͡ʃʰ)  | `k` (kʰ) • `g` |
-| fricative | `f`            | `s` • `z`        |           | `h`           |
+| fricative | `f`            | `s` • `z` (d͡z)   |           | `h`           |
 | glide     | `v` (ʋ)        | `l` • `r` (ɾ)    | `y` (j)   |           |
 
 |       | front | back |
@@ -25,11 +25,11 @@ the five vowels combine to form five diphthong:
 - `ou` (ou̯)
 - `oi` (oi̯)
 
-there exist several additional letters that are only used in proper names and culturally specific terms (like arts and dishes):
-- `zh` for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
+there exist several additional letters that are only used in proper names, technical terms, and words that are specific to a particular culture:
 - `sh` for the voiceless postalveolar/retroflex fricative (ʃ\~ʂ)
-- `gh` for the voiced dorsal fricative (ɣ\~ʁ)
+- `zh` for the voiced postalveolar/retroflex fricative/affricate (ʒ\~ʐ or d͡ʒ\~ɖ͡ʐ)
 - `th` and `dh` for the voiceless and voiced dental fricatives (θ and ð)
+- `kh` and `gh` for the voiceless and voiced dorsal fricatives (x\~χ and ɣ\~ʁ)
 - `hl` for the voiceless lateral approximant or lateral fricative (l̥\~ɬ)
 - `hm`, `hn`, `hng`, and `hr` for voiceless sonorants (m̥, n̥, ŋ̊, and r̥\~ɹ̥)
 - `ts` for the voiceless alveolar affricate (t͡s)
@@ -39,29 +39,30 @@ there exist several additional letters that are only used in proper names and cu
 - `pc` and `bc` for the voiceless and voiced labial clicks (k͡ʘ and g͡ʘ)
 - `'` for the glottal stop (ʔ) and for ejective stops (kʼ)
 - `eu` for the diphthong eu̯
-- `á`, `é`, `í`, `ó`, and `ú` for irregular stress (these are often omitted after the first time a word is used, or not used at all in informal writing)
+- `á`, `é`, `í`, `ó`, and `ú` for irregular stress (the accents are often omitted after the first time a word is used, or not used at all in informal writing)
 
 Because of the wide variety of backgrounds learners of PUDUL have, it is common for some letters' pronunciations to vary somewhat from person to person.
-For example, many pronounce `h` as [x], `v` as [v] or [w], or `r` as [ɹ].
+For example, many pronounce `h` as [x], `v` as [v], or `r` as [ɹ].
 Because PUDUL has a relatively small number of phonemes, such variations can be tolerated without impacting the intelligibility of the speech as long as they are minor.
 
 ### phonotactics
 
-in general, there are three firm rules that are never violated for any PIL word:
-- the nucleus of every syllable is a vowel, or a diphthong composed of an open or mid vowel followed by a close vowel.
+in general, there are two firm rules that are never violated for any PIL word:
+- adjacent identical letters are forbidden (except at morpheme boundaries).
 - the semivowels “y” and “v” are always followed by a vowel.
-- adjacent identical consonants are forbidden.
 
-there are also several stricter rules that apply to common PIL roots (as opposed to proper names, technical terms, or words specific to a particular culture).
-- the onset of every syllable is either a single consonant or one of "pr", "tr", "kr", "pl", "kl", or "ny".
+there are also several stricter rules that apply to common PIL roots (as opposed to compound words, proper names, technical terms, or words specific to a particular culture).
+- the nucleus of every syllable is a vowel or a diphthong.
+- the onset of every syllable is either a single consonant or one of "pr", "tr", "kr", "pl", "kl", "ny", or "ly".
 - the onset of a syllable is never "ng".
 - the coda of a syllable is a single consonant.
 - adjacent obstruents always agree in voicing.
 - a word never ends with a voiced obstruent.
-- nasal consonants always agree with the following consonant when the following consonant is an occlusive.
+- nasal consonants always agree with the following consonant when the following consonant is an occlusive (`n` can be followed by `k` or `g` but it will be pronounced [ŋ]).
 - the letters "s”, "z”, and "c” never occur next to each other.
+- the consonant sequences `sh`, `zh`, `th`, `dh`, `gh`, `hm`, `hn`, `hr`, and `hl` never occur
 - semivowels never appear adjacent to their corresponding vowel.
-- rising vowel sequences are always broken up by semivowels except for the five digraphs.
+- rising vowel sequences are always broken up by semivowels, except for digraphs.
 - roots rarely contain more than three syllables.
 
 while there is no minimum length for common roots,
@@ -81,15 +82,17 @@ Stress falls on the last syllable if it is closed, and on the penultimate syllab
 
 ### capitalization
 
-By convention, capital letters are used to mark proper names.
-PIL roots always start with lowercase letters, even at the beginning of a sentence.
-
+Capital letters are used to mark proper names,
+including when used as adjectives.
+Other nouns – including months, days of the week, and honorifics – are typically lowercase.
+The words `dunia`, `muezi`, and `nit` may be capitalized if they are used as proper nouns (i.e. The Moon rather than any old moon).
+The first letter of a sentence is also typically capitalized.
 
 ## vocabulary
 
 Nibasa words are adopted from languages all around the world – primarily English, the Romance languages, Arabic, The Indo-Aryan languages, and the Chinese languages.
 Deciding which source languages to use for a given word is a challenging task, and one that is central to the identity of PUDUL.
-The current vocabulary is built to optimize for four principles:
+The vocabulary is built to optimize for four principles:
 1. Internationality – each word should have a cognate in many natural languages all over the world (such as "cai", which mirrors Portuguese "chá", Arabic "شاي", Hindi "चाय", and Mandarin "茶, chá").
 2. Recognizability – each word should only require minimal changes to fit PUDUL's phonology (such as "zebra", which maintains its English spelling exactly).
 3. Precision of meaning – each word should have the same range of meanings as its natural cognates (such as "banda", which has a variety of meanings related to closing, blocking, and binding, just like Hindi "बंद").
@@ -99,10 +102,13 @@ However, for most words there are one or more good compromises that uphold all o
 
 There are a few more or less firm rules when it comes to choosing roots.
 Names of elements are always taken from Latin such that they correspond to the chemical symbol.
-Names of living things with limited ranges are taken from a language spoken in the region where it is common.
-Names of living things that exist across a large enough area are based on their scientific name,
+Names of places are taken from the languages spoken in those places.
+Names of concepts specific to particular cultures and living things with limited ranges are taken from the languages spoken in the relevant regions.
+Names of living things that exist across large areas are based on their scientific name,
 unless the scientific name is obscure or another common name is particularly internationally recognizable.
 However, for the most part, the word selection process is done subjectively for each word.
+
+The name of a place, language, or people should always have a suffix to indicate what kind of noun it is.  In the event that there are multiple related names for related concepts (such as _danskere_, _dansk_, and _Danmark_), all should use the same basic root (`Dan etnia`, `Dan loga`, and `Dan desa`).
 
 ### spelling conventions
 
@@ -125,11 +131,11 @@ Latin was the language of the Roman Empire, and its descendants are some of the 
 | g (ɡʷ)   | gu   | |
 | g (d͡ʒ)  | g    | |
 | i (i~j) | i    | |
-| j       | j    | |
+| j       | y    | |
 | ph (pʰ) | f    | |
 | qu (kʷ) | ku   | |
 | s (s)   | s    | |
-| s (z)   | z    | |
+| s (z)   | s    | |
 | th (tʰ) | t    | |
 | u (u~w) | u    | |
 | v (w)   | v    | |
@@ -142,7 +148,7 @@ Latin was the language of the Roman Empire, and its descendants are some of the 
 | -a      | -a\* | |
 | -ia     | -i\*\*\* | famili |
 | -ex     | -e   | jude |
-| -is     | -e   | teze
+| -is     | -i   | tesi
 | -ēs     | -    | magnet |
 | -o-     | -o   | bio |
 | -t      | -ze? | Marze |
@@ -151,7 +157,7 @@ Latin was the language of the Roman Empire, and its descendants are some of the 
 | -ition  | -i  |  |
 | -tion   | -si  |  |
 | -ssion  | -si   | agresi |
-| -sion   | -zi  | in-kluzi |
+| -sion   | -si  | in-klusi |
 
 \* Nouns describing people and adjectives all take “-e” instead of “-a” or “-o”.
 \*\* The full suffix "-ium" is retained for the names of chemical elements.
@@ -263,7 +269,7 @@ Sanskrit was once the Lingua Franca of the Indian subcontinent, and has left a l
 | (kʰ)     | h    ||
 | (ʃ)     | s    ||
 
-Schwas should usually be transcribed as "a”, but may be omitted to preserve stress.
+Schwas should usually be omitted, but may be transcribed as `a` to satisfy PUDUL's phonotactic constraints.
 
 #### Chinese languages
 
@@ -337,7 +343,7 @@ which are satisfied for every PIL root.
 
 #### Proper, technical, and culturally specific terms
 
-When a word is a name (like `Tsvana desa`), very technical (like `darmstatiu`), or specific to a particular culture (like `sushi`), different transcription rules apply.  Matching the native spelling of the word as nearly as possible takes on a higher priority, and making it easy to pronounce takes on a lower priority.  Accordingly, the phonotactic constraints are more lenient and a larger phonetic inventory is available for such words.
+When a word is a name (like `Tsvana desa`), very technical (like `darmstatium`), or specific to a particular culture (like `sushi`), different transcription rules apply.  Matching the native spelling and pronunciation as nearly as possible takes on a higher priority, and making it easy to pronounce takes on a lower priority.  Accordingly, the phonotactic constraints are more lenient and a larger phonetic inventory is available for such words.
 
 More specifically, the general process for adopting a proper, technical, or culturally specific term into PUDUL can be described thus.
 1. Take the official or most standard romanization of the word from its native language, or its native spelling if it's already in the Roman alphabet.
@@ -349,14 +355,16 @@ More specifically, the general process for adopting a proper, technical, or cult
    5. Else, if its sound in the native language phonemically contrasts with its sound in PUDUL, remap it (for example, _Brasil_ -> `Brazil`).
    6. Else, leave it (for example, _Einstein_ is _not_ changed to _Ainshtain_ because PUDUL's [ei̯] and [st] are similar to German's [a])
 3. Make any adjustments to satisfy PUDUL's phonotactics (for example, _Uruguay_ -> `Uruguai`).
-3. If the native word has stress that does not match PUDUL's stress rule, place an acute accent on the stressed vowel.
+4. If the native word has stress that does not match PUDUL's stress rule, place an acute accent on the stressed vowel.
 
 For example, consider the Italian word _pizza_.  Italian already uses the Latin alphabet, so there's no need to romanize.  We consider each letter:
-- The letter _p_ represents [p] in Italian but [pʰ] in PUDUL.  However, because these sounds are not completely different (only one feature distinguishes them) and they do not contrast in Italian (which has no [pʰ]), the native letter is left unchanged.
+- The letter _p_ represents [p] in Italian but [pʰ] in PUDUL.  While these sounds are not exactly the same, because they are not completely different (only one feature distinguishes them) and they do not contrast in Italian (which has no [pʰ]), the native letter is left unchanged.
 - The letter _i_ represents the same sound in both Italian and PUDUL, so it is left unchanged.
-- The letter _z_ represents [t͡s] in Italian but [z] in PUDUL.  These sounds are not completely different (it's no coincidence that they share a grapheme in this case).  However, [z] is also a phoneme in Italian that can contrast with [t͡s] (see _Pisa_ for a near-minimal pair).  Therefore, it must be remapped to [t͡s].
+- The letter _z_ represents [t͡s] in Italian but [d͡z] in PUDUL.  These sounds are not completely different – they're both alveolar affricates.  However, _z_ is closer to the Italian phoneme /z/, which can contrast with [t͡s] (see _Pisa_ for a near-minimal pair).  Therefore, it must be remapped to [t͡s].
 - The letter _a_ represents the same sound in both Italian and PUDUL, so it is left unchanged.
 Because there are two *z*s in _pizza_, the PUDUL word should arguably have two *ts*s (_pitstsa_).  However, this would violate the rule that PUDUL words don't have double consonants, so one is dropped to leave _pitsa_.  The stress in Italian is on the first syllable, which agrees with the default PUDUL stress for this word, so no acute accent is needed.
+
+In some cases, it can be ambiguous what the "corresponding" PUDUL letter is that a given sound should be remapped to.  One should start by looking for letters in the basic alphabet, and only consider digraphs if there is no suitable approximation in the basic alphabet.  This means that the sounds [d͡ʒ] and [x] are often represented by `z` and `h` even though the digraphs `zh` and `kh` represent the pronunciation more faithfully – the digraphs are only used when the source language's standard romanization uses a digraph, or when the difference is significant in the source language (such as in Arabic where [h] and [x] are two different phonemes).
 
 ### word derivation
 
@@ -382,7 +390,7 @@ These include:
 
 There are also some common prefixes for compound adjectives.
 A compound adjective typically comprises an adjective followed by a noun.
-The adjective is usually one of `te` or `nai`, `bon` or `dus`, `dai` or `mini`, `poli` or `sau`, `tele` or `karip`, `fasil` or `muskil`, or `teza` or `mirdu`.
+The adjective is usually one of `te` or `nai`, `bon` or `dus`, `dai` or `mini`, `poli` or `sau`, `tele` or `karip`, or `teza` or `mirdu`.
 You can think of it as a noun phrase that describes a quality.
 The antonym of the compound adjective can then be formed by inverting the first element.
 
@@ -428,7 +436,7 @@ A verb phrase, which is a complete clause in PUDUL, is composed of a verb (the p
 
 Noun phrases are not marked for number or definiteness by default.
 Modifiers like `te:a`, `go:a`, or `mi di:a` may be used to explicitly express definiteness,
-while adjectives like `un`, `dua`, or `poli` may be used to express number.
+while adjectives like `uni`, `duo`, or `poli` may be used to express number.
 Pudul nouns do not have grammatical gender.
 
 There are two conjunctions: _va_ (and) and _ao_ (or).

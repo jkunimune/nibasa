@@ -357,6 +357,12 @@ I've gone back and forth in the past over whether it should be "bon-vizi" or "vi
 
 my current dictionary notation system has a problem, which is that when a root describes a state, I have to manually add the adjective to describe being in that state, the noun to describe the state itself, and the verbs to describe entering that state.  which is mostly annoying because typically I want all of those suffixen to be optional, so then I have to remember to link them all.  I think it would be good to add some syntactic sugar to my dictionary where instead of having a new entry called "n. dryness" than links back to the word for dry, I can add "n.(te) dryness" to the base word, and it'll automaticly create the new derived word and link them together so that the suffix is optional.
 
+## scratch that
+
+actually, I had in rong.  I just shouldn't have basic "te" and "kara" and "fa" derivatives in the dictionary, period.  they're phrases that users can bild if they feel they need them, but there's no reason anyone would have to look up the phrase in the dictionary.  and those should all take spaces.  the exeption is weird ones that could otherwise be ambiguus, like "unite" and "unifa" which should take hyphens and be in the dictionary (without links to uni!).
+
+the same is true of the active/passive pairs.  instead of listing both the version with get and the version with don, I should just mark it as ambitransitive.  putting the `get` form in the dictionary is especially misleading since it would be rong to use it as a transitive verb and mark the agent with `ro` instead of `ze`.
+
 
 # words that are more specific in every language but their originators
 
@@ -374,12 +380,11 @@ sombrero
 katana
 jian?
 epee?
-darma?
-karma?
 allah
 bazaar
+najis
 
-I think in general it's better to use the original meanings.  "bazar" is a good word for "market" should I need it, "drinke" is a great word for drink, and cetera.
+I think in general it's better to use the original meanings.  "bazar" is a good word for "market" should I need it, "drinke" is a great word for drink, and cetera.  but if the meaning drifts too far, like "suare", then it runs the risk of being confusing and another root should be found.
 
 # causatives
 
@@ -402,16 +407,17 @@ in Hindi, "go" sometimes marks intransitive and "give" sometimes marks transitiv
 country names should be stripped to whatever minimum root is present in both the country name, language name, and people name.
 in some cases that will include a root that means "land", like "island" or "osteraih", and that's okay.  but keep "ia" if it has one.  not if it's just in the nisba adjective tho; nisba adjectives don't count for "ia".
 
-The words "north", "south", "east", "west", "central", "inner", "outer", and "new" should be translated into PUDUL.
+The words "north", "south", "east", "west", "central", "inner", "outer", and "new" should be translated into PUDUL,
+unless it's an integral part of the root (like Austria).
 Other geographic terms like "port", "coast", "cape", "island", and "saint" should be left in the language of origin.
 
 when a cultural term has multiple related languages associated with it, use the most widely spoken language (so chinese cities and provinces are generally going to use their mandarin names, tho dishes may use a different name if they're really specificly associated with a different chinese language; Aíti is spelled as it is in French (not Ayiti as it would be in Haitian Creole)).
-For places where multiple unrelated languages are co-officially associated with it, use the language from which the name originated (so Pearl City is transcribed as an English word); if there are multiple names, prefer the older one (so New Zealand uses its Maori name).
+For places where multiple unrelated languages are co-officially associated with it, use the language from which the name originated (so Pearl City is transcribed as an English word, but Oʻahu is transcribed as a Hawaiian word); if there are multiple names, prefer the older one (so New Zealand uses its Maori name).
 
 ## Scientific terms
 
 -um -> -o
--ium -> -iu
+-ium -> -ium
 -ine -> -o
 -on (noble gas or particle) -> -on
 -on (other) -> -o
@@ -439,18 +445,13 @@ b -> b
 mb -> imb
 ʊ -> u
 
-## Chinese
+## Mandarin Chinese
 
 stress: unmarked
-middle chinese ŋ -> g
-well, but it's lost before a yod in cantonese...
-words with ŋ include stone, ideology, and jade
-middle chinese ɦ -> ◌
-mandarin sh -> s, zh -> z, ch -> c
-
-this only applies to basic words, which sample all chinese languages and chinese-adjacent languages.
-for cultural terms applying specificly to China, it's better to spell terms as they are in Mandarin,
-except that j and x should go to z, g, s, and h as usual (but q -> c always)
+j -> z/g
+x -> s/h
+q -> c
+c -> ts
 
 ## Dutch
 

@@ -21,7 +21,7 @@ PRONUNCIATIONS = {
     "Espanya": {
         "ng": "ŋ",
         "v": "w", "y": "i", "zh": "y", "c": "ch", "h": "j",
-        "gh": "ɣ", "th": "θ", "dh": "ð",
+        "kh": "χ", "gh": "ɣ", "th": "θ", "dh": "ð",
         "hl": "ɬ", "hm": "m̥", "hn": "n̥", "hng": "ŋ̊", "hr": "r̥",
         "ts": "t͡s",
         "kc": "k͡|", "gc": "g͡|", "q": "k͡ǃ", "gq": "g͡ǃ",
@@ -31,14 +31,14 @@ PRONUNCIATIONS = {
     "Nipon": {
         "ng": "ŋ",
         "zh": "j", "c": "ch",
-        "gh": "ɣ", "th": "θ", "dh": "ð",
+        "kh": "χ", "gh": "ɣ", "th": "θ", "dh": "ð",
         "hl": "ɬ", "hm": "m̥", "hn": "n̥", "hng": "ŋ̊", "hr": "r̥",
         "ts": "t͡s",
         "kc": "k͡|", "gc": "g͡|", "q": "k͡ǃ", "gq": "g͡ǃ",
         "x": "k͡ǁ", "gx": "g͡ǁ", "pc": "k͡ʘ", "bc": "g͡ʘ",
     },
     "putung Han": {
-        "gh": "ɣ", "th": "θ", "dh": "ð",
+        "kh": "h", "gh": "ɣ", "th": "θ", "dh": "ð",
         "hl": "ɬ", "hm": "m̥", "hn": "n̥", "hng": "n̥g", "hr": "r̥",
         "c": "ch", "ts": "c",
         "kc": "k͡|", "gc": "g͡|", "q": "k͡ǃ", "gq": "g͡ǃ",
@@ -48,7 +48,7 @@ PRONUNCIATIONS = {
         "hng": "ŋ̊",
         "ng": "ŋ",
         "zh": "d͡ʒ", "sh": "ʃ",
-        "gh": "ɣ", "th": "θ", "dh": "ð",
+        "kh": "χ", "gh": "ɣ", "th": "θ", "dh": "ð",
         "hl": "ɬ", "hm": "m̥", "hn": "n̥", "hr": "r̥",
         "ts": "t͡s",
         "kc": "k͡|", "gc": "g͡|", "q": "k͡ǃ", "gq": "g͡ǃ",
@@ -151,9 +151,9 @@ def infer_pronunciation(word: str, language: str) -> str:
     # consolidate digraphs
     digraphs = [
         "hng", "ng", "zh", "sh",
-        "gh", "th", "dh",
+        "kh", "gh", "th", "dh",
         "hl", "hm", "hn", "hr", "ts",
-        "kc", "gc", "q", "gq", "x", "gx", "pc", "bc",
+        "gc", "gq", "gx", "pc", "bc",  # omitting "kc" because most of the time it's actually just k'c
         "ai", "ao", "ei", "eu", "oi", "ou",
         "ái", "áo", "éi", "éu", "ói", "óu",
     ]
@@ -177,7 +177,7 @@ def infer_pronunciation(word: str, language: str) -> str:
                 letters = letters[:i] + [digraph] + letters[i + len(digraph):]
     # remove any apostrophes that were probably only there to split digraphs, and hyphens
     for i in range(len(letters) - 3, -1, -1):
-        if letters[i + 1] == "'" and letters[i][-1] in "zsgtdlmnkgpb" and letters[i][0] in "ghscqx":
+        if letters[i + 1] == "'" and letters[i][-1] in "zskgtdlmnkgpb" and letters[i + 2][0] in "ghscqx":
             letters = letters[:i + 1] + letters[i + 2:]
     # also remove all hyphens
     for i in range(len(letters) - 1, -1, -1):
@@ -245,8 +245,13 @@ def infer_pronunciation(word: str, language: str) -> str:
             elif syllables[i][j][-1] == "ʼ" and syllables[i][j][:-1] in replacements.keys():
                 syllables[i][j] = replacements[syllables[i][j][:-1]] + "ʼ"
 
-    # for english, all-caps the stressed syllable
+    # for english, all-caps the stressed syllable and do some bonus replacements
     if language == "Engle" and stress is not None:
+        for i in range(len(syllables)):
+            if syllables[i][-1] == "ch":
+                syllables[i][-1] = "tch"
+            if syllables[i][-1] == "h":
+                syllables[i][-1] = "gh"
         for j in range(len(syllables[stress])):
             syllables[stress][j] = syllables[stress][j].upper()
 
@@ -275,8 +280,8 @@ def infer_pronunciation(word: str, language: str) -> str:
 def format_etymology(word: str, etymology: str) -> str:
     if len(etymology) > 0:
         return etymology
-    elif "-" in word:
-        return word.replace("-", " + ")
+    elif "-" in word or " " in word:
+        return word.replace("-", " + ").replace(" ", " + ")
     else:
         WARNINGS.append(Warning(4, f'"{word}" has no etymology'))
         return ""

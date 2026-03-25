@@ -306,19 +306,19 @@ Then they burned down our post office and kidnapped our vice president.
 
 Adam
 Sam
-Li
+Ms. Li
 Omar
-Wong
+Mr. Wang
 Peter
 Lisa
 Vladimir
-Mohammed
-Huang
+Mr. Chan
 Natalia
-Seojun
+Mr. Kim (Gim)
 Ali
+Mohammed (Muhamad)
 Nur
-Catharine
+Catharine (Katerina)
 Maria
 Shreya
 Mikel
@@ -326,16 +326,14 @@ Thomas
 Siddharth
 Martin
 Fatima
-Zhang
-Masako
+Mr. Zhang
+Ms. Suzuki
 Kezia
 Alex
 Olga
 Eva
 Aisha
-Ken
-Jordan
-George
+Mr. Tanaka
 
 # common signs
 
